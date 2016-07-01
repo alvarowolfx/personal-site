@@ -1,6 +1,5 @@
 import React from 'react';
-import {Appbar, Button, Divider, Container} from 'muicss/react';
-
+import Divider from 'muicss/lib/react/divider'
 import Headline from '../components/Headline';
 
 export default class Main extends React.Component {
@@ -10,29 +9,29 @@ export default class Main extends React.Component {
                 <Headline/>
                 <Divider/>
                 <div className="mui--text-center">
-                    <div className="mui--text-title ">
-                        What I do
+                    <div className="mui--text-title">
+                        <h2 className="mui--text-display1">What I do</h2>
                     </div>
                     <ul className="main--skills">
-                        <li>
+                        <li className="mui-panel">
                             <i className="ion-iphone"/>
                             <div>
                               <b>Mobile Development:</b>
                               <p>I’ve been developing mobile applications, using both hybrid and native technologies, since 2012.</p>
                             </div>
                         </li>
-                        <li>
+                        <li className="mui-panel">
                           <i className="ion-mic-c"/>
                           <div>
                             <b>Conference Speaking:</b>
                             <p>Sharing knowledge it's one of my passions. I would love to speak at your conference.</p>
                           </div>
                         </li>
-                        <li>
+                        <li className="mui-panel">
                           <i className="ion-ios-people"/>
                           <div>
                             <b>Training:</b>
-                            <p>I also like prepare workshops and courses.</p>
+                            <p>I also like teach, building workshops and courses.</p>
                           </div>
                         </li>
                     </ul>

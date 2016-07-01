@@ -7,12 +7,12 @@ const AVATAR_IMG_URL = "https://avatars2.githubusercontent.com/u/1615543?v=3&s=3
 export default class Headline extends React.Component {
     render() {
         return (
-            <Container className='headline'>
+            <Container className="headline">
                 <div className="headline--content mui--z2">
                     <img src={AVATAR_IMG_URL} className="headline--avatar"/>
-                    <div className="mui--text-display1">Hi, I'm Alvaro Viebrantz</div>
-                    <div className="mui--text-subhead">IT Analyst at SEFAZ-MT</div>
-                    <div className="mui--text-subhead">Fullstack and Mobile Developer</div>
+                    <h1>Hi, I'm Alvaro Viebrantz</h1>
+                    <h4>IT Analyst at SEFAZ-MT</h4>
+                    <h4>Fullstack and Mobile Developer</h4>
                     <SocialIcons/>
                 </div>
             </Container>

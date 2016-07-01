@@ -8,6 +8,15 @@ export default class Navbar extends React.Component {
 
     render() {
         let currentPath = this.props.routes[this.props.routes.length - 1].path || 'index';
+        /*
+        <li className={currentPath == "projects"
+            ? "mui--is-active"
+            : null}>
+            <Link to="talks">
+                Projects
+            </Link>
+        </li>
+        */
         return (
             <header>
                 <Appbar className="nav-appbar mui--z1">
@@ -21,19 +30,10 @@ export default class Navbar extends React.Component {
                                     Talks
                                 </Link>
                             </li>
-                            <li className={currentPath == "projects"
-                                ? "mui--is-active"
-                                : null}>
-                                <Link to="talks">
-                                    Projects
-                                </Link>
-                            </li>
-                            <li className={currentPath == "blog"
-                                ? "mui--is-active"
-                                : null}>
-                                <Link to="blog">
+                            <li>
+                                <a href="https://medium.com/@alvaroviebrantz" target="_blank">
                                     Blog
-                                </Link>
+                                </a>
                             </li>
                         </ul>
                     </Container>

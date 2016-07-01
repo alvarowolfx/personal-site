@@ -347,6 +347,7 @@ header {
     margin: 8vh 0;
     text-align: center;
 }
+
 .headline--content {
     background-color: $foreground-color;
     padding: 5vh 0;
@@ -375,24 +376,21 @@ header {
 .main--skills {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   padding: 0;
   margin-top: 20px;
   li {
-    margin: 0 auto;
-    padding: 10px;
+    margin: 15px auto;
     display: flex;
-    max-width: 300px;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
     div {
-      display: flex;
-      padding-left: 10px;
-      flex-direction: column;
+      max-width: 300px;
+      flex-direction: column;      
     }
     i {
-        margin-top: -30px;
-        margin-right: 10px;
         color: $secondary-color;
+        display: flex;
         font-size: 7em;
     }
   }

@@ -4,13 +4,7 @@
 
 import React from 'react';
 import Container from 'muicss/lib/react/container';
-import {
-    Route,
-    Router,
-    hashHistory,
-    IndexRoute,
-    Link
-} from 'react-router';
+import {Route, Router, hashHistory, IndexRoute, Link} from 'react-router';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
