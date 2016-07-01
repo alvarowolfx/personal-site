@@ -58,7 +58,7 @@ export default class Talks extends React.Component {
                     </div>
                 </div>
                 <center style={{margin: '15px auto'}}>
-                  <a className="mui-btn mui-btn--raised">
+                  <a className="mui-btn mui-btn--raised" href="mailto:alvaroviebrantz@gmail.com">
                     Invite me to your conference
                   </a>
                 </center>

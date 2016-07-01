@@ -296,6 +296,7 @@ header {
     right: 0;
     left: 0;
     top: 0;
+    z-index: 100;
 }
 .nav-appbar {
     background-color: $foreground-color;
@@ -386,7 +387,7 @@ header {
     flex-direction: column;
     div {
       max-width: 300px;
-      flex-direction: column;      
+      flex-direction: column;
     }
     i {
         color: $secondary-color;
