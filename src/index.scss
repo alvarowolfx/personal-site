@@ -291,13 +291,23 @@ body {
     font-family: Roboto, sans-serif;
     background-color: $background-color;
 }
-header {
-    position: fixed;
-    right: 0;
-    left: 0;
-    top: 0;
-    z-index: 100;
+
+@media screen and (min-width: 768px){
+  header {
+      position: fixed;
+      right: 0;
+      left: 0;
+      top: 0;
+      z-index: 100;
+  }
 }
+
+@media screen and (max-width: 769px){
+  #fixed-appbar-placeholder{
+    margin-bottom: -64px;
+  }
+}
+
 .nav-appbar {
     background-color: $foreground-color;
 }
@@ -408,4 +418,40 @@ header {
 .footer-appbar {
     background-color: $footer-color;
     padding-bottom: 25px;
+}
+
+.talk-panel {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  .talk-panel__desc {
+    flex-direction: column;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 400px){
+  .talk-panel {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+    }
+
+    .talk-panel__desc {
+      margin-left: 20px;
+    }
+  }
 }

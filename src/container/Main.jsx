@@ -31,7 +31,7 @@ export default class Main extends React.Component {
                           <i className="ion-ios-people"/>
                           <div>
                             <b>Training:</b>
-                            <p>I also like teach, building workshops and courses.</p>
+                            <p>I also like teach people on how to build their dreams. </p>
                           </div>
                         </li>
                     </ul>

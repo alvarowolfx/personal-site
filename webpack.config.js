@@ -4,8 +4,8 @@
 var webpack = require('webpack');
 module.exports = {
     entry: [
-        //'webpack-dev-server/client?http://localhost:8080',
-        //'webpack/hot/only-dev-server',
+        'webpack-dev-server/client?http://localhost:8080',
+        'webpack/hot/only-dev-server',
         './src/index.js'
     ],
     module: {
@@ -32,11 +32,6 @@ module.exports = {
     },
     devtool: "cheap-module-source-map",
     plugins: [
-        //new webpack.HotModuleReplacementPlugin(),
-        new webpack.DefinePlugin({
-          'process.env': {
-            'NODE_ENV': JSON.stringify('production')
-          }
-        })
+        new webpack.HotModuleReplacementPlugin()
     ]
 };

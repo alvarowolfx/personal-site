@@ -4,7 +4,11 @@
 
 import React from 'react';
 import Container from 'muicss/lib/react/container';
-import {Route, Router, hashHistory, IndexRoute, Link} from 'react-router';
+
+import Route from 'react-router/lib/Route';
+import Router from 'react-router/lib/Router';
+import hashHistory from 'react-router/lib/hashHistory';
+import IndexRoute from 'react-router/lib/IndexRoute';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -16,7 +20,7 @@ class App extends React.Component {
         return (
             <div>
                 <Navbar {...this.props}/>
-                <div className="mui--appbar-height"/>
+                <div id="fixed-appbar-placeholder" className="mui--appbar-height"/>
                 <Container>
                     {this.props.children}
                 </Container>
@@ -31,7 +35,6 @@ let routes = () => (
         <Route path="/" component={App}>
             <IndexRoute component={Main}/>
             <Route path="talks" component={Talks}/>
-            <Route path="blog" component={Talks}/>
         </Route>
     </Router>
 );
