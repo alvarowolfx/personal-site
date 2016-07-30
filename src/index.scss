@@ -425,6 +425,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  @extend .mui--z1;
 
   img {
     max-width: 200px;

@@ -11,7 +11,7 @@ export default class Headline extends React.Component {
                 <div className="headline--content mui--z2">
                     <img src={AVATAR_IMG_URL} className="headline--avatar"/>
                     <h1>Hi, I'm Alvaro Viebrantz</h1>
-                    <h4>IT Analyst at SEFAZ-MT</h4>
+                    <h4>IT Analyst at SEFAZ-MT (MTI)</h4>
                     <h4>Fullstack and Mobile Developer</h4>
                     <SocialIcons/>
                 </div>

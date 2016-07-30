@@ -16,22 +16,22 @@ export default class Main extends React.Component {
                         <li className="mui-panel">
                             <i className="ion-iphone"/>
                             <div>
-                              <b>Mobile Development:</b>
+                              <b>Mobile Development</b>
                               <p>I’ve been developing mobile applications, using both hybrid and native technologies, since 2012.</p>
                             </div>
                         </li>
                         <li className="mui-panel">
                           <i className="ion-mic-c"/>
                           <div>
-                            <b>Conference Speaking:</b>
+                            <b>Conference Speaking</b>
                             <p>Sharing knowledge it's one of my passions. I would love to speak at your conference.</p>
                           </div>
                         </li>
                         <li className="mui-panel">
                           <i className="ion-ios-people"/>
                           <div>
-                            <b>Training:</b>
-                            <p>I also like teach people on how to build their dreams. </p>
+                            <b>Training</b>
+                            <p>I also like teach people how to build their dreams. </p>
                           </div>
                         </li>
                     </ul>
