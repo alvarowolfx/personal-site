@@ -19,8 +19,8 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Navbar {...this.props}/>
-                <div id="fixed-appbar-placeholder" className="mui--appbar-height"/>
+              <Navbar {...this.props}/>
+              <div id="fixed-appbar-placeholder" className="mui--appbar-height"/>
                 <Container>
                     {this.props.children}
                 </Container>

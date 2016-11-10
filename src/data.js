@@ -8,9 +8,43 @@ export const talks = [
                 name: 'Circuito de Tecnologia e Inovação - FATEC SENAI MT',
                 date: '2016',
                 local: 'Cuiabá - MT'
+            },
+            {
+                name: 'I Jornada Científica - IFMT',
+                date: '2016',
+                local: 'Primavera do Leste - MT'
+            },
+            {
+                name: 'Hackatruck IBM - UFMT',
+                date: '2016',
+                local: 'Cuiabá - MT'
             }
-        ]
-        //,slidesUrl: 'http://pt.slideshare.net/alvarowolfx/guia-do-dev-mobile-galaxias'
+        ],
+        slidesUrl: 'http://www.slideshare.net/alvarowolfx/guia-do-desenvolvedor-mobile-das-galaxias'
+    },
+    {
+        title: 'Poke Trainers, porque Pokémon não é apenas um jogo por Alvaro Viebrantz',
+        imageUrl: '//cdn.slidesharecdn.com/ss_thumbnails/poketrainers-161110173918-thumbnail.jpg?cb=1478799630',
+        places: [
+            {
+                name: '2º Forum Meninas Digitais - Regional Mato Grosso - UFMT',
+                date: '2016',
+                local: 'Cuiabá - MT'
+            },
+        ],
+        slidesUrl: 'http://www.slideshare.net/alvarowolfx/poke-trainers-porque-pokmon-no-apenas-um-jogo'
+    },
+    {
+        title: 'Aplicações no Contexto de Big Data',
+        imageUrl: '//cdn.slidesharecdn.com/ss_thumbnails/bigdata-161110173600-thumbnail.jpg?cb=1478799654',
+        places: [
+            {
+                name: 'Secretaria de Estado de Planejamento - SEPLAN-MT',
+                date: '2016',
+                local: 'Cuiabá - MT'
+            },
+        ],
+        slidesUrl: 'http://www.slideshare.net/alvarowolfx/aplicaes-no-contexto-de-big-data'
     },
     {
         title: 'Desenvolvendo Aplicativos com React Native',
