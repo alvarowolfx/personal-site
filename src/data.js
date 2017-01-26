@@ -2,7 +2,7 @@
 export const talks = [
     {
         title: 'Guia do Desenvolvedor Mobile das Galáxias',
-        imageUrl: '//scontent.fplu1-1.fna.fbcdn.net/v/t1.0-9/13654191_1063714243695771_8776263193029163217_n.jpg?oh=425b7654c84e822cae60d2756f434350&oe=5831D0EB',
+        imageUrl: 'https://image.slidesharecdn.com/guiadodesenvolvedormobiledasgalaxias-161110175455/95/guia-do-desenvolvedor-mobile-das-galaxias-1-638.jpg',
         places: [
             {
                 name: 'Circuito de Tecnologia e Inovação - FATEC SENAI MT',

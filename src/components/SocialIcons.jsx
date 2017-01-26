@@ -10,6 +10,9 @@ const SOCIAL_LINKS = [
     }, {
         url: 'https://facebook.com/alvarowolfx',
         icon: 'ion-social-facebook'
+    },{
+        url: 'https://br.linkedin.com/in/alvaro-viebrantz-55119048',
+        icon: 'ion-social-linkedin'
     }
 ];
 
