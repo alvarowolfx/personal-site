@@ -31,7 +31,7 @@ export default class Navbar extends React.Component {
                                 </Link>
                             </li>
                             <li>
-                                <a href="https://medium.com/@alvaroviebrantz" target="_blank">
+                                <a href="https://medium.com/iot-bootcamp" target="_blank">
                                     Blog
                                 </a>
                             </li>

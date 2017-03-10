@@ -1,6 +1,18 @@
 
 export const talks = [
     {
+        title: 'Internet das Coisas - Que lingua falam e do que se alimentam ?',
+        imageUrl: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/35cfa3d222cf3b3be6e72869d4235871/thumb.jpg',
+        places: [
+            {
+                name: 'TICaceres',
+                date: '2017',
+                local: 'Cáceres - MT'
+            },
+        ],
+        slidesUrl: 'http://slides.com/alvaroviebrantz/iot-intro'
+    },
+    {
         title: 'Guia do Desenvolvedor Mobile das Galáxias',
         imageUrl: 'https://image.slidesharecdn.com/guiadodesenvolvedormobiledasgalaxias-161110175455/95/guia-do-desenvolvedor-mobile-das-galaxias-1-638.jpg',
         places: [
