@@ -4,39 +4,43 @@
 
 import React from 'react';
 import Container from 'muicss/lib/react/container';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
-import Route from 'react-router/lib/Route';
-import Router from 'react-router/lib/Router';
 import hashHistory from 'react-router/lib/hashHistory';
 import IndexRoute from 'react-router/lib/IndexRoute';
+
+import {
+    BrowserRouter as Router,
+    Route,
+    Link
+} from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Main from './container/Main';
 import Talks from './container/Talks';
 
-class App extends React.Component {
-    render() {
-        return (
-            <div>
-              <Navbar {...this.props}/>
-              <div id="fixed-appbar-placeholder" className="mui--appbar-height"/>
-                <Container>
-                    {this.props.children}
-                </Container>
-                <Footer/>
-            </div>
-        );
-    }
+const App = () => {
+    return (
+        <Router>
+            <Route render={({ location }) => (
+                <div>
+                    <Navbar location={location} />
+                    <div id="fixed-appbar-placeholder" className="mui--appbar-height" />
+                    <Container>
+                        <ReactCSSTransitionGroup
+                            transitionName="fade"
+                            transitionEnterTimeout={300}
+                            transitionLeaveTimeout={300}>
+                            <Route exact path="/" component={Main} />
+                            <Route path='/talks' component={Talks} />
+                        </ReactCSSTransitionGroup>
+                    </Container>
+                    <Footer />
+                </div>
+            )} />
+        </Router>
+    );
 }
 
-let routes = () => (
-    <Router history={hashHistory}>
-        <Route path="/" component={App}>
-            <IndexRoute component={Main}/>
-            <Route path="talks" component={Talks}/>
-        </Route>
-    </Router>
-);
-
-export default routes;
+export default App;

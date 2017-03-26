@@ -1,6 +1,18 @@
 
 export const talks = [
     {
+        title: 'Backend, app e internet das coisas com NodeJS no Google Cloud Platform',
+        imageUrl: 'https://image.slidesharecdn.com/backendappeinternetdascoisasconnodejsnogcp-170326155422/95/backend-app-e-internet-das-coisas-com-nodejs-no-google-cloud-platform-1-638.jpg?cb=1490543746',
+        places: [
+          {
+            name: 'Google Cloud Next \'17 Extended Cuiabá',
+            date: '2017',
+            local: 'Cuiabá - MT'
+          }
+        ],
+        slidesUrl: 'https://www.slideshare.net/alvarowolfx/backend-app-e-internet-das-coisas-com-nodejs-no-google-cloud-platform'
+    },    
+    {
         title: 'Internet das Coisas - Que lingua falam e do que se alimentam ?',
         imageUrl: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/35cfa3d222cf3b3be6e72869d4235871/thumb.jpg',
         places: [
