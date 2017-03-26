@@ -6,7 +6,6 @@ import Logo from './Logo';
 
 const Navbar = ({ location }) => {
     let currentPath = location.pathname;
-    console.log(currentPath);
     /*
     <li className={currentPath == "projects"
         ? "mui--is-active"
