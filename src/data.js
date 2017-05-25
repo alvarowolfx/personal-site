@@ -1,6 +1,18 @@
 
 export const talks = [
     {
+        title: 'Internet das Coisas com Android Things e Machine Learning',
+        imageUrl: 'https://image.slidesharecdn.com/androidthingsandmachinelearning-170522135019/95/internet-das-coisas-com-android-things-e-machine-learning-1-638.jpg?cb=1495461029',
+        places: [
+          {
+            name: 'Google I/O Extended Cuiabá 2017',
+            date: '2017',
+            local: 'Cuiabá - MT'
+          }
+        ],
+        slidesUrl: 'https://www.slideshare.net/alvarowolfx/internet-das-coisas-com-android-things-e-machine-learning'
+    },  
+    {
         title: 'Backend, app e internet das coisas com NodeJS no Google Cloud Platform',
         imageUrl: 'https://image.slidesharecdn.com/backendappeinternetdascoisasconnodejsnogcp-170326155422/95/backend-app-e-internet-das-coisas-com-nodejs-no-google-cloud-platform-1-638.jpg?cb=1490543746',
         places: [

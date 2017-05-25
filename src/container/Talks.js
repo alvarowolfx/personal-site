@@ -1,14 +1,48 @@
 import React from 'react';
-import Divider from 'muicss/lib/react/divider';
+import styled from 'styled-components'
 import Panel from 'muicss/lib/react/panel';
 import Container from 'muicss/lib/react/container';
 
 import { talks } from '../data';
 
+const TalkContainer = styled(Panel)`
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  .talk-panel__desc {
+    flex-direction: column;
+    display: flex;
+  }
+
+  @media screen and (min-width: 450px){
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+    }
+
+    .talk-panel__desc {
+      margin-left: 20px;
+    }
+  }
+`
+
 const Talk = ({ talk }) => {
     return (
-        <Panel className="talk-panel">
-            <img src={talk.imageUrl} />
+        <TalkContainer className="mui--z1">
+            <img src={talk.imageUrl} alt={talk.title}/>
             <div className="talk-panel__desc">
                 <h3 className="mui--text-title">{talk.title}</h3>
                 <div>
@@ -24,18 +58,20 @@ const Talk = ({ talk }) => {
                 {talk.slidesUrl ?
                     <a className="mui-btn mui-btn--raised mui-btn--primary"
                         href={talk.slidesUrl} target="_blank"
+                        rel="noopener noreferrer"
                         style={{ maxWidth: 200 }}>
                         See slides
-                                  </a>
+                    </a>
                     :
                     <button className="mui-btn mui-btn--raised mui-btn--danger"
                         href={talk.slidesUrl} target="_blank"
+                        rel="noopener noreferrer"
                         style={{ maxWidth: 200 }}>
                         Coming soon
                     </button>
                 }
             </div>
-        </Panel>
+        </TalkContainer>
     );
 }
 

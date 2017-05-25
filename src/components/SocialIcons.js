@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 
 const SOCIAL_LINKS = [
     {
@@ -23,23 +24,43 @@ const SOCIAL_LINKS = [
     }
 ];
 
+const SocialsIconsContainer = styled.ul`
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 20px;
+
+  li {
+    display: inline-block;
+    margin: 0 20px;
+
+    i {
+        color: ${ props => props.theme.secondary };
+        font-size: 2.5em;
+    }
+  }
+
+  &.inverse li i{
+    color: white !important;
+  }
+`
+
 const SocialIcons = ({ inverse }) => {
-    let style = 'social--icons';
+    let style = '';
     if (inverse) {
-        style += ' inverse';
+        style = 'inverse';
     }
     return (
-        <ul className={style}>
+        <SocialsIconsContainer className={style}>
             {SOCIAL_LINKS.map(social => {
                 return (
                     <li key={social.icon}>
-                        <a href={social.url} target="_blank">
+                        <a href={social.url} target="_blank" rel="noopener noreferrer">
                             <i className={social.icon} />
                         </a>
                     </li>
                 );
             })}
-        </ul>
+        </SocialsIconsContainer>
     );
 }
 
