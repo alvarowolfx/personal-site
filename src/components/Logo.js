@@ -5,23 +5,23 @@ import { Link } from 'react-router-dom';
 const LogoLink = styled(Link)`
   display: inline;
   font-size: 32px;
-  color: ${ props => props.theme.secondary } !important;
-  text-decoration: none;
+  color: ${ props => props.theme.background } !important;
+  text-decoration: none !important;
   padding-bottom: 5px;
 
   &.active,
   &:hover {
     color: { props => props.theme.secondary };
     cursor: pointer;
-    text-decoration: none;
-    border-bottom: 2px solid ${ props => props.theme.secondary } !important;
+    text-decoration: none !important;
+    border-bottom: 2px solid ${ props => props.theme.foreground } !important;
   }
 
   a:active,
   a:focus,
   a:visited {
-    color: ${ props => props.theme.secondary } !important;
-    text-decoration: none;
+    color: ${ props => props.theme.foreground } !important;
+    text-decoration: none !important;
   }
 `
 

@@ -1,37 +1,66 @@
 
 export const talks = [
     {
+      title: 'Android Things, Machine Learning e Máquinas de doces',
+      imageUrl: 'https://image.slidesharecdn.com/androidthingsmachinelearningemaquinasdedoces-170625174037/95/android-things-machine-learning-e-maquinas-de-doces-1-638.jpg?cb=1498412454',
+      places: [
+        {
+          name: 'SEACOMP 2017 - UNEMAT',
+          date: '22/06/2017',
+          local: 'Barra do Bugres - MT'
+        }
+      ],
+      slidesUrl: 'https://www.slideshare.net/alvarowolfx/android-things-machine-learning-e-maquinas-de-doces'
+    },
+    {
+      title: 'Internet das Coisas, Machine Learning e Máquinas de doces',
+      imageUrl: 'https://image.slidesharecdn.com/internetdascoisasinteligenciaartificialemaquinasdedoces-170625174713/95/internet-das-coisas-machine-learnign-e-maquinas-de-doces-1-638.jpg?cb=1498412859',
+      places: [
+        {
+          name: 'II Circuito de Tecnologia e Inovação - FATEC SENAI MT',
+          date: '20/06/2017',
+          local: 'Cuiabá - MT'
+        }
+      ],
+      slidesUrl: 'https://www.slideshare.net/alvarowolfx/internet-das-coisas-machine-learnign-e-maquinas-de-doces'
+    },
+    {
         title: 'Internet das Coisas com Android Things e Machine Learning',
         imageUrl: 'https://image.slidesharecdn.com/androidthingsandmachinelearning-170522135019/95/internet-das-coisas-com-android-things-e-machine-learning-1-638.jpg?cb=1495461029',
         places: [
           {
             name: 'Google I/O Extended Cuiabá 2017',
-            date: '2017',
+            date: '20/05/2017',
             local: 'Cuiabá - MT'
           }
         ],
         slidesUrl: 'https://www.slideshare.net/alvarowolfx/internet-das-coisas-com-android-things-e-machine-learning'
-    },  
+    },
     {
         title: 'Backend, app e internet das coisas com NodeJS no Google Cloud Platform',
         imageUrl: 'https://image.slidesharecdn.com/backendappeinternetdascoisasconnodejsnogcp-170326155422/95/backend-app-e-internet-das-coisas-com-nodejs-no-google-cloud-platform-1-638.jpg?cb=1490543746',
         places: [
           {
             name: 'Google Cloud Next \'17 Extended Cuiabá',
-            date: '2017',
+            date: '25/03/2017',
             local: 'Cuiabá - MT'
           }
         ],
         slidesUrl: 'https://www.slideshare.net/alvarowolfx/backend-app-e-internet-das-coisas-com-nodejs-no-google-cloud-platform'
-    },    
+    },
     {
         title: 'Internet das Coisas - Que lingua falam e do que se alimentam ?',
         imageUrl: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/35cfa3d222cf3b3be6e72869d4235871/thumb.jpg',
         places: [
             {
                 name: 'TICaceres',
-                date: '2017',
+                date: '18/02/2017',
                 local: 'Cáceres - MT'
+            },
+            {
+                name: 'Arduino Day 2017',
+                date: '18/02/2017',
+                local: 'Rondonópolis - MT'
             },
         ],
         slidesUrl: 'http://slides.com/alvaroviebrantz/iot-intro'
@@ -42,17 +71,17 @@ export const talks = [
         places: [
             {
                 name: 'Circuito de Tecnologia e Inovação - FATEC SENAI MT',
-                date: '2016',
+                date: '30/07/2016',
                 local: 'Cuiabá - MT'
             },
             {
                 name: 'I Jornada Científica - IFMT',
-                date: '2016',
+                date: '27/10/2016',
                 local: 'Primavera do Leste - MT'
             },
             {
                 name: 'Hackatruck IBM - UFMT',
-                date: '2016',
+                date: '03/11/2016',
                 local: 'Cuiabá - MT'
             }
         ],
@@ -64,7 +93,7 @@ export const talks = [
         places: [
             {
                 name: '2º Forum Meninas Digitais - Regional Mato Grosso - UFMT',
-                date: '2016',
+                date: '17/09/2016',
                 local: 'Cuiabá - MT'
             },
         ],
@@ -76,7 +105,7 @@ export const talks = [
         places: [
             {
                 name: 'Secretaria de Estado de Planejamento - SEPLAN-MT',
-                date: '2016',
+                date: '26/04/2016',
                 local: 'Cuiabá - MT'
             },
         ],
@@ -88,7 +117,7 @@ export const talks = [
         places: [
             {
                 name: 'FronInCuiabá',
-                date: '2016',
+                date: '16/04/2016',
                 local: 'Cuiabá - MT'
             }
         ],
@@ -99,7 +128,7 @@ export const talks = [
         places: [
           {
               name: 'Meetup DevMT',
-              date: '2016',
+              date: '12/03/2016',
               local: 'Cuiabá - MT'
           }
         ],
@@ -111,12 +140,12 @@ export const talks = [
         places: [
           {
               name: 'CATI Unemat',
-              date: '2015',
+              date: '12/11/2015',
               local: 'Barra do Bugres - MT'
           },
           {
               name: 'ERI MT UFMT',
-              date: '2015',
+              date: '18/11/2015',
               local: 'Cuiabá - MT'
           }
         ],
@@ -128,7 +157,7 @@ export const talks = [
         places: [
           {
               name: 'Semana Acadêmica Univag',
-              date: '2015',
+              date: '25/06/2015',
               local: 'Varzea Grande - MT'
           }
         ],
@@ -139,7 +168,7 @@ export const talks = [
         places: [
           {
               name: 'Meetup DevMT',
-              date: '2015',
+              date: '18/07/2015',
               local: 'Cuiabá - MT'
           }
         ],
@@ -151,17 +180,17 @@ export const talks = [
         places: [
           {
               name: 'FrontInCuiabá',
-              date: '2015',
+              date: '28/03/2015',
               local: 'Cuiabá - MT'
           },
           {
               name: '3º Circuito de TI Unic',
-              date: '2015',
+              date: '08/05/2015',
               local: 'Tangará da Serra - MT'
           },
           {
               name: 'Meetup DevMT',
-              date: '2015',
+              date: '18/07/2015',
               local: 'Cuiabá - MT'
           }
         ],
@@ -173,15 +202,42 @@ export const talks = [
         places: [
           {
               name: 'Semana Acadêmica Unemat',
-              date: '2015',
+              date: '20/05/2015',
               local: 'Barra do Bugres - MT'
           },
           {
               name: 'YoLab',
-              date: '2014',
+              date: '15/03/2014',
               local: 'Cuiabá - MT'
           }
         ],
         slidesUrl: 'http://pt.slideshare.net/alvarowolfx/no-sql-onde-vivem-e-como-se-alimentam-v3'
     }
 ];
+
+
+let groupingTalks = talks.map( talk => {
+  let years = talk.places.map( place => {
+      let parts = place.date.split('/');
+      talk.place = place;
+      return { year: parseInt(parts[2], 10), talk };
+  })
+  return years;
+});
+
+groupingTalks = [].concat.apply([], groupingTalks);
+
+export const groupedTalks = groupingTalks.reduce( (acc, talkPerYear) => {
+  let { year, talk } = talkPerYear;
+  let talksPerYear = acc[year];
+  if(!talksPerYear){
+    talksPerYear = [];
+  }
+  talksPerYear.push(talk);
+  return {
+    ...acc,
+    [year]: talksPerYear
+  }
+}, {});
+
+export const years = Object.keys(groupedTalks).sort( (a,b) => b - a);

@@ -15,7 +15,7 @@ const Header = styled.header`
 `
 
 const NavAppBar = styled(Appbar)`
-  background-color: ${ props => props.theme.foreground } !important;
+  background-color: ${ props => props.theme.secondary } !important;
 `
 
 const Tabs = styled.ul`
@@ -25,17 +25,47 @@ const Tabs = styled.ul`
 `
 
 const Tab = styled.li`
+  color: ${ props => props.theme.foreground };
+`
+
+const TabLink = styled(Link)`
+  display: inline;
+  font-size: 32px;
+  color: ${ props => props.theme.background } !important;
+  text-decoration: none !important;
+  padding-bottom: 5px;
+
+  &.active,
   &:hover {
-    border-bottom: 2px solid ${ props => props.theme.primary };
-  }
-
-  a:hover {
-    color: ${ props => props.theme.secondary };
+    color: { props => props.theme.secondary };
     cursor: pointer;
+    text-decoration: none !important;
   }
 
-  a:active, a:visited {
-    text-decoration: none;
+  &:hover {
+    border-bottom: 2px solid ${ props => props.theme.foreground } !important;
+  }
+
+  a:active,
+  a:focus,
+  a:visited {
+    color: ${ props => props.theme.foreground } !important;
+    text-decoration: none !important;
+  }
+`
+
+const ExternalLink = styled.a`
+  display: inline;
+  font-size: 32px;
+  color: ${ props => props.theme.background } !important;
+  text-decoration: none !important;
+  padding-bottom: 5px;
+
+  &:hover {
+    color: { props => props.theme.secondary };
+    cursor: pointer;
+    text-decoration: none !important;
+    border-bottom: 2px solid ${ props => props.theme.foreground } !important;
   }
 `
 
@@ -48,13 +78,16 @@ const Navbar = ({ location }) => {
                     <Logo />
                     <Tabs className="mui-tabs__bar mui--appbar-height mui--appbar-line-height">
                         <Tab className={currentPath === "/talks" ? "mui--is-active" : null}>
-                            <Link to="talks">Talks</Link>
+                            <TabLink to="talks">Palestras</TabLink>
+                        </Tab>
+                        <Tab className={currentPath === "/about" ? "mui--is-active" : null}>
+                            <TabLink to="about">Sobre</TabLink>
                         </Tab>
                         <Tab>
-                            <a href="https://medium.com/iot-bootcamp" target="_blank"
+                            <ExternalLink href="https://medium.com/@alvaroviebrantz" target="_blank"
                               rel="noopener noreferrer">
                                 Blog
-                            </a>
+                            </ExternalLink>
                         </Tab>
                     </Tabs>
                 </Container>

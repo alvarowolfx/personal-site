@@ -12,7 +12,7 @@ const HeadlineContainer = styled(Container)`
 `
 
 const Content = styled.div`
-  background-color: ${ props => props.theme.foreground };
+  background-color: white;
   padding: 5vh 0;
 `
 
@@ -29,18 +29,18 @@ const Headline = () => {
         <HeadlineContainer>
             <Content className="mui--z2">
                 <Avatar src={AVATAR_IMG_URL} alt="avatar" />
-                <h1>Hi, I'm Alvaro Viebrantz</h1>
+                <h1>Olá, Eu sou o Alvaro Viebrantz</h1>
                 <h4>
                     <a href="https://fb.me/devmatogrosso" target="_blank"
                        rel="noopener noreferrer">DevMT</a>
-                    &nbsp;and&nbsp;
+                    &nbsp;e&nbsp;
                     <a href="https://gdgcuiaba.com"
                        target="_blank"
                        rel="noopener noreferrer">GDGCuiabá</a>
                     &nbsp;organizer
                 </h4>
-                <h4>IT Analyst at SEFAZ-MT (MTI)</h4>
-                <h4>Fullstack and Mobile Developer</h4>
+                <h4>Analista de TI na SEFAZ-MT (MTI)</h4>
+                <h4>Fullstack e Mobile Developer</h4>
                 <SocialIcons />
             </Content>
         </HeadlineContainer>

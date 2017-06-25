@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const SOCIAL_LINKS = [
     {
-        url: 'https://medium.com/iot-bootcamp',
+        url: 'https://medium.com/@alvaroviebrantz',
         icon: 'ion-social-rss'
     },
     {

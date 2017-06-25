@@ -14,25 +14,28 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Main from './container/Main';
 import Talks from './container/Talks';
+import About from './container/About';
 
 const AppbarPlaceholder = styled.div`
   height: 60px;
-  @media screen and (max-width: 769px){
-    height: 20px;
+  @media screen and (max-width: 400px){
+    height: 72px;
     margin-bottom: 10px;
   }
 `
 
 const Body = styled.div`
-  font-family: Roboto, sans-serif;
+  font-family: sans-serif;
   background-color: ${ props => props.theme.background };
+  color: ${ props => props.theme.primary };
+  -webkit-font-smoothing: antialiased;
 `
 
 const theme = {
-  primary: '#2980b9',
-  secondary: '#2c3e50',
+  primary: '#4a4a4a',
+  secondary: '#3a4250',
   background: '#ecf0f1',
-  foreground: 'white'
+  foreground: '#629ff1'
 };
 
 
@@ -47,6 +50,7 @@ const App = () => {
                       <Container>
                           <Route exact path="/" component={Main} />
                           <Route path='/talks' component={Talks} />
+                          <Route path='/about' component={About} />
                       </Container>
                       <Footer />
                   </Body>
