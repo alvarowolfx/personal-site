@@ -219,8 +219,8 @@ export const talks = [
 let groupingTalks = talks.map( talk => {
   let years = talk.places.map( place => {
       let parts = place.date.split('/');
-      talk.place = place;
-      return { year: parseInt(parts[2], 10), talk };
+      let thisTalk = { ...talk, place };
+      return { year: parseInt(parts[2], 10), talk: thisTalk };
   })
   return years;
 });
