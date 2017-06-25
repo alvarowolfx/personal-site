@@ -17,13 +17,13 @@ const Main = () => {
                   Agora mantém tenho feitos alguns posts sobre automação e internet das coisas no meu blog.
                   Tenho experiência como desenvolvedor na startup Procurix e no Estuda.com. Atualmente sou analista de TI na SEFAZ-MT
                 </p>
-                <p> Sinta-se a vontade de me contactar, será um prazer palestrar em algum evento que você me convidar.</p>
-                <InviteButton/>
 
                 <SectionTitle small>Contato</SectionTitle>
                 <p>
                   Minhas redes sociais estão todas listadas na página inicial, mas se estiver com preguiça vou colocar aqui novamente.
+                  Sinta-se a vontade de me contactar, será um prazer palestrar em algum evento que você me convidar.
                 </p>
+                <InviteButton/>
                 <center><SocialIcons/></center>
                 <SectionTitle small>Sobre este site</SectionTitle>
                 <p>

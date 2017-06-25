@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 import SectionContainer from '../components/SectionContainer'
 import SectionTitle from '../components/SectionTitle'
+import InviteButton from '../components/InviteButton';
 
 import { years, groupedTalks } from '../data';
 
@@ -51,14 +52,14 @@ const Talk = ({ talk, place }) => {
                     href={talk.slidesUrl} target="_blank"
                     rel="noopener noreferrer"
                     style={{ maxWidth: 200 }}>
-                    See slides
+                    Ver slides
                 </a>
                 :
                 <button className="mui-btn mui-btn--raised mui-btn--danger"
                     href={talk.slidesUrl} target="_blank"
                     rel="noopener noreferrer"
                     style={{ maxWidth: 200 }}>
-                    Coming soon
+                    Em breve
                 </button>
             }
         </TalkContainer>
@@ -85,15 +86,7 @@ const Talks = () => {
               Aqui você pode encontrar todas as palestras e workshops que eu ministrei no decorrer do tempo. Em breve vou colocar também a agenda dos próximos eventos.
             </p>
             <p> Sinta-se a vontade de me contactar, será um prazer palestrar em algum evento que você me convidar.</p>
-            <center style={{
-                margin: '15px auto'
-            }}>
-                <a className="mui-btn mui-btn--raised mui-btn--primary" href="mailto:alvaroviebrantz@gmail.com" style={{
-                    fontSize: '0.85em'
-                }}>
-                    Me convide para seu evento
-                </a>
-            </center>
+            <InviteButton/>
             {/*<div className="mui--text-center">
                 <SectionTitle>Upcoming events</SectionTitle>
                 <p> Upcoming events I'll be speaking at.</p>
