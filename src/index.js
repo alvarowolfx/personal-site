@@ -8,6 +8,7 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 //import './index.scss';
 import 'muicss/lib/css/mui.css';
+import 'github-markdown-css';
 
 ReactDom.render(
     <App/>,

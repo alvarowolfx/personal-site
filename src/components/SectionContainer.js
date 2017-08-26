@@ -10,10 +10,6 @@ const SectionContainer = styled(Panel)`
   & .mui-btn--primary:hover {
     background-color: ${ props => props.theme.secondary }
   }
-
-  & p {
-    margin-left: 32px;
-  }
 `
 
 export default SectionContainer;

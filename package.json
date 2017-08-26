@@ -16,7 +16,9 @@
     "react-scripts": "1.0.0"
   },
   "dependencies": {
+    "github-markdown-css": "^2.8.0",
     "ionicons": "^3.0.0",
+    "markdown-with-front-matter-loader": "^0.1.0",
     "muicss": "^0.6.5",
     "polished": "^1.1.2",
     "react": "^15.1.0",
