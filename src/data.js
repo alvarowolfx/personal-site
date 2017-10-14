@@ -1,9 +1,33 @@
 export const talks = [
   {
+    title: 'From Zero to App com React e Firebase',
+    imageUrl:
+      'https://image.slidesharecdn.com/fromzerotoapp-reactefirebase-171014190130/95/from-zero-to-app-usando-react-e-firebase-1-638.jpg?cb=1508007829',
+    slidesUrl:
+      'https://www.slideshare.net/alvarowolfx/from-zero-to-app-react-e-firebase',
+    places: [
+      {
+        name: 'Meetup Web GDGCuiabá',
+        date: '14/10/2017',
+        local: 'Cuiabá - MT'
+      }
+    ]
+  },
+  {
     title: 'Android Things, Machine Learning e Máquinas de doces',
     imageUrl:
       'https://image.slidesharecdn.com/androidthingsinteligenciaartificialemaquinasdedoces-androiddevconf-170826211031/95/android-things-inteligncia-artificial-e-mquinas-de-doces-android-dev-conference-2017-1-638.jpg?cb=1503781834',
     places: [
+      {
+        name: 'Semana Acadêmica na FEICS',
+        date: '02/10/2017',
+        local: 'Cuiabá - MT'
+      },
+      {
+        name: 'DevFest Cerrado 2017',
+        date: '30/09/2017',
+        local: 'Goiânia - GO'
+      },
       {
         name: 'Android Dev Conference 2017 - Trilha Moonshot',
         date: '25/08/2017',
@@ -311,7 +335,7 @@ let groupingTalks = talks.map(talk => {
 
 groupingTalks = [].concat.apply([], groupingTalks);
 
-export const groupedTalks = groupingTalks.reduce((acc, talkPerYear) => {
+let groupedTalks = groupingTalks.reduce((acc, talkPerYear) => {
   let { year, talk } = talkPerYear;
   let talksPerYear = acc[year];
   if (!talksPerYear) {
@@ -324,4 +348,25 @@ export const groupedTalks = groupingTalks.reduce((acc, talkPerYear) => {
   };
 }, {});
 
+function parseDate(str) {
+  let parts = str.split('/');
+  let dt = new Date(
+    parseInt(parts[2], 10),
+    parseInt(parts[1], 10) - 1,
+    parseInt(parts[0], 10)
+  );
+  return dt;
+}
+
+Object.keys(groupedTalks).forEach(year => {
+  groupedTalks[year] = groupedTalks[year].sort((a, b) => {
+    return (
+      parseDate(b.place.date).getTime() - parseDate(a.place.date).getTime()
+    );
+  });
+});
+
+console.log(groupedTalks);
+
+export { groupedTalks };
 export const years = Object.keys(groupedTalks).sort((a, b) => b - a);
