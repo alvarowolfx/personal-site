@@ -19,6 +19,16 @@ export const talks = [
       'https://image.slidesharecdn.com/androidthingsinteligenciaartificialemaquinasdedoces-androiddevconf-170826211031/95/android-things-inteligncia-artificial-e-mquinas-de-doces-android-dev-conference-2017-1-638.jpg?cb=1503781834',
     places: [
       {
+        name: 'DevFest Paraná 2017',
+        date: '11/11/2017',
+        local: 'Maringá - PR'
+      },
+      {
+        name: 'The Developers Conference Porto Alegre 2017',
+        date: '09/11/2017',
+        local: 'Porto Alegre - RS'
+      },
+      {
         name: 'Semana Acadêmica na FEICS',
         date: '02/10/2017',
         local: 'Cuiabá - MT'
