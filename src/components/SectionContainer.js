@@ -1,15 +1,8 @@
-import styled from 'styled-components'
-import Panel from 'muicss/lib/react/panel';
+import styled from 'styled-components';
+import Paper from 'material-ui/Paper';
 
-const SectionContainer = styled(Panel)`
-  margin-top: 48px;
-  & .mui-btn--primary {
-    background-color: ${ props => props.theme.foreground }
-  }
-
-  & .mui-btn--primary:hover {
-    background-color: ${ props => props.theme.secondary }
-  }
-`
+const SectionContainer = styled(Paper)`
+  padding: 16px;
+`;
 
 export default SectionContainer;

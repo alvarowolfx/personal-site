@@ -1,17 +1,27 @@
 import React from 'react';
+import Button from 'material-ui/Button';
 
 const InviteButton = () => {
   return (
-    <center style={{
+    <center
+      style={{
         margin: '15px auto'
-    }}>
-        <a className="mui-btn mui-btn--raised mui-btn--primary" href="mailto:alvaroviebrantz@gmail.com" style={{
-            fontSize: '0.85em'
-        }}>
-            Me convide para seu evento
-        </a>
+      }}
+    >
+      <Button
+        component="a"
+        variant="raised"
+        color="primary"
+        large
+        href="mailto:alvaroviebrantz@gmail.com"
+        style={{
+          fontSize: '0.85em'
+        }}
+      >
+        Invite me to your event
+      </Button>
     </center>
-  )
-}
+  );
+};
 
 export default InviteButton;

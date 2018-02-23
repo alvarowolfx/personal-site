@@ -19,6 +19,8 @@
     "github-markdown-css": "^2.8.0",
     "ionicons": "^3.0.0",
     "markdown-with-front-matter-loader": "^0.1.0",
+    "material-ui": "^1.0.0-beta.34",
+    "material-ui-icons": "^1.0.0-beta.17",
     "muicss": "^0.6.5",
     "polished": "^1.1.2",
     "react": "^15.1.0",
@@ -26,6 +28,7 @@
     "react-dom": "^15.0.0",
     "react-router": "^2.5.1",
     "react-router-dom": "^4.0.0",
-    "styled-components": "^1.4.6"
+    "styled-components": "^1.4.6",
+    "typeface-roboto": "0.0.54"
   }
 }

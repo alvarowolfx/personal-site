@@ -376,7 +376,7 @@ Object.keys(groupedTalks).forEach(year => {
   });
 });
 
-console.log(groupedTalks);
+//console.log(groupedTalks);
 
 export { groupedTalks };
 export const years = Object.keys(groupedTalks).sort((a, b) => b - a);

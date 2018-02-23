@@ -7,11 +7,8 @@ import ReactDom from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 //import './index.scss';
-import 'muicss/lib/css/mui.css';
+//import 'muicss/lib/css/mui.css';
 import 'github-markdown-css';
 
-ReactDom.render(
-    <App/>,
-    document.getElementById('root')
-);
+ReactDom.render(<App />, document.getElementById('root'));
 registerServiceWorker();
