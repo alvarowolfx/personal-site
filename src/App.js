@@ -7,12 +7,11 @@ import styled, { ThemeProvider } from 'styled-components';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
-import Main from './container/Main';
-import Talks from './container/Talks';
-import Projects from './container/Projects';
-import Lives from './container/Lives';
-import { BlogIndex, BlogPostRoutes } from './container/BlogPosts';
-import About from './container/About';
+import Home from './home';
+import Talks from './talks';
+import Lives from './lives';
+import Projects from './projects';
+import { BlogIndex, BlogPostRoutes } from './posts';
 
 const Container = styled.div`
   margin: 48px 16px 48px 16px;
@@ -50,11 +49,10 @@ const App = () => {
               <Navbar {...props} />
               <AppbarPlaceholder />
               <Container>
-                <Route exact path="/" component={Main} />
+                <Route exact path="/" component={Home} />
                 <Route path="/talks" component={Talks} />
                 <Route path="/lives" component={Lives} />
                 <Route path="/projects" component={Projects} />
-                <Route path="/about" component={About} />
                 <Route path="/blog" exact component={BlogIndex} />
                 {BlogPostRoutes}
               </Container>

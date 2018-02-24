@@ -12,13 +12,12 @@ const InviteButton = () => {
         component="a"
         variant="raised"
         color="primary"
-        large
         href="mailto:alvaroviebrantz@gmail.com"
         style={{
           fontSize: '0.85em'
         }}
       >
-        Invite me to your event
+        Me convide para seu evento
       </Button>
     </center>
   );

@@ -21,12 +21,12 @@ const PostsContainer = styled.div`
 
 const PostCard = styled(Card)`
   margin: 16px;
-  max-width: 350px;
+  max-width: 320px;
 `;
 
 // eslint-disable-next-line import/no-webpack-loader-syntax
 const webpackRequireContext = require.context(
-  '!markdown-with-front-matter-loader!../_posts',
+  '!markdown-with-front-matter-loader!./_content',
   false,
   /.md$/
 );
