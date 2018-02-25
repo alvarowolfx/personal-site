@@ -19,9 +19,13 @@ const PostsContainer = styled.div`
   flex-direction: row;
 `;
 
-const PostCard = styled(Card)`
-  margin: 16px;
-  max-width: 320px;
+const PostCard = styled.div`
+  margin: 8px;
+  max-width: 360px;
+
+  @media screen and (max-width: 720px) {
+    max-width: 600px;
+  }
 `;
 
 // eslint-disable-next-line import/no-webpack-loader-syntax
@@ -116,28 +120,30 @@ const LocalBlogIndex = blogs => () => {
           const post = blogs.get(path);
           return (
             <PostCard key={path}>
-              <CardMedia
-                image={post.thumbnail}
-                title={post.title}
-                style={{ height: 200 }}
-              />
-              <CardContent>
-                <Typography
-                  variant="title"
-                  component="h3"
-                  style={{ minHeight: 80 }}
-                >
-                  {post.title}
-                </Typography>
-                <Typography component="p">
-                  Publicado em {new Date(post.date).toLocaleDateString()}
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <PostLink post={post} button>
-                  Ler publicação
-                </PostLink>
-              </CardActions>
+              <Card>
+                <CardMedia
+                  image={post.thumbnail}
+                  title={post.title}
+                  style={{ height: 200 }}
+                />
+                <CardContent>
+                  <Typography
+                    variant="title"
+                    component="h3"
+                    style={{ minHeight: 80 }}
+                  >
+                    {post.title}
+                  </Typography>
+                  <Typography component="p">
+                    Publicado em {new Date(post.date).toLocaleDateString()}
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <PostLink post={post} button>
+                    Ler publicação
+                  </PostLink>
+                </CardActions>
+              </Card>
             </PostCard>
           );
         })}
