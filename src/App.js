@@ -3,7 +3,8 @@
  */
 
 import React from 'react';
-import styled, { ThemeProvider } from 'styled-components';
+import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
+import styled from 'styled-components';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
@@ -12,6 +13,16 @@ import Talks from './talks';
 import Lives from './lives';
 import Projects from './projects';
 import { BlogIndex, BlogPostRoutes } from './posts';
+
+import purple from 'material-ui/colors/indigo';
+import green from 'material-ui/colors/deepOrange';
+
+const theme = createMuiTheme({
+  palette: {
+    primary: purple,
+    secondary: green
+  }
+});
 
 const Container = styled.div`
   margin: 48px 16px 48px 16px;
@@ -25,27 +36,13 @@ const AppbarPlaceholder = styled.div`
   }
 `;
 
-const Body = styled.div`
-  font-family: Roboto;
-  background-color: ${props => props.theme.background};
-  color: ${props => props.theme.primary};
-  -webkit-font-smoothing: antialiased;
-`;
-
-const theme = {
-  primary: '#4a4a4a',
-  secondary: '#3a4250',
-  background: '#ecf0f1',
-  foreground: '#629ff1'
-};
-
 const App = () => {
   return (
-    <ThemeProvider theme={theme}>
+    <MuiThemeProvider theme={theme}>
       <Router>
         <Route
           render={props => (
-            <Body>
+            <div>
               <Navbar {...props} />
               <AppbarPlaceholder />
               <Container>
@@ -56,11 +53,11 @@ const App = () => {
                 <Route path="/blog" exact component={BlogIndex} />
                 {BlogPostRoutes}
               </Container>
-            </Body>
+            </div>
           )}
         />
       </Router>
-    </ThemeProvider>
+    </MuiThemeProvider>
   );
 };
 

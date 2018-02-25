@@ -7,15 +7,12 @@ import {
 } from 'material-ui/List';
 
 import Avatar from 'material-ui/Avatar';
-import IconButton from 'material-ui/IconButton';
-import PublicSpeakingIcon from 'material-ui-icons/Mic';
-import SeeSlidesIcon from 'material-ui-icons/OpenInBrowser';
 
 const Talk = ({ talk, place }) => {
   return (
-    <ListItem>
+    <ListItem divider>
       <Avatar>
-        <PublicSpeakingIcon />
+        <i className="material-icons">mic</i>
       </Avatar>
       <ListItemText
         primary={talk.title}

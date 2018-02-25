@@ -9,7 +9,7 @@ import Talk from './Talk';
 
 const TalkGroup = ({ talks, groupName }) => {
   return (
-    <List dense>
+    <List>
       <Badge badgeContent={talks.length} color="primary">
         <SectionTitle>{groupName}&nbsp;&nbsp;&nbsp;</SectionTitle>
       </Badge>

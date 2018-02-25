@@ -3,20 +3,24 @@ import React from 'react';
 import SectionContainer from '../components/SectionContainer';
 import SectionTitle from '../components/SectionTitle';
 
+import Badge from 'material-ui/Badge';
+import List from 'material-ui/List';
+
 import Live from './Live';
 
-const LiveList = ({ lives }) => {
+const LiveList = ({ lives, title }) => {
   return (
-    <div>
-      <SectionContainer>
-        <SectionTitle>Agenda em breve&nbsp;&nbsp;&nbsp;</SectionTitle>
-        {/*<Badge badgeContent={lives.length || null} color="secondary"></Badge>*/}
-      </SectionContainer>
+    <SectionContainer>
+      <Badge badgeContent={lives.length} color="secondary">
+        <SectionTitle>{title}&nbsp;&nbsp;&nbsp;</SectionTitle>
+      </Badge>
       <br />
-      {lives.map((live, idx) => {
-        return <Live live={live} key={`live-${idx}`} />;
-      })}
-    </div>
+      <List>
+        {lives.map(live => {
+          return <Live live={live} key={`live-${live.title}`} />;
+        })}
+      </List>
+    </SectionContainer>
   );
 };
 

@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Android Things, Machine Learning e Máquinas de Doces",
+    "live": true,
+    "start": "08/25/2017 09:20 AM",
+    "end": "08/25/2017 10:00 AM",
+    "time": "Das 09:20 às 10:00",
+    "url": "https://www.youtube.com/watch?v=QNUAhthjP8g",
+    "thumbnail":
+      "https://i.ytimg.com/vi/QNUAhthjP8g/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB6dxhSII2ynQsBoGA2qfsUiJRULQ"
+  },
+  {
+    "title":
+      "[IoT Nights] Hardware + Web - Como utilizar WebUSB e Arduino diretamente no Browser",
+    "live": true,
+    "start": "03/06/2018 08:30 PM",
+    "end": "03/06/2018 09:30 PM",
+    "time": "Das 21:30 às 22:30 (Horário de Brasília)",
+    "timezone": "America/Cuiaba",
+    "thumbnail":
+      "https://image.slidesharecdn.com/codelab-actionsongoogle-171210141346/95/codelab-actions-on-google-1-638.jpg?cb=1512915370",
+    "url": null
+  },
+  {
+    "title": "[IoT Nights] PlatformIO - Ambiente de desenvolvimento embarcado",
+    "live": true,
+    "start": "03/13/2018 08:30 PM",
+    "end": "03/13/2018 09:30 PM",
+    "timezone": "America/Cuiaba",
+    "time": "Das 21:30 às 22:30 (Horário de Brasília)",
+    "thumbnail":
+      "https://image.slidesharecdn.com/codelab-actionsongoogle-171210141346/95/codelab-actions-on-google-1-638.jpg?cb=1512915370",
+    "url": null
+  },
+  {
+    "title": "[IoT Nights] Iniciando com MongooseOS com ESP32/ESP8266",
+    "live": true,
+    "start": "03/20/2018 08:30 PM",
+    "end": "03/20/2018 09:30 PM",
+    "timezone": "America/Cuiaba",
+    "time": "Das 21:30 às 22:30 (Horário de Brasília)",
+    "thumbnail":
+      "https://image.slidesharecdn.com/codelab-actionsongoogle-171210141346/95/codelab-actions-on-google-1-638.jpg?cb=1512915370",
+    "url": null
+  }
+]
