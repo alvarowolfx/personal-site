@@ -1,10 +1,6 @@
 import React from 'react';
 
-import {
-  ListItem,
-  ListItemText,
-  ListItemSecondaryAction
-} from 'material-ui/List';
+import { ListItem, ListItemText } from 'material-ui/List';
 import Button from 'material-ui/Button';
 import Avatar from 'material-ui/Avatar';
 import Chip from 'material-ui/Chip';
