@@ -5,7 +5,7 @@ import Button from 'material-ui/Button';
 import Avatar from 'material-ui/Avatar';
 import Chip from 'material-ui/Chip';
 
-const Talk = ({ talk, place }) => {
+const Project = ({ talk, place }) => {
   return (
     <div>
       <ListItem>
@@ -18,16 +18,19 @@ const Talk = ({ talk, place }) => {
         <ListItemText primary={talk.title} secondary={talk.description} />
       </ListItem>
       <ListItem>
-        {talk.tags.map(tag => (
-          <div style={{ marginRight: 4 }}>
-            <Chip label={tag} key={tag} />
-          </div>
-        ))}
+        <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+          {talk.tags.map(tag => (
+            <div key={tag} style={{ marginLeft: 4, marginTop: 2 }}>
+              <Chip label={tag} />
+            </div>
+          ))}
+        </div>
       </ListItem>
       <ListItem divider>
         {Object.keys(talk.links).map(type => {
           return (
             <Button
+              key={type}
               component="a"
               color="primary"
               href={talk.links[type]}
@@ -44,4 +47,4 @@ const Talk = ({ talk, place }) => {
   );
 };
 
-export default Talk;
+export default Project;
