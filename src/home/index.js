@@ -85,7 +85,7 @@ const Home = () => {
         <GenericListItemLink
           icon={<LivesIcon />}
           to="/lives"
-          primary="Live Streaming (BR)"
+          primary="Live Streaming e Videos"
         />
         <GenericListItemLink
           icon={<ProjectsIcon />}
