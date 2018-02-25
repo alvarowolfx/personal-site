@@ -11,8 +11,8 @@ import Live from './Live';
 const LiveList = ({ lives, title }) => {
   return (
     <SectionContainer>
-      <Badge badgeContent={lives.length} color="secondary">
-        <SectionTitle>{title}&nbsp;&nbsp;&nbsp;</SectionTitle>
+      <Badge badgeContent={lives.length} color="primary">
+        <SectionTitle>{title}&nbsp;&nbsp;</SectionTitle>
       </Badge>
       <br />
       <List>

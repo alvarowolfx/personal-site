@@ -14,13 +14,13 @@ import Lives from './lives';
 import Projects from './projects';
 import { BlogIndex, BlogPostRoutes } from './posts';
 
-import purple from 'material-ui/colors/indigo';
-import green from 'material-ui/colors/deepOrange';
+import primary from 'material-ui/colors/indigo';
+import secondary from 'material-ui/colors/deepOrange';
 
 const theme = createMuiTheme({
   palette: {
-    primary: purple,
-    secondary: green
+    primary,
+    secondary
   }
 });
 
