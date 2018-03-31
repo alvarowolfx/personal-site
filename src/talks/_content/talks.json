@@ -1,5 +1,19 @@
 [
   {
+    "title": "WebUSB e WebBluetooth - Conectando seu Hardware a Web",
+    "imageUrl":
+      "https://image.slidesharecdn.com/webusbewebbluetooth-180331194216/95/webusb-e-webluetooth-conectando-seu-hardware-a-web-1-638.jpg?cb=1522525387",
+    "slidesUrl":
+      "https://www.slideshare.net/alvarowolfx/webusb-e-webluetooth-conectando-seu-hardware-a-web",
+    "places": [
+      {
+        "name": "Arduino Day Cuiabá 2018",
+        "date": "31/03/2018",
+        "local": "Cuiabá - MT"
+      }
+    ]
+  },
+  {
     "title": "Actions On Google com Dialogflow e Firebase",
     "imageUrl":
       "https://image.slidesharecdn.com/codelab-actionsongoogle-171210141346/95/codelab-actions-on-google-1-638.jpg?cb=1512915370",
