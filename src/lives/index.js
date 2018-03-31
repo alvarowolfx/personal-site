@@ -28,7 +28,9 @@ const Lives = () => {
       </SectionContainer>
       <br />
       <center>
-        <LiveList title="Próximas" lives={groupedLives['due']} />
+        {groupedLives['due'].length > 0 && (
+          <LiveList title="Próximas" lives={groupedLives['due']} />
+        )}
         <br />
         <LiveList title="Passadas" lives={groupedLives['past']} />
       </center>

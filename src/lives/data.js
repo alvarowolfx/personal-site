@@ -1,6 +1,6 @@
 const lives = require('./_content/lives.json');
 
-let groupedLives = lives.reduce(
+let groupedLives = lives.filter(live => live.live).reduce(
   (acc, live) => {
     const liveTime = new Date(live.start).getTime();
     const now = new Date().getTime();

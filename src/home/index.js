@@ -99,7 +99,7 @@ const Home = () => {
         />
       </GenericList>
 
-      <GenericList header="Conteúdo">
+      <GenericList header="Sobre">
         {ABOUT_LIST.map(about => {
           return (
             <GenericListItem

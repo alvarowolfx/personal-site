@@ -12,7 +12,7 @@
   {
     "title":
       "[IoT Nights] Hardware + Web - Como utilizar WebUSB e Arduino diretamente no Browser",
-    "live": true,
+    "live": false,
     "start": "03/06/2018 08:30 PM",
     "end": "03/06/2018 09:30 PM",
     "time": "Das 21:30 às 22:30 (Horário de Brasília)",
@@ -23,7 +23,7 @@
   },
   {
     "title": "[IoT Nights] PlatformIO - Ambiente de desenvolvimento embarcado",
-    "live": true,
+    "live": false,
     "start": "03/13/2018 08:30 PM",
     "end": "03/13/2018 09:30 PM",
     "timezone": "America/Cuiaba",
@@ -34,7 +34,7 @@
   },
   {
     "title": "[IoT Nights] Iniciando com MongooseOS com ESP32/ESP8266",
-    "live": true,
+    "live": false,
     "start": "03/20/2018 08:30 PM",
     "end": "03/20/2018 09:30 PM",
     "timezone": "America/Cuiaba",

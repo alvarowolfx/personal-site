@@ -20,7 +20,7 @@ const Header = styled.header`
 const ROUTES = [
   { title: 'Home', name: '' },
   { title: 'Timeline', name: 'talks' },
-  { title: 'Lives', name: 'lives' },
+  { title: 'Videos', name: 'lives' },
   { title: 'Projetos', name: 'projects' },
   { title: 'Blog', name: 'blog' }
   //{ title: 'Press', name: 'press' }
