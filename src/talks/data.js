@@ -1,10 +1,18 @@
 const talks = require('./_content/talks.json');
 
+let now = new Date().getTime();
+
 let groupingTalks = talks.map(talk => {
   let years = talk.places.map(place => {
-    let parts = place.date.split('/');
+    let { date } = place;
+    let isFuture = parseDate(date).getTime() > now;
+    let parts = date.split('/');
     let thisTalk = { ...talk, place };
-    return { year: parseInt(parts[2], 10), talk: thisTalk };
+    let year = parseInt(parts[2], 10);
+    if (isFuture) {
+      year = 'Próximas palestras';
+    }
+    return { year, talk: thisTalk };
   });
   return years;
 });
@@ -44,6 +52,16 @@ Object.keys(groupedTalks).forEach(year => {
 
 //console.log(groupedTalks);
 
-const years = Object.keys(groupedTalks).sort((a, b) => b - a);
+const years = Object.keys(groupedTalks).sort((a, b) => {
+  a = parseInt(a, 10) || a;
+  b = parseInt(b, 10) || b;
+  if (typeof a === 'string') {
+    return -1;
+  }
+  if (typeof b === 'string') {
+    return 1;
+  }
+  return b - a;
+});
 
 export { groupedTalks, years };

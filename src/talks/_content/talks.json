@@ -1,5 +1,49 @@
 [
   {
+    "title": "Arquitetura de Internet das Coisas usando Google Cloud",
+    "imageUrl":
+      "https://image.slidesharecdn.com/arquiteturaiotgooglecloud-180405141615/95/arquitetura-de-internet-das-coisas-usando-google-cloud-1-638.jpg?cb=1522937831",
+    "slidesUrl":
+      "https://www.slideshare.net/alvarowolfx/arquitetura-de-internet-das-coisas-usando-google-cloud",
+    "places": [
+      {
+        "name": "IoT Weekend 2018 - 7ª Edição",
+        "date": "06/04/2018",
+        "local": "Online"
+      }
+    ]
+  },
+  {
+    "title":
+      "Internet das coisas - Conectando seus dispositivos à nuvem de forma inteligente",
+    "imageUrl":
+      "https://image.slidesharecdn.com/internetdascoisasconectandoseusdispositivosanuvemdeformainteligente-180405140801/95/internet-das-coisas-conectando-seus-dispositivos-nuvem-de-forma-inteligente-1-638.jpg?cb=1522937340",
+    "slidesUrl":
+      "https://www.slideshare.net/alvarowolfx/internet-das-coisas-conectando-seus-dispositivos-nuvem-de-forma-inteligente",
+    "places": [
+      {
+        "name": "1º Circuito de Palestras UNIC - DevMT e GDG Cuiabá",
+        "date": "04/04/2018",
+        "local": "Cuiabá - MT"
+      },
+      {
+        "name": "1º Circuito de Palestras IFMT - DevMT e GDG Cuiabá",
+        "date": "11/04/2018",
+        "local": "Cuiabá - MT"
+      },
+      {
+        "name": "1º Circuito de Palestras FATEC/SENAI - DevMT e GDG Cuiabá",
+        "date": "18/04/2018",
+        "local": "Cuiabá - MT"
+      },
+      {
+        "name": "1º Circuito de Palestras UNIVAG - DevMT e GDG Cuiabá",
+        "date": "25/04/2018",
+        "local": "Varzea Grande - MT"
+      }
+    ]
+  },
+  {
     "title": "WebUSB e WebBluetooth - Conectando seu Hardware a Web",
     "imageUrl":
       "https://image.slidesharecdn.com/webusbewebbluetooth-180331194216/95/webusb-e-webluetooth-conectando-seu-hardware-a-web-1-638.jpg?cb=1522525387",
