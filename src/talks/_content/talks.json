@@ -1,10 +1,68 @@
 [
   {
+    "title": "Soluções de IoT usando apenas Javascript com Google Cloud e Firebase",
+    "imageUrl": "https://image.slidesharecdn.com/serverlessiotsolutionsusingjavascript-180721142319/95/criando-solues-de-iot-usando-javascript-de-ponta-a-ponta-do-hardware-at-a-nuvem-tdc-sp-2018-1-638.jpg?cb=1532183051",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/criando-solues-de-iot-usando-javascript-de-ponta-a-ponta-do-hardware-at-a-nuvem-tdc-sp-2018",
+    "places": [
+      {
+        "name": "The Developers Conference São Paulo 2018",
+        "date": "21/07/2018",
+        "local": "São Paulo - SP"
+      }
+    ]
+  },
+  {
+    "title": "Actions On Google com Dialogflow e Firebase",
+    "imageUrl": "https://image.slidesharecdn.com/codelab-actionsongoogle-171210141346/95/codelab-actions-on-google-1-638.jpg?cb=1512915370",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/codelab-actions-on-google",
+    "places": [
+      {
+        "name": "Build Actions for Your Community: Codelab e Hackathon Action On Google",
+        "date": "07/07/2018",
+        "local": "Cuiabá - MT"
+      }
+    ]
+  },
+  {
+    "title": "Mentor Google Launchpad São Paulo - 1ª Turma",
+    "imageUrl": "",
+    "slidesUrl": "",
+    "places": [
+      {
+        "name": "Campus Google São Paulo",
+        "date": "11/06/2018",
+        "local": "São Paulo - SP"
+      }
+    ]
+  },
+  {
     "title": "Arquitetura de Internet das Coisas usando Google Cloud",
-    "imageUrl":
-      "https://image.slidesharecdn.com/arquiteturaiotgooglecloud-180405141615/95/arquitetura-de-internet-das-coisas-usando-google-cloud-1-638.jpg?cb=1522937831",
-    "slidesUrl":
-      "https://www.slideshare.net/alvarowolfx/arquitetura-de-internet-das-coisas-usando-google-cloud",
+    "imageUrl": "https://image.slidesharecdn.com/arquiteturaiotgooglecloud-180405141615/95/arquitetura-de-internet-das-cohttps://image.slidesharecdn.com/arquiteturaiotgooglecloud-joincommunity-180611134250/95/arquitetura-de-iot-na-prtica-com-google-cloud-join-community-2018-1-638.jpg?cb=1528724649isas-usando-google-cloud-1-638.jpg?cb=1522937831",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/arquitetura-de-iot-na-prtica-com-google-cloud-join-community-2018",
+    "places": [
+      {
+        "name": "Join Community 2018",
+        "date": "09/06/2018",
+        "local": "Goiania - GO"
+      }
+    ]
+  },
+  {
+    "title": "Workshop IoT com Google Cloud e Firebase",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/codelab-google-cloud-iot-core-e-mongooseos-io-extended-cuiab-2018",
+    "places": [
+      {
+        "name": "Google I/O Extended Cuiabá 2018",
+        "date": "27/05/2018",
+        "local": "Cuiabá - MT"
+      }
+    ]
+  },
+  {
+    "title": "Arquitetura de Internet das Coisas usando Google Cloud",
+    "imageUrl": "https://image.slidesharecdn.com/arquiteturaiotgooglecloud-180405141615/95/arquitetura-de-internet-das-coisas-usando-google-cloud-1-638.jpg?cb=1522937831",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/arquitetura-de-internet-das-coisas-usando-google-cloud",
     "places": [
       {
         "name": "IoT Weekend 2018 - 7ª Edição",
@@ -14,12 +72,26 @@
     ]
   },
   {
-    "title":
-      "Internet das coisas - Conectando seus dispositivos à nuvem de forma inteligente",
-    "imageUrl":
-      "https://image.slidesharecdn.com/internetdascoisasconectandoseusdispositivosanuvemdeformainteligente-180405140801/95/internet-das-coisas-conectando-seus-dispositivos-nuvem-de-forma-inteligente-1-638.jpg?cb=1522937340",
-    "slidesUrl":
-      "https://www.slideshare.net/alvarowolfx/internet-das-coisas-conectando-seus-dispositivos-nuvem-de-forma-inteligente",
+    "title": "Google Cloud Study Jam",
+    "imageUrl": "",
+    "slidesUrl": "",
+    "places": [
+      {
+        "name": "GDG Campo Grande - Jera",
+        "date": "14/04/2018",
+        "local": "Campo Grande - MS"
+      },
+      {
+        "name": "GDG Cuiabá - UFMT",
+        "date": "24/02/2018",
+        "local": "Cuiabá - MT"
+      }
+    ]
+  },
+  {
+    "title": "Internet das coisas - Conectando seus dispositivos à nuvem de forma inteligente",
+    "imageUrl": "https://image.slidesharecdn.com/internetdascoisasconectandoseusdispositivosanuvemdeformainteligente-180405140801/95/internet-das-coisas-conectando-seus-dispositivos-nuvem-de-forma-inteligente-1-638.jpg?cb=1522937340",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/internet-das-coisas-conectando-seus-dispositivos-nuvem-de-forma-inteligente",
     "places": [
       {
         "name": "1º Circuito de Palestras UNIC - DevMT e GDG Cuiabá",
@@ -40,15 +112,18 @@
         "name": "1º Circuito de Palestras UNIVAG - DevMT e GDG Cuiabá",
         "date": "25/04/2018",
         "local": "Varzea Grande - MT"
+      },
+      {
+        "name": "1º Circuito de Palestras UFMT - DevMT e GDG Cuiabá",
+        "date": "03/05/2018",
+        "local": "Cuiabá - MT"
       }
     ]
   },
   {
     "title": "WebUSB e WebBluetooth - Conectando seu Hardware a Web",
-    "imageUrl":
-      "https://image.slidesharecdn.com/webusbewebbluetooth-180331194216/95/webusb-e-webluetooth-conectando-seu-hardware-a-web-1-638.jpg?cb=1522525387",
-    "slidesUrl":
-      "https://www.slideshare.net/alvarowolfx/webusb-e-webluetooth-conectando-seu-hardware-a-web",
+    "imageUrl": "https://image.slidesharecdn.com/webusbewebbluetooth-180331194216/95/webusb-e-webluetooth-conectando-seu-hardware-a-web-1-638.jpg?cb=1522525387",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/webusb-e-webluetooth-conectando-seu-hardware-a-web",
     "places": [
       {
         "name": "Arduino Day Cuiabá 2018",
@@ -59,10 +134,8 @@
   },
   {
     "title": "Actions On Google com Dialogflow e Firebase",
-    "imageUrl":
-      "https://image.slidesharecdn.com/codelab-actionsongoogle-171210141346/95/codelab-actions-on-google-1-638.jpg?cb=1512915370",
-    "slidesUrl":
-      "https://www.slideshare.net/alvarowolfx/codelab-actions-on-google",
+    "imageUrl": "https://image.slidesharecdn.com/codelab-actionsongoogle-171210141346/95/codelab-actions-on-google-1-638.jpg?cb=1512915370",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/codelab-actions-on-google",
     "places": [
       {
         "name": "GDG Tech Tour: Action On Google - Codelab e Hackathon",
@@ -73,10 +146,8 @@
   },
   {
     "title": "From Zero to App com React e Firebase",
-    "imageUrl":
-      "https://image.slidesharecdn.com/fromzerotoapp-reactefirebase-171014190130/95/from-zero-to-app-usando-react-e-firebase-1-638.jpg?cb=1508007829",
-    "slidesUrl":
-      "https://www.slideshare.net/alvarowolfx/from-zero-to-app-react-e-firebase",
+    "imageUrl": "https://image.slidesharecdn.com/fromzerotoapp-reactefirebase-171014190130/95/from-zero-to-app-usando-react-e-firebase-1-638.jpg?cb=1508007829",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/from-zero-to-app-react-e-firebase",
     "places": [
       {
         "name": "Meetup Web GDGCuiabá",
@@ -87,8 +158,7 @@
   },
   {
     "title": "Android Things, Machine Learning e Máquinas de doces",
-    "imageUrl":
-      "https://image.slidesharecdn.com/androidthingsinteligenciaartificialemaquinasdedoces-androiddevconf-170826211031/95/android-things-inteligncia-artificial-e-mquinas-de-doces-android-dev-conference-2017-1-638.jpg?cb=1503781834",
+    "imageUrl": "https://image.slidesharecdn.com/androidthingsinteligenciaartificialemaquinasdedoces-androiddevconf-170826211031/95/android-things-inteligncia-artificial-e-mquinas-de-doces-android-dev-conference-2017-1-638.jpg?cb=1503781834",
     "places": [
       {
         "name": "DevFest Paraná 2017",
@@ -116,13 +186,11 @@
         "local": "São Paulo - SP"
       }
     ],
-    "slidesUrl":
-      "https://www.slideshare.net/alvarowolfx/android-things-inteligncia-artificial-e-mquinas-de-doces-android-dev-conference-2017"
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/android-things-inteligncia-artificial-e-mquinas-de-doces-android-dev-conference-2017"
   },
   {
     "title": "Ferramentas e Aplicações em Big Data",
-    "imageUrl":
-      "https://image.slidesharecdn.com/ferramentaseaplicacoesbigdata-170826210418/95/ferramentas-e-aplicacoes-em-big-data-1-1024.jpg?cb=1503781460",
+    "imageUrl": "https://image.slidesharecdn.com/ferramentaseaplicacoesbigdata-170826210418/95/ferramentas-e-aplicacoes-em-big-data-1-1024.jpg?cb=1503781460",
     "places": [
       {
         "name": "Meetup Interno SEFAZ-MT",
@@ -130,13 +198,11 @@
         "local": "Cuiabá - MT"
       }
     ],
-    "slidesUrl":
-      "https://www.slideshare.net/alvarowolfx/ferramentas-e-aplicacoes-em-big-data"
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/ferramentas-e-aplicacoes-em-big-data"
   },
   {
     "title": "Android Things, Machine Learning e Máquinas de doces",
-    "imageUrl":
-      "https://image.slidesharecdn.com/androidthingsmachinelearningemaquinasdedoces-170625174037/95/android-things-machine-learning-e-maquinas-de-doces-1-638.jpg?cb=1498412454",
+    "imageUrl": "https://image.slidesharecdn.com/androidthingsmachinelearningemaquinasdedoces-170625174037/95/android-things-machine-learning-e-maquinas-de-doces-1-638.jpg?cb=1498412454",
     "places": [
       {
         "name": "Maratona Maker: Digo Educação Maker",
@@ -154,13 +220,11 @@
         "local": "Barra do Bugres - MT"
       }
     ],
-    "slidesUrl":
-      "https://www.slideshare.net/alvarowolfx/android-things-machine-learning-e-maquinas-de-doces"
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/android-things-machine-learning-e-maquinas-de-doces"
   },
   {
     "title": "Guia do Desenvolvedor Mobile das Galáxias",
-    "imageUrl":
-      "https://image.slidesharecdn.com/guiadodesenvolvedormobiledasgalaxias-161110175455/95/guia-do-desenvolvedor-mobile-das-galaxias-1-638.jpg",
+    "imageUrl": "https://image.slidesharecdn.com/guiadodesenvolvedormobiledasgalaxias-161110175455/95/guia-do-desenvolvedor-mobile-das-galaxias-1-638.jpg",
     "places": [
       {
         "name": "Meetup DevMT",
@@ -168,13 +232,11 @@
         "local": "Rondonópolis - MT"
       }
     ],
-    "slidesUrl":
-      "http://www.slideshare.net/alvarowolfx/guia-do-desenvolvedor-mobile-das-galaxias"
+    "slidesUrl": "http://www.slideshare.net/alvarowolfx/guia-do-desenvolvedor-mobile-das-galaxias"
   },
   {
     "title": "Internet das Coisas, Machine Learning e Máquinas de doces",
-    "imageUrl":
-      "https://image.slidesharecdn.com/internetdascoisasinteligenciaartificialemaquinasdedoces-170625174713/95/internet-das-coisas-machine-learnign-e-maquinas-de-doces-1-638.jpg?cb=1498412859",
+    "imageUrl": "https://image.slidesharecdn.com/internetdascoisasinteligenciaartificialemaquinasdedoces-170625174713/95/internet-das-coisas-machine-learnign-e-maquinas-de-doces-1-638.jpg?cb=1498412859",
     "places": [
       {
         "name": "II Circuito de Tecnologia e Inovação - FATEC SENAI MT",
@@ -182,13 +244,11 @@
         "local": "Cuiabá - MT"
       }
     ],
-    "slidesUrl":
-      "https://www.slideshare.net/alvarowolfx/internet-das-coisas-machine-learnign-e-maquinas-de-doces"
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/internet-das-coisas-machine-learnign-e-maquinas-de-doces"
   },
   {
     "title": "Internet das Coisas com Android Things e Machine Learning",
-    "imageUrl":
-      "https://image.slidesharecdn.com/androidthingsandmachinelearning-170522135019/95/internet-das-coisas-com-android-things-e-machine-learning-1-638.jpg?cb=1495461029",
+    "imageUrl": "https://image.slidesharecdn.com/androidthingsandmachinelearning-170522135019/95/internet-das-coisas-com-android-things-e-machine-learning-1-638.jpg?cb=1495461029",
     "places": [
       {
         "name": "Google I/O Extended Cuiabá 2017",
@@ -196,14 +256,11 @@
         "local": "Cuiabá - MT"
       }
     ],
-    "slidesUrl":
-      "https://www.slideshare.net/alvarowolfx/internet-das-coisas-com-android-things-e-machine-learning"
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/internet-das-coisas-com-android-things-e-machine-learning"
   },
   {
-    "title":
-      "Backend, app e internet das coisas com NodeJS no Google Cloud Platform",
-    "imageUrl":
-      "https://image.slidesharecdn.com/backendappeinternetdascoisasconnodejsnogcp-170326155422/95/backend-app-e-internet-das-coisas-com-nodejs-no-google-cloud-platform-1-638.jpg?cb=1490543746",
+    "title": "Backend, app e internet das coisas com NodeJS no Google Cloud Platform",
+    "imageUrl": "https://image.slidesharecdn.com/backendappeinternetdascoisasconnodejsnogcp-170326155422/95/backend-app-e-internet-das-coisas-com-nodejs-no-google-cloud-platform-1-638.jpg?cb=1490543746",
     "places": [
       {
         "name": "Google Cloud Next '17 Extended Cuiabá",
@@ -211,13 +268,11 @@
         "local": "Cuiabá - MT"
       }
     ],
-    "slidesUrl":
-      "https://www.slideshare.net/alvarowolfx/backend-app-e-internet-das-coisas-com-nodejs-no-google-cloud-platform"
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/backend-app-e-internet-das-coisas-com-nodejs-no-google-cloud-platform"
   },
   {
     "title": "Internet das Coisas - Que lingua falam e do que se alimentam ?",
-    "imageUrl":
-      "https://s3.amazonaws.com/media-p.slid.es/thumbnails/35cfa3d222cf3b3be6e72869d4235871/thumb.jpg",
+    "imageUrl": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/35cfa3d222cf3b3be6e72869d4235871/thumb.jpg",
     "places": [
       {
         "name": "FATEC SENAI Gran Prix 2017",
@@ -239,8 +294,7 @@
   },
   {
     "title": "Guia do Desenvolvedor Mobile das Galáxias",
-    "imageUrl":
-      "https://image.slidesharecdn.com/guiadodesenvolvedormobiledasgalaxias-161110175455/95/guia-do-desenvolvedor-mobile-das-galaxias-1-638.jpg",
+    "imageUrl": "https://image.slidesharecdn.com/guiadodesenvolvedormobiledasgalaxias-161110175455/95/guia-do-desenvolvedor-mobile-das-galaxias-1-638.jpg",
     "places": [
       {
         "name": "Circuito de Tecnologia e Inovação - FATEC SENAI MT",
@@ -258,14 +312,11 @@
         "local": "Cuiabá - MT"
       }
     ],
-    "slidesUrl":
-      "http://www.slideshare.net/alvarowolfx/guia-do-desenvolvedor-mobile-das-galaxias"
+    "slidesUrl": "http://www.slideshare.net/alvarowolfx/guia-do-desenvolvedor-mobile-das-galaxias"
   },
   {
-    "title":
-      "Poke Trainers, porque Pokémon não é apenas um jogo por Alvaro Viebrantz",
-    "imageUrl":
-      "//cdn.slidesharecdn.com/ss_thumbnails/poketrainers-161110173918-thumbnail.jpg?cb=1478799630",
+    "title": "Poke Trainers, porque Pokémon não é apenas um jogo por Alvaro Viebrantz",
+    "imageUrl": "//cdn.slidesharecdn.com/ss_thumbnails/poketrainers-161110173918-thumbnail.jpg?cb=1478799630",
     "places": [
       {
         "name": "2º Forum Meninas Digitais - Regional Mato Grosso - UFMT",
@@ -273,13 +324,11 @@
         "local": "Cuiabá - MT"
       }
     ],
-    "slidesUrl":
-      "http://www.slideshare.net/alvarowolfx/poke-trainers-porque-pokmon-no-apenas-um-jogo"
+    "slidesUrl": "http://www.slideshare.net/alvarowolfx/poke-trainers-porque-pokmon-no-apenas-um-jogo"
   },
   {
     "title": "Aplicações no Contexto de Big Data",
-    "imageUrl":
-      "//cdn.slidesharecdn.com/ss_thumbnails/bigdata-161110173600-thumbnail.jpg?cb=1478799654",
+    "imageUrl": "//cdn.slidesharecdn.com/ss_thumbnails/bigdata-161110173600-thumbnail.jpg?cb=1478799654",
     "places": [
       {
         "name": "Secretaria de Estado de Planejamento - SEPLAN-MT",
@@ -287,13 +336,11 @@
         "local": "Cuiabá - MT"
       }
     ],
-    "slidesUrl":
-      "http://www.slideshare.net/alvarowolfx/aplicaes-no-contexto-de-big-data"
+    "slidesUrl": "http://www.slideshare.net/alvarowolfx/aplicaes-no-contexto-de-big-data"
   },
   {
     "title": "Desenvolvendo Aplicativos com React Native",
-    "imageUrl":
-      "//cdn.slidesharecdn.com/ss_thumbnails/developingappswithreactnative-160421213137-thumbnail-3.jpg?cb=1461274590",
+    "imageUrl": "//cdn.slidesharecdn.com/ss_thumbnails/developingappswithreactnative-160421213137-thumbnail-3.jpg?cb=1461274590",
     "places": [
       {
         "name": "FronInCuiabá",
@@ -301,13 +348,11 @@
         "local": "Cuiabá - MT"
       }
     ],
-    "slidesUrl":
-      "http://pt.slideshare.net/alvarowolfx/developing-apps-with-react-native"
+    "slidesUrl": "http://pt.slideshare.net/alvarowolfx/developing-apps-with-react-native"
   },
   {
     "title": "React Native - First Impressions",
-    "imageUrl":
-      "//cdn.slidesharecdn.com/ss_thumbnails/reactnativefirstimpression-160315001833-thumbnail-3.jpg?cb=1458002483",
+    "imageUrl": "//cdn.slidesharecdn.com/ss_thumbnails/reactnativefirstimpression-160315001833-thumbnail-3.jpg?cb=1458002483",
     "places": [
       {
         "name": "Meetup DevMT",
@@ -315,13 +360,11 @@
         "local": "Cuiabá - MT"
       }
     ],
-    "slidesUrl":
-      "http://pt.slideshare.net/alvarowolfx/react-native-first-impression"
+    "slidesUrl": "http://pt.slideshare.net/alvarowolfx/react-native-first-impression"
   },
   {
     "title": "Ionic Workshop",
-    "imageUrl":
-      "//cdn.slidesharecdn.com/ss_thumbnails/ionicworkshop-151116222431-lva1-app6892-thumbnail-3.jpg?cb=1447870773",
+    "imageUrl": "//cdn.slidesharecdn.com/ss_thumbnails/ionicworkshop-151116222431-lva1-app6892-thumbnail-3.jpg?cb=1447870773",
     "subtitle": "CATI 2015 (Unemat) e ERI-MT 2015 (UFMT)",
     "places": [
       {
@@ -339,8 +382,7 @@
   },
   {
     "title": "Workshop Desenvolvimento Web Moderno com AngularJS",
-    "imageUrl":
-      "https://image.slidesharecdn.com/cursoangular-parte1-150707000734-lva1-app6892/95/curso-angularjs-parte-1-29-638.jpg?cb=1437694044",
+    "imageUrl": "https://image.slidesharecdn.com/cursoangular-parte1-150707000734-lva1-app6892/95/curso-angularjs-parte-1-29-638.jpg?cb=1437694044",
     "subtitle": "Semana Acadêmica Univag",
     "places": [
       {
@@ -353,8 +395,7 @@
   },
   {
     "title": "Offline Apps com Ionic e PouchDB",
-    "imageUrl":
-      "//cdn.slidesharecdn.com/ss_thumbnails/offlineapps-pouchdb-150718152618-lva1-app6892-thumbnail-3.jpg?cb=1437233227",
+    "imageUrl": "//cdn.slidesharecdn.com/ss_thumbnails/offlineapps-pouchdb-150718152618-lva1-app6892-thumbnail-3.jpg?cb=1437233227",
     "places": [
       {
         "name": "Meetup DevMT",
@@ -362,13 +403,11 @@
         "local": "Cuiabá - MT"
       }
     ],
-    "slidesUrl":
-      "http://pt.slideshare.net/alvarowolfx/offline-apps-using-ionic-framework-and-pouchdb"
+    "slidesUrl": "http://pt.slideshare.net/alvarowolfx/offline-apps-using-ionic-framework-and-pouchdb"
   },
   {
     "title": "Construindo Aplicativos híbridos com Ionic Framework",
-    "imageUrl":
-      "https://i2.wp.com/julienrenaux.fr/wp-content/uploads/2015/02/ionic.png?resize=853%2C584",
+    "imageUrl": "https://i2.wp.com/julienrenaux.fr/wp-content/uploads/2015/02/ionic.png?resize=853%2C584",
     "subtitle": "FronInCuiabá 2015",
     "places": [
       {
@@ -391,8 +430,7 @@
   },
   {
     "title": "NoSQL Onde Vivem e Como se Alimentam ?",
-    "imageUrl":
-      "https://image.slidesharecdn.com/nosql-ondevivemecomosealimentamv3-140506190736-phpapp01/95/nosql-onde-vivem-e-como-se-alimentam-1-638.jpg?cb=1452777285",
+    "imageUrl": "https://image.slidesharecdn.com/nosql-ondevivemecomosealimentamv3-140506190736-phpapp01/95/nosql-onde-vivem-e-como-se-alimentam-1-638.jpg?cb=1452777285",
     "subtitle": "YoLab 2014 e Semana Academica Unemat 2015",
     "places": [
       {
@@ -406,7 +444,6 @@
         "local": "Cuiabá - MT"
       }
     ],
-    "slidesUrl":
-      "http://pt.slideshare.net/alvarowolfx/no-sql-onde-vivem-e-como-se-alimentam-v3"
+    "slidesUrl": "http://pt.slideshare.net/alvarowolfx/no-sql-onde-vivem-e-como-se-alimentam-v3"
   }
 ]
