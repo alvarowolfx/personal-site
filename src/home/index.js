@@ -57,7 +57,7 @@ const GenericList = ({ header, children }) => {
 const ABOUT_LIST = [
   'Community manager no DevMT e Google Developers Group Cuiabá.',
   'Google Developer Expert for IoT',
-  'Analista de TI na SEFAZ-MT'
+  'Product Engineer at Leverege.com'
 ];
 
 const Home = () => {

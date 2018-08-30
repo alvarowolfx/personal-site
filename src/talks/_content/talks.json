@@ -1,5 +1,60 @@
 [
   {
+    "title": "[Em breve]",
+    "imageUrl": "https://image.slidesharecdn.com/serverlessiotsolutions-180830222815/95/arquitetura-de-internet-das-coisas-google-cloud-1-638.jpg?cb=1535668182",
+    "places": [      
+      {
+        "name": "Hacktown 2018",
+        "date": "06/09/2018",
+        "local": "Santa Rita do Sapucai - MG"
+      },         
+      {
+        "name": "Jungle's DevFest 2018",
+        "date": "24/11/2018",
+        "local": "Manaus - AM"
+      },
+      {
+        "name": "DevFest Cerrado 2018",
+        "date": "20/10/2018",
+        "local": "Goiânia - GO"
+      }
+    ]
+  },
+  {
+    "title": "Como começar com Arduino, Google Cloud e o que isso tem a ver com gatos",
+    "imageUrl": "https://image.slidesharecdn.com/serverlessiotsolutions-180830222815/95/arquitetura-de-internet-das-coisas-google-cloud-1-638.jpg?cb=1535668182",
+    "places": [      
+      {
+        "name": "Hangout GDG Aracaju",
+        "date": "19/09/2018",
+        "local": "Aracaju - SE"
+      }
+    ]
+  },
+  {
+    "title": "Explorando o Cross-compile do Golang para embarcados",
+    "imageUrl": "https://image.slidesharecdn.com/serverlessiotsolutions-180830222815/95/arquitetura-de-internet-das-coisas-google-cloud-1-638.jpg?cb=1535668182",
+    "places": [      
+      {
+        "name": "Gophercon 2018",
+        "date": "28/09/2018",
+        "local": "Florianópolis - SC"
+      }
+    ]
+  },
+  {
+    "title": "Soluções de IoT usando Google Cloud e Firebase",
+    "imageUrl": "https://image.slidesharecdn.com/serverlessiotsolutions-180830222815/95/arquitetura-de-internet-das-coisas-google-cloud-1-638.jpg?cb=1535668182",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/arquitetura-de-internet-das-coisas-google-cloud/alvarowolfx/arquitetura-de-internet-das-coisas-google-cloud",
+    "places": [
+      {
+        "name": "Grupo de Estudos de IoT e Cloud - GDG Cuiabá",
+        "date": "18/08/2018",
+        "local": "Cuiabá - MT"
+      }
+    ]
+  },
+  {
     "title": "Soluções de IoT usando apenas Javascript com Google Cloud e Firebase",
     "imageUrl": "https://image.slidesharecdn.com/serverlessiotsolutionsusingjavascript-180721142319/95/criando-solues-de-iot-usando-javascript-de-ponta-a-ponta-do-hardware-at-a-nuvem-tdc-sp-2018-1-638.jpg?cb=1532183051",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/criando-solues-de-iot-usando-javascript-de-ponta-a-ponta-do-hardware-at-a-nuvem-tdc-sp-2018",
@@ -93,6 +148,11 @@
     "imageUrl": "https://image.slidesharecdn.com/internetdascoisasconectandoseusdispositivosanuvemdeformainteligente-180405140801/95/internet-das-coisas-conectando-seus-dispositivos-nuvem-de-forma-inteligente-1-638.jpg?cb=1522937340",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/internet-das-coisas-conectando-seus-dispositivos-nuvem-de-forma-inteligente",
     "places": [
+      {
+        "name": "III Jornada Científica - IFMT",
+        "date": "31/08/2018",
+        "local": "Primavera do Leste - MT"
+      },
       {
         "name": "1º Circuito de Palestras UNIC - DevMT e GDG Cuiabá",
         "date": "04/04/2018",
