@@ -1,5 +1,27 @@
 [
   {
+    "title": "How to talk with plants using IoT and Actions on Google. ",
+    "description": "This project will teach you how to talk with plants using IoT and Actions on Google.",    
+    "thumbnail": "",
+    "tags": [
+      "iot",
+      "google assistant",
+      "particle"
+    ],
+    "links": {
+      "github": "https://github.com/alvarowolfx/talking-plant-aog",
+      "youtube demo": "https://youtu.be/Dk0VQHtdO60"
+    }
+  },
+  {
+    "title": "Bad Smell Detector Gcloud Flutter",
+    "description":
+      "Bad Smell detector using Arduino, Google Cloud IoT Core, Python Cloud Functions and Flutter App",
+    "thumbnail": "",
+    "tags": ["iot", "hardware", "gcloud", "arduino"],
+    "links": { "github": "https://github.com/alvarowolfx/bad-smell-detector-gcloud-iot-flutter" }
+  },
+  {
     "title": "AI Candy Dispenser",
     "description": "A Candy Dispenser using Android Things + TensorFlow",
     "thumbnail":

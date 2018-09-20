@@ -22,7 +22,8 @@
   },
   {
     "title": "Como começar com Arduino, Google Cloud e o que isso tem a ver com gatos",
-    "imageUrl": "https://image.slidesharecdn.com/serverlessiotsolutions-180830222815/95/arquitetura-de-internet-das-coisas-google-cloud-1-638.jpg?cb=1535668182",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/solues-de-iot-usando-arduino-e-google-cloud",
+    "imageUrl": "https://image.slidesharecdn.com/arduinogooglecloud-180920003918/95/solues-de-iot-usando-arduino-e-google-cloud-1-638.jpg?cb=1537404137",
     "places": [      
       {
         "name": "Hangout GDG Aracaju",
