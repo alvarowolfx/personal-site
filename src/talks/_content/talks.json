@@ -2,12 +2,7 @@
   {
     "title": "[Em breve]",
     "imageUrl": "https://image.slidesharecdn.com/serverlessiotsolutions-180830222815/95/arquitetura-de-internet-das-coisas-google-cloud-1-638.jpg?cb=1535668182",
-    "places": [      
-      {
-        "name": "Hacktown 2018",
-        "date": "06/09/2018",
-        "local": "Santa Rita do Sapucai - MG"
-      },         
+    "places": [           
       {
         "name": "Jungle's DevFest 2018",
         "date": "24/11/2018",
@@ -44,6 +39,18 @@
     ]
   },
   {
+    "title": "Introdução ao Android Things",
+    "imageUrl": "https://image.slidesharecdn.com/androidthingsmachinelearningemaquinasdedoces-170625174037/95/android-things-machine-learning-e-maquinas-de-doces-1-638.jpg?cb=1498412454",
+    "places": [
+      {
+        "name": "Hacktown 2018",
+        "date": "29/07/2017",
+        "local": "Santa Rita do Sapucaí - MG"
+      }
+    ],
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/android-things-machine-learning-e-maquinas-de-doces"
+  },
+  {
     "title": "Soluções de IoT usando Google Cloud e Firebase",
     "imageUrl": "https://image.slidesharecdn.com/serverlessiotsolutions-180830222815/95/arquitetura-de-internet-das-coisas-google-cloud-1-638.jpg?cb=1535668182",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/arquitetura-de-internet-das-coisas-google-cloud/alvarowolfx/arquitetura-de-internet-das-coisas-google-cloud",
@@ -52,6 +59,11 @@
         "name": "Grupo de Estudos de IoT e Cloud - GDG Cuiabá",
         "date": "18/08/2018",
         "local": "Cuiabá - MT"
+      },
+      {
+        "name": "Hacktown 2018",
+        "date": "06/09/2018",
+        "local": "Santa Rita do Sapucai - MG"
       }
     ]
   },
