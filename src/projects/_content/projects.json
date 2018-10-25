@@ -1,5 +1,31 @@
 [
   {
+    "title": "Controlling a MeArm robot arm using Golang and Google Assistant",
+    "description": "Demo project on how to run a Golang program on an embbeded hardware like Raspberry/Orange Pi. In this case this project works as a controller for a MeArm robot arm that can be controlled by voice using Google Assistant.",    
+    "thumbnail": "",
+    "tags": [
+      "iot",
+      "google assistant",
+      "golang"
+    ],
+    "links": {
+      "github": "https://github.com/alvarowolfx/golang-voice-iot"
+    }
+  },
+  {
+    "title": "Weather station using - Golang + IoT + OpenCensus Tracing and Reporting",
+    "description": "Demo project on how to run a Golang program on an embbeded hardware like Onion Omega 2 or Raspberry Pi. In this case this project works as a basic Weather Station with some sensors and sends the data using OpenCensus library to provide metrics and tracking of the device.",    
+    "thumbnail": "",
+    "tags": [
+      "iot",
+      "opencensus.io",
+      "golang"
+    ],
+    "links": {
+      "github": "https://github.com/alvarowolfx/golang-iot-weather-station"
+    }
+  },
+  {
     "title": "How to talk with plants using IoT and Actions on Google. ",
     "description": "This project will teach you how to talk with plants using IoT and Actions on Google.",    
     "thumbnail": "",

@@ -1,7 +1,8 @@
 [
   {
-    "title": "[Em breve]",
-    "imageUrl": "https://image.slidesharecdn.com/serverlessiotsolutions-180830222815/95/arquitetura-de-internet-das-coisas-google-cloud-1-638.jpg?cb=1535668182",
+    "title": "Construindo projetos com Google Assistant e IoT",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/construindo-projetos-com-google-assistant-e-iot",
+    "imageUrl": "https://image.slidesharecdn.com/googleassistanteiot-181025184346/85/construindo-projetos-com-google-assistant-e-iot-1-320.jpg?cb=1540493068",
     "places": [           
       {
         "name": "Jungle's DevFest 2018",
@@ -12,6 +13,18 @@
         "name": "DevFest Cerrado 2018",
         "date": "20/10/2018",
         "local": "Goiânia - GO"
+      }
+    ]
+  },
+  {
+    "title": "Mentor Google Launchpad São Paulo - 2ª Turma",
+    "imageUrl": "",
+    "slidesUrl": "",
+    "places": [     
+      {
+        "name": "Campus Google São Paulo",
+        "date": "31/10/2018",
+        "local": "São Paulo - SP"
       }
     ]
   },
@@ -30,6 +43,7 @@
   {
     "title": "Explorando o Cross-compile do Golang para embarcados",
     "imageUrl": "https://image.slidesharecdn.com/serverlessiotsolutions-180830222815/95/arquitetura-de-internet-das-coisas-google-cloud-1-638.jpg?cb=1535668182",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/explorando-go-em-ambiente-embarcado",
     "places": [      
       {
         "name": "Gophercon 2018",
@@ -44,7 +58,7 @@
     "places": [
       {
         "name": "Hacktown 2018",
-        "date": "29/07/2017",
+        "date": "29/07/2018",
         "local": "Santa Rita do Sapucaí - MG"
       }
     ],
@@ -161,6 +175,11 @@
     "imageUrl": "https://image.slidesharecdn.com/internetdascoisasconectandoseusdispositivosanuvemdeformainteligente-180405140801/95/internet-das-coisas-conectando-seus-dispositivos-nuvem-de-forma-inteligente-1-638.jpg?cb=1522937340",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/internet-das-coisas-conectando-seus-dispositivos-nuvem-de-forma-inteligente",
     "places": [
+      {
+        "name": "I Semana da Tecnologia da Informação e Comunicação - FASIPE CPA",
+        "date": "18/10/2018",
+        "local": "Cuiabá - MT"
+      },
       {
         "name": "III Jornada Científica - IFMT",
         "date": "31/08/2018",
