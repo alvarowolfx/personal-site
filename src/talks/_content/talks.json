@@ -1,4 +1,38 @@
-[
+[  
+  {
+    "title": "Carreira e Trabalho Remoto",
+    "slidesUrl": "",
+    "imageUrl": "",
+    "places": [           
+      {
+        "name": "Sesi Futuro 2018",
+        "date": "07/11/2018",
+        "local": "Várzea Grande - MT"
+      },
+      {
+        "name": "22ª SEMINFO - Semana Acadêmica da Informática - Unic",
+        "date": "14/11/2018",
+        "local": "Cuiabá - MT"
+      },
+      {
+        "name": "Meetup GDG Cuiabá",
+        "date": "22/11/2018",
+        "local": "Cuiabá - MT"
+      }
+    ]
+  },
+  {
+    "title": "Workshop IoT com ESP8266 - HTTP, MQTT e Firebase",
+    "imageUrl": "",
+    "slidesUrl": "http://github.com/alvarowolfx/codelab-esp",
+    "places": [
+      {
+        "name": "Jungle's DevFest 2018",
+        "date": "24/11/2018",
+        "local": "Manaus - AM"
+      }
+    ]
+  },
   {
     "title": "Construindo projetos com Google Assistant e IoT",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/construindo-projetos-com-google-assistant-e-iot",
@@ -126,6 +160,11 @@
         "name": "Join Community 2018",
         "date": "09/06/2018",
         "local": "Goiania - GO"
+      },
+      {
+        "name": "1º SQLMT Day ",
+        "date": "08/12/2018",
+        "local": "Cuiabá - MT"
       }
     ]
   },
