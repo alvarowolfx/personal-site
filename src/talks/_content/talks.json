@@ -1,5 +1,17 @@
 [  
   {
+    "title": "Integração contínua em IoT é possível?",
+    "imageUrl": "",
+    "slidesUrl": "",
+    "places": [
+      {
+        "name": "Meetup de Natal 2018 - DevMT",
+        "date": "15/12/2018",
+        "local": "Cuiabá - MT"
+      }
+    ]
+  },
+  {
     "title": "Carreira e Trabalho Remoto",
     "slidesUrl": "",
     "imageUrl": "",
@@ -47,6 +59,11 @@
         "name": "DevFest Cerrado 2018",
         "date": "20/10/2018",
         "local": "Goiânia - GO"
+      },
+      {
+        "name": "1º SQLMT Day ",
+        "date": "08/12/2018",
+        "local": "Cuiabá - MT"
       }
     ]
   },
@@ -160,11 +177,6 @@
         "name": "Join Community 2018",
         "date": "09/06/2018",
         "local": "Goiania - GO"
-      },
-      {
-        "name": "1º SQLMT Day ",
-        "date": "08/12/2018",
-        "local": "Cuiabá - MT"
       }
     ]
   },
