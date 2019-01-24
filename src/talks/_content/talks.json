@@ -1,12 +1,12 @@
 [  
   {
-    "title": "Integração contínua em IoT é possível?",
+    "title": "Edge computing na prática com IoT, Machine Learning e Google Cloud",
     "imageUrl": "",
-    "slidesUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/edge-computing-na-prtica-com-iot-machine-learning-e-google-cloud",
     "places": [
       {
-        "name": "Meetup de Natal 2018 - DevMT",
-        "date": "15/12/2018",
+        "name": "Grupo de Estudos de IoT e Cloud - GDG Cuiabá",
+        "date": "23/01/2019",
         "local": "Cuiabá - MT"
       }
     ]
