@@ -1,4 +1,12 @@
-[  
+[
+  {
+    "title": "Edge computing na prática com IoT, Machine Learning e Google Cloud",
+    "live": true,
+    "start": "02/13/2018 07:00 PM",
+    "end": "02/13/2018 10:00 PM",
+    "time": "Das 19:00 às 22:00",
+    "url": "https://www.youtube.com/watch?v=HLEPZkm5OTo"
+  },
   {
     "title": "Como começar com Arduino, Google Cloud e o que isso tem a ver com gatos",
     "live": true,
@@ -15,8 +23,7 @@
     "end": "08/25/2017 10:00 AM",
     "time": "Das 09:20 às 10:00",
     "url": "https://www.youtube.com/watch?v=QNUAhthjP8g",
-    "thumbnail":
-      "https://i.ytimg.com/vi/QNUAhthjP8g/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB6dxhSII2ynQsBoGA2qfsUiJRULQ"
+    "thumbnail": "https://i.ytimg.com/vi/QNUAhthjP8g/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB6dxhSII2ynQsBoGA2qfsUiJRULQ"
   },
   {
     "title": "Arquitetura de Internet das Coisas usando Google Cloud",
@@ -25,19 +32,16 @@
     "end": "04/07/2018 03:25 PM",
     "time": "Das 14:40 às 15:25",
     "url": "https://www.youtube.com/watch?v=90w2Jv9YPmE",
-    "thumbnail":
-      "https://i.ytimg.com/vi/QNUAhthjP8g/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB6dxhSII2ynQsBoGA2qfsUiJRULQ"
+    "thumbnail": "https://i.ytimg.com/vi/QNUAhthjP8g/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB6dxhSII2ynQsBoGA2qfsUiJRULQ"
   },
   {
-    "title":
-      "[IoT Nights] Hardware + Web - Como utilizar WebUSB e Arduino diretamente no Browser",
+    "title": "[IoT Nights] Hardware + Web - Como utilizar WebUSB e Arduino diretamente no Browser",
     "live": false,
     "start": "03/06/2018 08:30 PM",
     "end": "03/06/2018 09:30 PM",
     "time": "Das 21:30 às 22:30 (Horário de Brasília)",
     "timezone": "America/Cuiaba",
-    "thumbnail":
-      "https://image.slidesharecdn.com/codelab-actionsongoogle-171210141346/95/codelab-actions-on-google-1-638.jpg?cb=1512915370",
+    "thumbnail": "https://image.slidesharecdn.com/codelab-actionsongoogle-171210141346/95/codelab-actions-on-google-1-638.jpg?cb=1512915370",
     "url": null
   },
   {
@@ -47,8 +51,7 @@
     "end": "03/13/2018 09:30 PM",
     "timezone": "America/Cuiaba",
     "time": "Das 21:30 às 22:30 (Horário de Brasília)",
-    "thumbnail":
-      "https://image.slidesharecdn.com/codelab-actionsongoogle-171210141346/95/codelab-actions-on-google-1-638.jpg?cb=1512915370",
+    "thumbnail": "https://image.slidesharecdn.com/codelab-actionsongoogle-171210141346/95/codelab-actions-on-google-1-638.jpg?cb=1512915370",
     "url": null
   },
   {
@@ -58,8 +61,7 @@
     "end": "03/20/2018 09:30 PM",
     "timezone": "America/Cuiaba",
     "time": "Das 21:30 às 22:30 (Horário de Brasília)",
-    "thumbnail":
-      "https://image.slidesharecdn.com/codelab-actionsongoogle-171210141346/95/codelab-actions-on-google-1-638.jpg?cb=1512915370",
+    "thumbnail": "https://image.slidesharecdn.com/codelab-actionsongoogle-171210141346/95/codelab-actions-on-google-1-638.jpg?cb=1512915370",
     "url": null
   }
 ]

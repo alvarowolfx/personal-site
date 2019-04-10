@@ -1,4 +1,4 @@
-[  
+[
   {
     "title": "Edge computing na prática com IoT, Machine Learning e Google Cloud",
     "imageUrl": "",
@@ -8,6 +8,11 @@
         "name": "Grupo de Estudos de IoT e Cloud - GDG Cuiabá",
         "date": "23/01/2019",
         "local": "Cuiabá - MT"
+      },
+      {
+        "name": "DevFSA Talks",
+        "date": "13/02/2019",
+        "local": "Feira de Santana - BA (Online)"
       }
     ]
   },
@@ -15,7 +20,7 @@
     "title": "Carreira e Trabalho Remoto",
     "slidesUrl": "",
     "imageUrl": "",
-    "places": [           
+    "places": [
       {
         "name": "Sesi Futuro 2018",
         "date": "07/11/2018",
@@ -49,7 +54,7 @@
     "title": "Construindo projetos com Google Assistant e IoT",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/construindo-projetos-com-google-assistant-e-iot",
     "imageUrl": "https://image.slidesharecdn.com/googleassistanteiot-181025184346/85/construindo-projetos-com-google-assistant-e-iot-1-320.jpg?cb=1540493068",
-    "places": [           
+    "places": [
       {
         "name": "Jungle's DevFest 2018",
         "date": "24/11/2018",
@@ -71,7 +76,7 @@
     "title": "Mentor Google Launchpad São Paulo - 2ª Turma",
     "imageUrl": "",
     "slidesUrl": "",
-    "places": [     
+    "places": [
       {
         "name": "Campus Google São Paulo",
         "date": "31/10/2018",
@@ -83,7 +88,7 @@
     "title": "Como começar com Arduino, Google Cloud e o que isso tem a ver com gatos",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/solues-de-iot-usando-arduino-e-google-cloud",
     "imageUrl": "https://image.slidesharecdn.com/arduinogooglecloud-180920003918/95/solues-de-iot-usando-arduino-e-google-cloud-1-638.jpg?cb=1537404137",
-    "places": [      
+    "places": [
       {
         "name": "Hangout GDG Aracaju",
         "date": "19/09/2018",
@@ -95,7 +100,7 @@
     "title": "Explorando o Cross-compile do Golang para embarcados",
     "imageUrl": "https://image.slidesharecdn.com/serverlessiotsolutions-180830222815/95/arquitetura-de-internet-das-coisas-google-cloud-1-638.jpg?cb=1535668182",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/explorando-go-em-ambiente-embarcado",
-    "places": [      
+    "places": [
       {
         "name": "Gophercon 2018",
         "date": "28/09/2018",

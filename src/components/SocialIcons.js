@@ -3,6 +3,10 @@ import styled from 'styled-components';
 
 const SOCIAL_LINKS = [
   {
+    url: 'https://www.youtube.com/channel/UC89Gzw1wIFXganAibMAnCOg',
+    icon: 'ion-social-youtube'
+  },
+  {
     url: 'https://medium.com/@alvaroviebrantz',
     icon: 'ion-social-rss'
   },
