@@ -1,5 +1,29 @@
 [
   {
+    "title": "Construindo projetos com Google Assistant",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/construindo-projetos-para-o-google-assistant-io-2019-recap-so-paulo",
+    "imageUrl": "https://image.slidesharecdn.com/buildactions-190601201929/95/construindo-projetos-para-o-google-assistant-io-2019-recap-so-paulo-1-638.jpg?cb=1559421050",
+    "places": [
+      {
+        "name": "I/O 2019 Recap - Google Brasil",
+        "date": "29/05/2019",
+        "local": "São Paulo - SP"
+      }
+    ]
+  },
+  {
+    "title": "Iniciando com LoRa, The Things Network e Google Cloud",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/iniciando-com-lora-the-things-network-e-google-cloud-148598755",
+    "imageUrl": "https://image.slidesharecdn.com/lora-ttn-gcloud-190601210506/95/iniciando-com-lora-the-things-network-e-google-cloud-1-638.jpg?cb=1559423151",
+    "places": [
+      {
+        "name": "Grupo de Estudos de IoT e Cloud - GDG Cuiabá",
+        "date": "27/04/2019",
+        "local": "Cuiabá - MT"
+      }
+    ]
+  },
+  {
     "title": "Edge computing na prática com IoT, Machine Learning e Google Cloud",
     "imageUrl": "",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/edge-computing-na-prtica-com-iot-machine-learning-e-google-cloud",
@@ -69,6 +93,11 @@
         "name": "1º SQLMT Day ",
         "date": "08/12/2018",
         "local": "Cuiabá - MT"
+      },
+      {
+        "name": "Meetup GDG Cascavel",
+        "date": "15/05/2019",
+        "local": "Cascavel - PR (Online)"
       }
     ]
   },
@@ -240,6 +269,11 @@
         "name": "III Jornada Científica - IFMT",
         "date": "31/08/2018",
         "local": "Primavera do Leste - MT"
+      },
+      {
+        "name": "Workshop de tecnologias de redes do POP-MT 2019 - UFMT",
+        "date": "17/05/2019",
+        "local": "Cuiabá - MT"
       },
       {
         "name": "1º Circuito de Palestras UNIC - DevMT e GDG Cuiabá",
