@@ -1,5 +1,17 @@
 [
   {
+    "title": "Edge computing in practice using IoT, Tensorflow and Google Cloud",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/edge-computing-in-practice-using-iot-tensorflow-and-google-cloud",
+    "places": [
+      {
+        "name": "Devfest DC",
+        "date": "14/06/2019",
+        "local": "Washington - DC - EUA"
+      }
+    ]
+  },
+  {
     "title": "Construindo projetos com Google Assistant",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/construindo-projetos-para-o-google-assistant-io-2019-recap-so-paulo",
     "imageUrl": "https://image.slidesharecdn.com/buildactions-190601201929/95/construindo-projetos-para-o-google-assistant-io-2019-recap-so-paulo-1-638.jpg?cb=1559421050",

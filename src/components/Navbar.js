@@ -21,7 +21,7 @@ const ROUTES = [
   { title: 'Home', name: '' },
   { title: 'Timeline', name: 'talks' },
   { title: 'Videos', name: 'lives' },
-  { title: 'Projetos', name: 'projects' },
+  { title: 'Projects', name: 'projects' },
   { title: 'Blog', name: 'blog' }
   //{ title: 'Press', name: 'press' }
 ];
