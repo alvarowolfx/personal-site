@@ -1,5 +1,22 @@
 [
   {
+    "title": "Edge computing na prática com IoT, Machine Learning e Google Cloud",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/edge-computing-na-prtica-com-iot-machine-learning-e-google-cloud",
+    "places": [
+      {
+        "name": "ERI-MT 2019 - FATEC Senai",
+        "date": "17/10/2019",
+        "local": "Cuiabá - MT"
+      },
+      {
+        "name": "Devfest Cerrado",
+        "date": "19/10/2019",
+        "local": "Goiania - GO"
+      }
+    ]
+  },
+  {
     "title": "Edge computing in practice using IoT, Tensorflow and Google Cloud",
     "imageUrl": "",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/edge-computing-in-practice-using-iot-tensorflow-and-google-cloud",
