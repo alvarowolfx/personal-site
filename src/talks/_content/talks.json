@@ -30,7 +30,12 @@
         "name": "1º Meetup BlockMeet MT",
         "date": "09/11/2019",
         "local": "Cuiabá - MT"
-      }
+      },
+      {
+        "name": "Devfest Recife",
+        "date": "07/12/2019",
+        "local": "Recife - PE"
+      },
     ]
   },
   {
