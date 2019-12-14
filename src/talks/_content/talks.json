@@ -1,11 +1,11 @@
 [
   {
-    "title:": "Rodando uma API Com Django Rest Framework no Google Cloud",
+    "title": "Rodando uma API Com Django Rest Framework no Google Cloud",
     "imageUrl": "",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/rodando-uma-api-com-django-rest-framework-no-google-cloud",
     "places": [
       {
-        "name": "Pyjamas 2019 - Online",
+        "name": "Pyjamas Conf 2019",
         "date": "14/12/2019",
         "local": "Online"
       }
