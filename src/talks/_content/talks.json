@@ -1,5 +1,17 @@
 [
   {
+    "title": "BigQuery - Escalabilidade Infinita para os seus Dados",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/big-query-escalabilidade-infinita-para-os-seus-dados",
+    "places": [
+      {
+        "name": "Meetup DataSciMT",
+        "date": "04/02/2020",
+        "local": "Cuiabá - MT"
+      }
+    ]
+  },
+  {
     "title": "Rodando uma API Com Django Rest Framework no Google Cloud",
     "imageUrl": "",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/rodando-uma-api-com-django-rest-framework-no-google-cloud",
