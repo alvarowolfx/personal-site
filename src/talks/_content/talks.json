@@ -1,5 +1,17 @@
 [
   {
+    "title": "WebAssembly além de Web - Casos de uso em IoT",
+    "imageUrl": "",
+    "slidesUrl": "https://speakerdeck.com/alvarowolfx/webassembly-alem-da-web-casos-de-uso-em-iot",
+    "places": [
+      {
+        "name": "Meetup GDG Foz do Iguaçu",
+        "date": "16/07/2020",
+        "local": "Online"
+      }
+    ]
+  },
+  {
     "title": "BigQuery - Escalabilidade Infinita para os seus Dados",
     "imageUrl": "",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/big-query-escalabilidade-infinita-para-os-seus-dados",
