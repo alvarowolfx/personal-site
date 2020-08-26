@@ -1,4 +1,16 @@
 [
+ {
+    "title": "Ambiente de CI/CD com Google Cloud",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/ambiente-de-cicd-com-google-cloud",
+    "places": [
+      {
+        "name": "TDC SP 2020 - Trilha Zup",
+        "date": "26/08/2020",
+        "local": "Online"
+      }
+    ]
+  },
   {
     "title": "WebAssembly além de Web - Casos de uso em IoT",
     "imageUrl": "",
