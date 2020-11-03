@@ -1,5 +1,18 @@
 [
  {
+    "title": "O que projetos de IoT precisam ?",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/o-que-projetos-de-iot-precisam",
+    "places": [
+      {
+        "name": "Meetup GDG Uberlândia",
+        "date": "30/09/2020",
+        "local": "Online",
+        "videoUrl" : "https://www.youtube.com/watch?v=-sWpKFYOlqs"
+      }
+    ]
+ },
+ {
     "title": "Ambiente de CI/CD com Google Cloud",
     "imageUrl": "",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/ambiente-de-cicd-com-google-cloud",
@@ -19,6 +32,11 @@
       {
         "name": "Meetup GDG Foz do Iguaçu",
         "date": "16/07/2020",
+        "local": "Online"
+      },
+      {
+        "name": "Devfest Brasil 2020",
+        "date": "17/10/2020",
         "local": "Online"
       }
     ]
