@@ -1,5 +1,18 @@
 [
  {
+    "title": "TinyML -  IoT e Machine Learning na prática",
+    "imageUrl": "",
+    "slidesUrl": "https://www2.slideshare.net/alvarowolfx/tinyml-iot-e-machine-learning",
+    "places": [
+      {
+        "name": "Meetup Tensorflow SP",
+        "date": "26/11/2020",
+        "local": "Online",
+        "videoUrl" : "https://www.youtube.com/watch?v=FGU_P0C-9lo"
+      }
+    ]
+ },
+ {
     "title": "O que projetos de IoT precisam ?",
     "imageUrl": "",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/o-que-projetos-de-iot-precisam",
