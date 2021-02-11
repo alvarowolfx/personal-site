@@ -1,5 +1,18 @@
 [
  {
+    "title": "Building REST APIs using gRPC and Go",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/building-rest-apis-using-grpc-and-go",
+    "places": [
+      {
+        "name": "Meetup GDG Cloud London",
+        "date": "11/02/2021",
+        "local": "Online",
+        "videoUrl" : "https://www.youtube.com/watch?v=yD-DnC5KasI"
+      }
+    ]
+ },
+ {
     "title": "TinyML -  IoT e Machine Learning na prática",
     "imageUrl": "",
     "slidesUrl": "https://www2.slideshare.net/alvarowolfx/tinyml-iot-e-machine-learning",
