@@ -1,0 +1,5 @@
+{{- $name := (.Get 0) -}}
+{{- with $name -}}
+{{- with ($.Page.Param .) }}{{ replace . "\n" "\n\n" | markdownify }}{{ else }}{{ errorf "Param %q not found: %s" $name $.Position }}{{ end -}}
+{{- else }}{{ errorf "Missing param key: %s" $.Position }}{{ end -}}
+

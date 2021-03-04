@@ -1,0 +1,1004 @@
+[
+  {
+    "title": "Building REST APIs using gRPC and Go",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/building-rest-apis-using-grpc-and-go",
+    "slideId": "242586678",
+    "places": [
+      {
+        "name": "Meetup GDG Cloud London",
+        "date": "11/02/2021",
+        "local": "Online",
+        "videoUrl": "https://www.youtube.com/watch?v=yD-DnC5KasI"
+      }
+    ],
+    "summary": "Developing APIs over a RESTful interface with JSON payloads is kind of the de-facto standard nowadays, but it still lacks an easy way to build it with a well-defined interface and document it to be used by others. What if we can leverage gRPC's fast, type-safe, and modern way of building APIs and still be able to provide an interface over REST/JSON ? Check this talk to find out how.",
+    "tags": [
+      "api",
+      "rest",
+      "grpc",
+      "go"
+    ]
+  },
+  {
+    "title": "TinyML -  IoT e Machine Learning na prática",
+    "imageUrl": "",
+    "slidesUrl": "https://www2.slideshare.net/alvarowolfx/tinyml-iot-e-machine-learning",
+    "slideId": "240010414",
+    "places": [
+      {
+        "name": "Meetup Tensorflow SP",
+        "date": "26/11/2020",
+        "local": "Online",
+        "videoUrl": "https://www.youtube.com/watch?v=FGU_P0C-9lo"
+      },
+      {
+        "name": "Tensorflow Everywhere - Edição Brasil",
+        "date": "20/02/2021",
+        "local": "Online",
+        "videoUrl": "https://www.youtube.com/watch?v=flo3uno3jgc"
+      }
+    ],
+    "summary": "A junção das áreas de Machine Learning em ambiente embarcado/IoT tem crescido bastante, sendo atualmente chamada de TinyML. Já temos modelos robustos e pequenos o suficientes para rodar até mesmo em micro controladores com 16kb de memória. Nessa palestra vou mostrar as diferentes formas de se trazer modelos de Machine Learning para ambiente embarcado usando o ecossistema do Tensorflow.",
+    "tags": [
+      "iot",
+      "machine learning",
+      "raspberry pi",
+      "esp32"
+    ]
+  },
+  {
+    "title": "O que projetos de IoT precisam ?",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/o-que-projetos-de-iot-precisam",
+    "slideId": "239068411",
+    "places": [
+      {
+        "name": "Meetup GDG Uberlândia",
+        "date": "30/09/2020",
+        "local": "Online",
+        "videoUrl": "https://www.youtube.com/watch?v=-sWpKFYOlqs"
+      }
+    ],
+    "summary": "Uma visão geral do que é necessário na grande maioria dos projetos de IoT e ninguém conta.  \n\nDefinindo em 5 partes os componentes do projeto:  \n* Coisa\n* Conectividade e Comunicação\n* Backend\n* Frontend\n* Analise de dados",
+    "tags": null
+  },
+  {
+    "title": "Ambiente de CI/CD com Google Cloud",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/ambiente-de-cicd-com-google-cloud",
+    "slideId": "238269902",
+    "places": [
+      {
+        "name": "TDC SP 2020 - Trilha Zup",
+        "date": "26/08/2020",
+        "local": "Online",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Vamos ver o passo a passo de como configurar um ambiente de integração continua e deploy continuo usando ferramentas gerenciadas no Google Cloud, sem se queimar tendo que gerenciar servidores. \n\nDemos\nDemo em Flask \nhttps://github.com/alvarowolfx/flask-demo\nDemo de Múltiplos Ambientes\nhttps://github.com/alvarowolfx/gcloud-ci-cd-demo\nUse Case em IoT \nhttps://medium.com/google-cloud/serverless-continuous-integration-and-ota-update-flow-using-google-cloud-build-and-arduino-d5e1cda504bf\nhttps://github.com/alvarowolfx/gcloud-ota-arduino-update\n\nReferencias\n\nDeploy de aplicativos móveis\nAndroid APK\nhttps://cloud.google.com/community/tutorials/building-android-apk-with-cloud-build-gradle-docker-image\nFlutter e Cloud Build\nhttps://medium.com/@lidemin/flutter-ci-cd-with-cloud-build-android-9cd12ade8306\nOutros ambientes de execução\nGoogle App Engine\nhttps://medium.com/google-cloud/continuous-delivery-in-google-cloud-platform-cloud-build-with-app-engine-8355d3a11ff5\nCloud Functions\nhttps://cloud.google.com/cloud-build/docs/deploying-builds/deploy-functions\nhttps://medium.com/swlh/how-to-ci-cd-on-google-cloud-platform-1e631cded335\nhttps://cloud.google.com/devops\nhttps://github.com/GoogleCloudPlatform/github-actions/blob/master/get-secretmanager-secrets/README.md\nhttps://docs.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions#github-context\nhttps://cloud.google.com/cloud-build/docs/configuring-builds/substitute-variable-values#yaml_2\nhttps://cloud.google.com/cloud-build/docs/building/build-go#building_using_go_modules\nCloud Run Quickstart - https://www.youtube.com/watch?v=3OP-q55hOUI\nhttps://fireship.io/lessons/ci-cd-with-google-cloud-build/",
+    "tags": null
+  },
+  {
+    "title": "WebAssembly além de Web - Casos de uso em IoT",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/GDGFoz/webassembly-alem-da-web-casos-de-uso-em-iot-237076903",
+    "slideId": "237076903",
+    "places": [
+      {
+        "name": "Meetup GDG Foz do Iguaçu",
+        "date": "16/07/2020",
+        "local": "Online",
+        "videoUrl": "https://www.youtube.com/watch?v=bl1bHudVsAM"
+      },
+      {
+        "name": "Devfest Brasil 2020",
+        "date": "17/10/2020",
+        "local": "Online",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "",
+    "tags": null
+  },
+  {
+    "title": "BigQuery - Escalabilidade Infinita para os seus Dados",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/big-query-escalabilidade-infinita-para-os-seus-dados",
+    "slideId": "226935920",
+    "places": [
+      {
+        "name": "Meetup DataSciMT",
+        "date": "04/02/2020",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Introdução ao BigQuery, com varias demonstração do seu poder para processamento e analise de dados em larga escala.",
+    "tags": null
+  },
+  {
+    "title": "Rodando uma API Com Django Rest Framework no Google Cloud",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/rodando-uma-api-com-django-rest-framework-no-google-cloud",
+    "slideId": "205630758",
+    "places": [
+      {
+        "name": "Pyjamas Conf 2019",
+        "date": "14/12/2019",
+        "local": "Online",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Será mostrado uma aplicação de demonstração em IoT para monitorar o nível de tanques em uma fazenda. Será construída uma API com Django Rest Framework, salvando os dados básicos no Cloud SQL e dados de telemetria dos dispositivos no BigQuery. Tudo isso rodando em ambiente serverless no Google Cloud, sem ter que se queimar configurando servidores. Também veremos o básico de um dispositivo IoT para este projeto feito com MicroPython.",
+    "tags": null
+  },
+  {
+    "title": "Edge computing na prática com IoT, Machine Learning e Google Cloud",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/edge-computing-na-prtica-com-iot-machine-learning-e-google-cloud-191869041",
+    "slideId": "191869041",
+    "places": [
+      {
+        "name": "ERI-MT 2019 - FATEC Senai",
+        "date": "17/10/2019",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "Devfest Cerrado",
+        "date": "19/10/2019",
+        "local": "Goiania - GO",
+        "videoUrl": ""
+      },
+      {
+        "name": "1º Meetup BlockMeet MT",
+        "date": "09/11/2019",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "Devfest Recife",
+        "date": "07/12/2019",
+        "local": "Recife - PE",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Conceitos de edge computing sendo mostrado em um experimento envolvendo ESP32 com cameras, um Raspberry pi rodando inferências localmente com Tensorflow e agindo como um gateway no Cloud Iot Core e uma camada serverless na nuvem que armazena os dados processados das imagens.",
+    "tags": null
+  },
+  {
+    "title": "Edge computing in practice using IoT, Tensorflow and Google Cloud",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/edge-computing-in-practice-using-iot-tensorflow-and-google-cloud",
+    "slideId": "150072358",
+    "places": [
+      {
+        "name": "Devfest DC",
+        "date": "14/06/2019",
+        "local": "Washington - DC - EUA",
+        "videoUrl": "https://www.youtube.com/watch?v=ZOTuIA1iEPc"
+      }
+    ],
+    "summary": "Overview about edge computing concepts, how to get started and build a project using those concepts.",
+    "tags": null
+  },
+  {
+    "title": "Construindo projetos com Google Assistant",
+    "imageUrl": "https://image.slidesharecdn.com/buildactions-190601201929/95/construindo-projetos-para-o-google-assistant-io-2019-recap-so-paulo-1-638.jpg?cb=1559421050",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/construindo-projetos-para-o-google-assistant-io-2019-recap-so-paulo",
+    "slideId": "148596300",
+    "places": [
+      {
+        "name": "I/O 2019 Recap - Google Brasil",
+        "date": "29/05/2019",
+        "local": "São Paulo - SP",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Apresentação feita no Google Brasil sobre como iniciar com Google Assistant, Dialogflow e interfaces de conversa em geral.",
+    "tags": null
+  },
+  {
+    "title": "Iniciando com LoRa, The Things Network e Google Cloud",
+    "imageUrl": "https://image.slidesharecdn.com/lora-ttn-gcloud-190601210506/95/iniciando-com-lora-the-things-network-e-google-cloud-1-638.jpg?cb=1559423151",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/iniciando-com-lora-the-things-network-e-google-cloud-148598755",
+    "slideId": "148598755",
+    "places": [
+      {
+        "name": "Grupo de Estudos de IoT e Cloud - GDG Cuiabá",
+        "date": "27/04/2019",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Uma introdução ao protocolo de rede LoRa e como ter uma arquitetura em nuvem escalável de processamento de dados com dispositivos usando esse protocolo.",
+    "tags": null
+  },
+  {
+    "title": "Edge computing na prática com IoT, Machine Learning e Google Cloud",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/edge-computing-na-prtica-com-iot-machine-learning-e-google-cloud",
+    "slideId": "129079187",
+    "places": [
+      {
+        "name": "Grupo de Estudos de IoT e Cloud - GDG Cuiabá",
+        "date": "23/01/2019",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "DevFSA Talks",
+        "date": "13/02/2019",
+        "local": "Feira de Santana - BA (Online)",
+        "videoUrl": "https://www.youtube.com/watch?v=HLEPZkm5OTo"
+      }
+    ],
+    "summary": "Conceitos de edge computing sendo mostrado em um experimento envolvendo ESP32 com cameras, um Raspberry pi rodando inferências localmente com Tensorflow e agindo como um gateway no Cloud Iot Core e uma camada serverless na nuvem que armazena os dados processados das imagens.",
+    "tags": null
+  },
+  {
+    "title": "Carreira e Trabalho Remoto",
+    "imageUrl": "",
+    "slidesUrl": "",
+    "slideId": "",
+    "places": [
+      {
+        "name": "Sesi Futuro 2018",
+        "date": "07/11/2018",
+        "local": "Várzea Grande - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "22ª SEMINFO - Semana Acadêmica da Informática - Unic",
+        "date": "14/11/2018",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "Meetup GDG Cuiabá",
+        "date": "22/11/2018",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "",
+    "tags": null
+  },
+  {
+    "title": "Workshop IoT com ESP8266 - HTTP, MQTT e Firebase",
+    "imageUrl": "",
+    "slidesUrl": "http://github.com/alvarowolfx/codelab-esp",
+    "slideId": "",
+    "places": [
+      {
+        "name": "Jungle's DevFest 2018",
+        "date": "24/11/2018",
+        "local": "Manaus - AM",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "",
+    "tags": null
+  },
+  {
+    "title": "Construindo projetos com Google Assistant e IoT",
+    "imageUrl": "https://image.slidesharecdn.com/googleassistanteiot-181025184346/85/construindo-projetos-com-google-assistant-e-iot-1-320.jpg?cb=1540493068",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/construindo-projetos-com-google-assistant-e-iot",
+    "slideId": "120725936",
+    "places": [
+      {
+        "name": "Jungle's DevFest 2018",
+        "date": "24/11/2018",
+        "local": "Manaus - AM",
+        "videoUrl": ""
+      },
+      {
+        "name": "DevFest Cerrado 2018",
+        "date": "20/10/2018",
+        "local": "Goiânia - GO",
+        "videoUrl": ""
+      },
+      {
+        "name": "1º SQLMT Day ",
+        "date": "08/12/2018",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "Meetup GDG Cascavel",
+        "date": "15/05/2019",
+        "local": "Cascavel - PR (Online)",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Palestra falando sobre todos os componentes necessários para construir interfaces de conversa e voz, misturando isso com projetos de hardware e internet das coisas.",
+    "tags": null
+  },
+  {
+    "title": "Mentor Google Launchpad São Paulo - 2ª Turma",
+    "imageUrl": "",
+    "slidesUrl": "",
+    "slideId": "",
+    "places": [
+      {
+        "name": "Campus Google São Paulo",
+        "date": "31/10/2018",
+        "local": "São Paulo - SP",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "",
+    "tags": null
+  },
+  {
+    "title": "Como começar com Arduino, Google Cloud e o que isso tem a ver com gatos",
+    "imageUrl": "https://image.slidesharecdn.com/arduinogooglecloud-180920003918/95/solues-de-iot-usando-arduino-e-google-cloud-1-638.jpg?cb=1537404137",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/solues-de-iot-usando-arduino-e-google-cloud",
+    "slideId": "115517179",
+    "places": [
+      {
+        "name": "Hangout GDG Aracaju",
+        "date": "19/09/2018",
+        "local": "Aracaju - SE",
+        "videoUrl": "https://www.youtube.com/watch?v=dZ5-vPskyQo"
+      }
+    ],
+    "summary": "Soluções de IoT usando Arduino e Google Cloud",
+    "tags": null
+  },
+  {
+    "title": "Explorando o Cross-compile do Golang para embarcados",
+    "imageUrl": "https://image.slidesharecdn.com/serverlessiotsolutions-180830222815/95/arquitetura-de-internet-das-coisas-google-cloud-1-638.jpg?cb=1535668182",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/explorando-go-em-ambiente-embarcado",
+    "slideId": "117322855",
+    "places": [
+      {
+        "name": "Gophercon 2018",
+        "date": "28/09/2018",
+        "local": "Florianópolis - SC",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Golang é uma linguagem fantástica para se desenvolver aplicações e um fator a ser explorado é o seu uso em dispositivos IoT. A linguagem já conta com diversas ferramentas de cross-compile, alguns pacotes experimentais de comunicação baixo nível e diversos projetos relacionados a hardware.",
+    "tags": null
+  },
+  {
+    "title": "Introdução ao Android Things",
+    "imageUrl": "https://image.slidesharecdn.com/androidthingsmachinelearningemaquinasdedoces-170625174037/95/android-things-machine-learning-e-maquinas-de-doces-1-638.jpg?cb=1498412454",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/android-things-machine-learning-e-maquinas-de-doces",
+    "slideId": "77245928",
+    "places": [
+      {
+        "name": "Hacktown 2018",
+        "date": "06/09/2018",
+        "local": "Santa Rita do Sapucai - MG",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Uma introdução a nova plataforma de internet das coisas do Google, o Android Things, e como fazer dispositivos mais inteligentes e poderosos com ela, aliado de ferramentas de Machine Learning. O objetivo é cobrir o básico de como começar com a plataforma, passar alguns conceitos de Machine Learning e apresentar alguns projetos que podem ser feito com isso. Em especial será mostrado um projeto de máquina de doces inteligente, que utiliza o poder do Android Things, aliado com APIs de Machine Learning do Google, como a Cloud Vision API e o Tensorflow,  para reconhecer imagens e que dar aos usuários prêmios se eles mostrarem os objetos corretos para a máquina.",
+    "tags": null
+  },
+  {
+    "title": "Soluções de IoT usando Google Cloud e Firebase",
+    "imageUrl": "https://image.slidesharecdn.com/serverlessiotsolutions-180830222815/95/arquitetura-de-internet-das-coisas-google-cloud-1-638.jpg?cb=1535668182",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/arquitetura-de-internet-das-coisas-google-cloud/alvarowolfx/arquitetura-de-internet-das-coisas-google-cloud",
+    "slideId": "112316127",
+    "places": [
+      {
+        "name": "Grupo de Estudos de IoT e Cloud - GDG Cuiabá",
+        "date": "18/08/2018",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "Hacktown 2018",
+        "date": "06/09/2018",
+        "local": "Santa Rita do Sapucai - MG",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Como projetar soluções de IoT usando a nuvem.",
+    "tags": null
+  },
+  {
+    "title": "Soluções de IoT usando apenas Javascript com Google Cloud e Firebase",
+    "imageUrl": "https://image.slidesharecdn.com/serverlessiotsolutionsusingjavascript-180721142319/95/criando-solues-de-iot-usando-javascript-de-ponta-a-ponta-do-hardware-at-a-nuvem-tdc-sp-2018-1-638.jpg?cb=1532183051",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/criando-solues-de-iot-usando-javascript-de-ponta-a-ponta-do-hardware-at-a-nuvem-tdc-sp-2018",
+    "slideId": "106902721",
+    "places": [
+      {
+        "name": "The Developers Conference São Paulo 2018",
+        "date": "21/07/2018",
+        "local": "São Paulo - SP",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Javascript se tornou uma linguagem universal. Você consegue criar aplicações Web, Desktop, Backend e agora até mesmo em microcontroladores. Aqui você verá como criar uma solução completa de IoT, desde a coleta de dados dos dispositivos, usando Javascript na ponta e construindo um pipeline de processamento desses dados na nuvem também apenas usando Javascript. Tudo isso em sua grande maioria usando serviços gerenciados e arquitetura serverless, sem ter que se queimar configurando servidores.",
+    "tags": null
+  },
+  {
+    "title": "Actions On Google com Dialogflow e Firebase",
+    "imageUrl": "https://image.slidesharecdn.com/codelab-actionsongoogle-171210141346/95/codelab-actions-on-google-1-638.jpg?cb=1512915370",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/codelab-actions-on-google",
+    "slideId": "83789099",
+    "places": [
+      {
+        "name": "Build Actions for Your Community: Codelab e Hackathon Action On Google",
+        "date": "07/07/2018",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Material do mini curso de Action on Google.",
+    "tags": null
+  },
+  {
+    "title": "Mentor Google Launchpad São Paulo - 1ª Turma",
+    "imageUrl": "",
+    "slidesUrl": "",
+    "slideId": "",
+    "places": [
+      {
+        "name": "Campus Google São Paulo",
+        "date": "11/06/2018",
+        "local": "São Paulo - SP",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "",
+    "tags": null
+  },
+  {
+    "title": "Arquitetura de Internet das Coisas usando Google Cloud",
+    "imageUrl": "https://image.slidesharecdn.com/arquiteturaiotgooglecloud-180405141615/95/arquitetura-de-internet-das-cohttps://image.slidesharecdn.com/arquiteturaiotgooglecloud-joincommunity-180611134250/95/arquitetura-de-iot-na-prtica-com-google-cloud-join-community-2018-1-638.jpg?cb=1528724649isas-usando-google-cloud-1-638.jpg?cb=1522937831",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/arquitetura-de-iot-na-prtica-com-google-cloud-join-community-2018",
+    "slideId": "101914047",
+    "places": [
+      {
+        "name": "Join Community 2018",
+        "date": "09/06/2018",
+        "local": "Goiania - GO",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Uma introdução a diversas ferramentas e serviços que podem ser utilizados no Google Cloud para a construção de aplicações envolvendo Internet das Coisas. Vamos ver um overview de como construir várias soluções completas de IoT, desde a coleta de dados dos dispositivos de forma segura, armazenamento massivo de informação e como fazer analise e visualização dos dados. Tudo isso em sua grande maioria usando serviços gerenciados, sem ter que se queimar configurando servidores.",
+    "tags": null
+  },
+  {
+    "title": "Workshop IoT com Google Cloud e Firebase",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/codelab-google-cloud-iot-core-e-mongooseos-io-extended-cuiab-2018",
+    "slideId": "99387336",
+    "places": [
+      {
+        "name": "Google I/O Extended Cuiabá 2018",
+        "date": "27/05/2018",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Como montar uma arquitetura de processamento de dados utilizando ferramentas do Google Cloud. A idéia é abranger vários níveis de desenvolvedores, já que boa parte dos serviçõs que vão ser mostrados, são gerenciados, ou seja, não precisa ser expert em nuvem para utiliza-los.\n\nTambém vários serviços são relacionados ao Firebase, que também tem seu uso bastante facilitado para grande parte dos desenvolvedores. O workshop abrange vários níveis de desenvolvimento, passando de front-end, hardware, analise de dados, infraestrutura, etc.",
+    "tags": null
+  },
+  {
+    "title": "Arquitetura de Internet das Coisas usando Google Cloud",
+    "imageUrl": "https://image.slidesharecdn.com/arquiteturaiotgooglecloud-180405141615/95/arquitetura-de-internet-das-coisas-usando-google-cloud-1-638.jpg?cb=1522937831",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/arquitetura-de-internet-das-coisas-usando-google-cloud",
+    "slideId": "92974059",
+    "places": [
+      {
+        "name": "IoT Weekend 2018 - 7ª Edição",
+        "date": "07/04/2018",
+        "local": "Online",
+        "videoUrl": "https://www.youtube.com/watch?v=90w2Jv9YPmE"
+      }
+    ],
+    "summary": "Uma introdução a diversas ferramentas e serviços que podem ser utilizados no Google Cloud para a construção de aplicações envolvendo Internet das Coisas. Vamos ver um overview de como construir várias soluções completas de IoT, desde a coleta de dados dos dispositivos de forma segura, armazenamento massivo de informação e como fazer analise e visualização dos dados. Tudo isso em sua grande maioria usando serviços gerenciados, sem ter que se queimar configurando servidores.",
+    "tags": null
+  },
+  {
+    "title": "Google Cloud Study Jam",
+    "imageUrl": "",
+    "slidesUrl": "",
+    "slideId": "",
+    "places": [
+      {
+        "name": "GDG Campo Grande - Jera",
+        "date": "14/04/2018",
+        "local": "Campo Grande - MS",
+        "videoUrl": ""
+      },
+      {
+        "name": "GDG Cuiabá - UFMT",
+        "date": "24/02/2018",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "",
+    "tags": null
+  },
+  {
+    "title": "Internet das coisas - Conectando seus dispositivos à nuvem de forma inteligente",
+    "imageUrl": "https://image.slidesharecdn.com/internetdascoisasconectandoseusdispositivosanuvemdeformainteligente-180405140801/95/internet-das-coisas-conectando-seus-dispositivos-nuvem-de-forma-inteligente-1-638.jpg?cb=1522937340",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/internet-das-coisas-conectando-seus-dispositivos-nuvem-de-forma-inteligente",
+    "slideId": "92973224",
+    "places": [
+      {
+        "name": "I Semana da Tecnologia da Informação e Comunicação - FASIPE CPA",
+        "date": "18/10/2018",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "III Jornada Científica - IFMT",
+        "date": "31/08/2018",
+        "local": "Primavera do Leste - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "Workshop de tecnologias de redes do POP-MT 2019 - UFMT",
+        "date": "17/05/2019",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "1º Circuito de Palestras UNIC - DevMT e GDG Cuiabá",
+        "date": "04/04/2018",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "1º Circuito de Palestras IFMT - DevMT e GDG Cuiabá",
+        "date": "11/04/2018",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "1º Circuito de Palestras FATEC/SENAI - DevMT e GDG Cuiabá",
+        "date": "18/04/2018",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "1º Circuito de Palestras UNIVAG - DevMT e GDG Cuiabá",
+        "date": "25/04/2018",
+        "local": "Varzea Grande - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "1º Circuito de Palestras UFMT - DevMT e GDG Cuiabá",
+        "date": "03/05/2018",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Introdução aos conceitos de internet das coisas, mostrando o cenário atual, arquiteturas básicas de soluções IoT, como começar e diversos projetos práticos são mostrados.",
+    "tags": null
+  },
+  {
+    "title": "WebUSB e WebBluetooth - Conectando seu Hardware a Web",
+    "imageUrl": "https://image.slidesharecdn.com/webusbewebbluetooth-180331194216/95/webusb-e-webluetooth-conectando-seu-hardware-a-web-1-638.jpg?cb=1522525387",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/webusb-e-webluetooth-conectando-seu-hardware-a-web",
+    "slideId": "92516656",
+    "places": [
+      {
+        "name": "Arduino Day Cuiabá 2018",
+        "date": "31/03/2018",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Até pouco tempo atrás, conectar seu hardware ao browser envolvia a instalação de plugins nativos no sistema operacional ou desenvolvendo um App hibrido rodando nativamente em um smartphone. Mas hoje temos as APIs WebUSB e WebBluetooth, que permite a comunicação direta entre o navegador, abrindo um mundo de possibilidades para o desenvolvimento de hardwares conectados com a web.",
+    "tags": null
+  },
+  {
+    "title": "Actions On Google com Dialogflow e Firebase",
+    "imageUrl": "https://image.slidesharecdn.com/codelab-actionsongoogle-171210141346/95/codelab-actions-on-google-1-638.jpg?cb=1512915370",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/codelab-actions-on-google",
+    "slideId": "83789099",
+    "places": [
+      {
+        "name": "GDG Tech Tour: Action On Google - Codelab e Hackathon",
+        "date": "09/12/2017",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Material do mini curso de Action on Google.",
+    "tags": null
+  },
+  {
+    "title": "From Zero to App com React e Firebase",
+    "imageUrl": "https://image.slidesharecdn.com/fromzerotoapp-reactefirebase-171014190130/95/from-zero-to-app-usando-react-e-firebase-1-638.jpg?cb=1508007829",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/from-zero-to-app-react-e-firebase",
+    "slideId": "80813282",
+    "places": [
+      {
+        "name": "Meetup Web GDGCuiabá",
+        "date": "14/10/2017",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Como contruir uma aplicação do zero usando React e Firebase",
+    "tags": null
+  },
+  {
+    "title": "Android Things, Machine Learning e Máquinas de doces",
+    "imageUrl": "https://image.slidesharecdn.com/androidthingsinteligenciaartificialemaquinasdedoces-androiddevconf-170826211031/95/android-things-inteligncia-artificial-e-mquinas-de-doces-android-dev-conference-2017-1-638.jpg?cb=1503781834",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/android-things-inteligncia-artificial-e-mquinas-de-doces-android-dev-conference-2017",
+    "slideId": "79180791",
+    "places": [
+      {
+        "name": "DevFest Paraná 2017",
+        "date": "11/11/2017",
+        "local": "Maringá - PR",
+        "videoUrl": ""
+      },
+      {
+        "name": "The Developers Conference Porto Alegre 2017",
+        "date": "09/11/2017",
+        "local": "Porto Alegre - RS",
+        "videoUrl": ""
+      },
+      {
+        "name": "Semana Acadêmica na FEICS",
+        "date": "02/10/2017",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "DevFest Cerrado 2017",
+        "date": "30/09/2017",
+        "local": "Goiânia - GO",
+        "videoUrl": ""
+      },
+      {
+        "name": "Android Dev Conference 2017 - Trilha Moonshot",
+        "date": "25/08/2017",
+        "local": "São Paulo - SP",
+        "videoUrl": "https://www.youtube.com/watch?v=QNUAhthjP8g"
+      }
+    ],
+    "summary": "Uma introdução a nova plataforma de internet das coisas do Google, o Android Things, e como fazer dispositivos mais inteligentes e poderosos com ela, aliado de ferramentas de Machine Learning. O objetivo é cobrir o básico de como começar com a plataforma, passar alguns conceitos de Machine Learning e apresentar alguns projetos que podem ser feito com isso. Em especial será mostrado um projeto de máquina de doces inteligente, que utiliza o poder do Android Things, aliado com APIs de Machine Learning do Google, como a Cloud Vision API e o Tensorflow, para reconhecer imagens e que dar aos usuários doces se eles mostrarem os objetos corretos para a máquina.",
+    "tags": null
+  },
+  {
+    "title": "Ferramentas e Aplicações em Big Data",
+    "imageUrl": "https://image.slidesharecdn.com/ferramentaseaplicacoesbigdata-170826210418/95/ferramentas-e-aplicacoes-em-big-data-1-1024.jpg?cb=1503781460",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/ferramentas-e-aplicacoes-em-big-data",
+    "slideId": "79180736",
+    "places": [
+      {
+        "name": "Meetup Interno SEFAZ-MT",
+        "date": "02/07/2017",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Talk interno na SEFAZ-MT sobre ferramentas e conceitos utilizados em contexto de Big Data.",
+    "tags": null
+  },
+  {
+    "title": "Android Things, Machine Learning e Máquinas de doces",
+    "imageUrl": "https://image.slidesharecdn.com/androidthingsmachinelearningemaquinasdedoces-170625174037/95/android-things-machine-learning-e-maquinas-de-doces-1-638.jpg?cb=1498412454",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/android-things-machine-learning-e-maquinas-de-doces",
+    "slideId": "77245928",
+    "places": [
+      {
+        "name": "Maratona Maker: Digo Educação Maker",
+        "date": "29/07/2017",
+        "local": "São José do Rio Preto - SP",
+        "videoUrl": ""
+      },
+      {
+        "name": "GDG Tech Tour Caruaru: I/O Recap",
+        "date": "22/07/2017",
+        "local": "Caruaru - PE",
+        "videoUrl": ""
+      },
+      {
+        "name": "SEACOMP 2017 - UNEMAT",
+        "date": "22/06/2017",
+        "local": "Barra do Bugres - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Uma introdução a nova plataforma de internet das coisas do Google, o Android Things, e como fazer dispositivos mais inteligentes e poderosos com ela, aliado de ferramentas de Machine Learning. O objetivo é cobrir o básico de como começar com a plataforma, passar alguns conceitos de Machine Learning e apresentar alguns projetos que podem ser feito com isso. Em especial será mostrado um projeto de máquina de doces inteligente, que utiliza o poder do Android Things, aliado com APIs de Machine Learning do Google, como a Cloud Vision API e o Tensorflow,  para reconhecer imagens e que dar aos usuários prêmios se eles mostrarem os objetos corretos para a máquina.",
+    "tags": null
+  },
+  {
+    "title": "Guia do Desenvolvedor Mobile das Galáxias",
+    "imageUrl": "https://image.slidesharecdn.com/guiadodesenvolvedormobiledasgalaxias-161110175455/95/guia-do-desenvolvedor-mobile-das-galaxias-1-638.jpg",
+    "slidesUrl": "http://www.slideshare.net/alvarowolfx/guia-do-desenvolvedor-mobile-das-galaxias",
+    "slideId": "68600917",
+    "places": [
+      {
+        "name": "Meetup DevMT",
+        "date": "15/07/2017",
+        "local": "Rondonópolis - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Essa palestra tem como objetivo servir de guia para os que tem interesse em iniciar no desenvolvimento de aplicativos móveis. Será apresentado um geral de ferramentas, linguagens de programação que podem ser utilizadas, onde encontrar bibliotecas e framework para cada tecnologia que for adotada e soluções multi-plataformas que podem ser utilizadas para agilizar o suporte a múltiplos ecossistemas. Também são mostrados cases reais de aplicativos móveis, analisando porquê essas aplicações tem um foco tão grande no mundo móvel e por que fazem tanto sucesso com os usuário.",
+    "tags": null
+  },
+  {
+    "title": "Internet das Coisas, Machine Learning e Máquinas de doces",
+    "imageUrl": "https://image.slidesharecdn.com/internetdascoisasinteligenciaartificialemaquinasdedoces-170625174713/95/internet-das-coisas-machine-learnign-e-maquinas-de-doces-1-638.jpg?cb=1498412859",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/internet-das-coisas-machine-learnign-e-maquinas-de-doces",
+    "slideId": "77245991",
+    "places": [
+      {
+        "name": "II Circuito de Tecnologia e Inovação - FATEC SENAI MT",
+        "date": "20/06/2017",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Hoje temos um mundo mais conectado e o conceito de Internet das Coisas está cada vez mais presente em nosso dia a dia sem que a gente nem perceba. Quais os conceitos envolvidos, formas de comunicação, conceitos de Machine Learning com APIs do Google e um projeto unindo esses dois mundos, uma máquina de doces inteligente.",
+    "tags": null
+  },
+  {
+    "title": "Internet das Coisas com Android Things e Machine Learning",
+    "imageUrl": "https://image.slidesharecdn.com/androidthingsandmachinelearning-170522135019/95/internet-das-coisas-com-android-things-e-machine-learning-1-638.jpg?cb=1495461029",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/internet-das-coisas-com-android-things-e-machine-learning",
+    "slideId": "76210807",
+    "places": [
+      {
+        "name": "Google I/O Extended Cuiabá 2017",
+        "date": "20/05/2017",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Como desenvolver projetos de internet das coisas utilizando a nova plataforma do Google para isso que é o Android Things e também adicionar funcionalidades de Machine Learning aos seus projetos de forma mais facilitada.",
+    "tags": null
+  },
+  {
+    "title": "Backend, app e internet das coisas com NodeJS no Google Cloud Platform",
+    "imageUrl": "https://image.slidesharecdn.com/backendappeinternetdascoisasconnodejsnogcp-170326155422/95/backend-app-e-internet-das-coisas-com-nodejs-no-google-cloud-platform-1-638.jpg?cb=1490543746",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/backend-app-e-internet-das-coisas-com-nodejs-no-google-cloud-platform",
+    "slideId": "73657866",
+    "places": [
+      {
+        "name": "Google Cloud Next '17 Extended Cuiabá",
+        "date": "25/03/2017",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Como desenvolver uma aplicação completa, desde o backend, passando por um app com push notifications e um pouquinho de internet das coisas com a Amazon Alexa. Tudo isso utilizando NodeJS e rodando de forma fácil e escalável no Google Cloud Platform",
+    "tags": null
+  },
+  {
+    "title": "Internet das Coisas - Que lingua falam e do que se alimentam ?",
+    "imageUrl": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/35cfa3d222cf3b3be6e72869d4235871/thumb.jpg",
+    "slidesUrl": "http://slides.com/alvaroviebrantz/iot-intro",
+    "slideId": "",
+    "places": [
+      {
+        "name": "FATEC SENAI Gran Prix 2017",
+        "date": "06/12/2017",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "Arduino Day 2017",
+        "date": "01/04/2017",
+        "local": "Rondonópolis - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "TICaceres",
+        "date": "18/02/2017",
+        "local": "Cáceres - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "",
+    "tags": null
+  },
+  {
+    "title": "Guia do Desenvolvedor Mobile das Galáxias",
+    "imageUrl": "https://image.slidesharecdn.com/guiadodesenvolvedormobiledasgalaxias-161110175455/95/guia-do-desenvolvedor-mobile-das-galaxias-1-638.jpg",
+    "slidesUrl": "http://www.slideshare.net/alvarowolfx/guia-do-desenvolvedor-mobile-das-galaxias",
+    "slideId": "68600917",
+    "places": [
+      {
+        "name": "Circuito de Tecnologia e Inovação - FATEC SENAI MT",
+        "date": "30/07/2016",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "I Jornada Científica - IFMT",
+        "date": "27/10/2016",
+        "local": "Primavera do Leste - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "Hackatruck IBM - UFMT",
+        "date": "03/11/2016",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Essa palestra tem como objetivo servir de guia para os que tem interesse em iniciar no desenvolvimento de aplicativos móveis. Será apresentado um geral de ferramentas, linguagens de programação que podem ser utilizadas, onde encontrar bibliotecas e framework para cada tecnologia que for adotada e soluções multi-plataformas que podem ser utilizadas para agilizar o suporte a múltiplos ecossistemas. Também são mostrados cases reais de aplicativos móveis, analisando porquê essas aplicações tem um foco tão grande no mundo móvel e por que fazem tanto sucesso com os usuário.",
+    "tags": null
+  },
+  {
+    "title": "Poke Trainers, porque Pokémon não é apenas um jogo por Alvaro Viebrantz",
+    "imageUrl": "//cdn.slidesharecdn.com/ss_thumbnails/poketrainers-161110173918-thumbnail.jpg?cb=1478799630",
+    "slidesUrl": "http://www.slideshare.net/alvarowolfx/poke-trainers-porque-pokmon-no-apenas-um-jogo",
+    "slideId": "68599860",
+    "places": [
+      {
+        "name": "2º Forum Meninas Digitais - Regional Mato Grosso - UFMT",
+        "date": "17/09/2016",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Pokémon GO se tornou uma febre em escala mundial, mas o que nós desenvolvedores podemos fazer no mundo Pokémon além do jogo? Neste talk serão apresentadas diferentes formas de se obter os dados do jogo, com o intuito de despertar a criatividade para a construção de novas aplicações por parte da comunidade. Será apresentado como estudo de caso o site PokeTrainers.co, que foi criado inteiramente com tecnologias e dados abertos, com o intuito de ajudar jogadores de Pokemon GO.",
+    "tags": null
+  },
+  {
+    "title": "Aplicações no Contexto de Big Data",
+    "imageUrl": "//cdn.slidesharecdn.com/ss_thumbnails/bigdata-161110173600-thumbnail.jpg?cb=1478799654",
+    "slidesUrl": "http://www.slideshare.net/alvarowolfx/aplicaes-no-contexto-de-big-data",
+    "slideId": "68599730",
+    "places": [
+      {
+        "name": "Secretaria de Estado de Planejamento - SEPLAN-MT",
+        "date": "26/04/2016",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Introdução a alguns conceitos de Big Data e diferentes campos de aplicação dessas tecnologias.",
+    "tags": null
+  },
+  {
+    "title": "Desenvolvendo Aplicativos com React Native",
+    "imageUrl": "//cdn.slidesharecdn.com/ss_thumbnails/developingappswithreactnative-160421213137-thumbnail-3.jpg?cb=1461274590",
+    "slidesUrl": "http://pt.slideshare.net/alvarowolfx/developing-apps-with-react-native",
+    "slideId": "61211095",
+    "places": [
+      {
+        "name": "FronInCuiabá",
+        "date": "16/04/2016",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Demo project \nhttps://github.com/alvarowolfx/GifPartyReactNative\nTalk that I gave on FrontInCuiaba 2016.",
+    "tags": null
+  },
+  {
+    "title": "React Native - First Impressions",
+    "imageUrl": "//cdn.slidesharecdn.com/ss_thumbnails/reactnativefirstimpression-160315001833-thumbnail-3.jpg?cb=1458002483",
+    "slidesUrl": "http://pt.slideshare.net/alvarowolfx/react-native-first-impression",
+    "slideId": "59557542",
+    "places": [
+      {
+        "name": "Meetup DevMT",
+        "date": "12/03/2016",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "https://github.com/alvarowolfx/react-native-shakeit-demo\nIntroduction to React native presentation. A little history about React web, comparison with state of art of hybrid mobile development and demo to the local community.",
+    "tags": null
+  },
+  {
+    "title": "Ionic Workshop",
+    "imageUrl": "//cdn.slidesharecdn.com/ss_thumbnails/ionicworkshop-151116222431-lva1-app6892-thumbnail-3.jpg?cb=1447870773",
+    "slidesUrl": "http://pt.slideshare.net/alvarowolfx/ionic-workshop",
+    "slideId": "55180905",
+    "places": [
+      {
+        "name": "CATI Unemat",
+        "date": "12/11/2015",
+        "local": "Barra do Bugres - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "ERI MT UFMT",
+        "date": "18/11/2015",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Workshop de Ionic ministrado no CATI 2015 e ERI-MT 2015",
+    "subtitle": "CATI 2015 (Unemat) e ERI-MT 2015 (UFMT)",
+    "tags": null
+  },
+  {
+    "title": "Workshop Desenvolvimento Web Moderno com AngularJS",
+    "imageUrl": "https://image.slidesharecdn.com/cursoangular-parte1-150707000734-lva1-app6892/95/curso-angularjs-parte-1-29-638.jpg?cb=1437694044",
+    "slidesUrl": "http://pt.slideshare.net/alvarowolfx/curso-angular-parte-1",
+    "slideId": "50234573",
+    "places": [
+      {
+        "name": "Semana Acadêmica Univag",
+        "date": "25/06/2015",
+        "local": "Varzea Grande - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Curso sobre AngularJS, tratando deste ambiente e ferramentas modernas de desenvolvimento até o desenvolvimento de uma aplicação usando AngularJS. Curso em duas partes.\n\nNo final foram desenvolvidas duas aplicações que podem ser vistas nos links:\n\nhttps://github.com/alvarowolfx/shopping-list\nhttps://github.com/alvarowolfx/ng-pokedex",
+    "subtitle": "Semana Acadêmica Univag",
+    "tags": null
+  },
+  {
+    "title": "Offline Apps com Ionic e PouchDB",
+    "imageUrl": "//cdn.slidesharecdn.com/ss_thumbnails/offlineapps-pouchdb-150718152618-lva1-app6892-thumbnail-3.jpg?cb=1437233227",
+    "slidesUrl": "http://pt.slideshare.net/alvarowolfx/offline-apps-using-ionic-framework-and-pouchdb",
+    "slideId": "50664162",
+    "places": [
+      {
+        "name": "Meetup DevMT",
+        "date": "18/07/2015",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "This lightning talk was gave on Meetup Ionic Mato Grosso.\n\nThis app was developed for demo purposes using Ionic and PouchDB for offline first apps. So I'm sharing the code for those who are interested in studying.",
+    "tags": null
+  },
+  {
+    "title": "Construindo Aplicativos híbridos com Ionic Framework",
+    "imageUrl": "https://i2.wp.com/julienrenaux.fr/wp-content/uploads/2015/02/ionic.png?resize=853%2C584",
+    "slidesUrl": "http://alvarowolfx.github.io/ionic-present",
+    "slideId": "",
+    "places": [
+      {
+        "name": "FrontInCuiabá",
+        "date": "28/03/2015",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "3º Circuito de TI Unic",
+        "date": "08/05/2015",
+        "local": "Tangará da Serra - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "Meetup DevMT",
+        "date": "18/07/2015",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "",
+    "subtitle": "FronInCuiabá 2015",
+    "tags": null
+  },
+  {
+    "title": "NoSQL Onde Vivem e Como se Alimentam ?",
+    "imageUrl": "https://image.slidesharecdn.com/nosql-ondevivemecomosealimentamv3-140506190736-phpapp01/95/nosql-onde-vivem-e-como-se-alimentam-1-638.jpg?cb=1452777285",
+    "slidesUrl": "http://pt.slideshare.net/alvarowolfx/no-sql-onde-vivem-e-como-se-alimentam-v3",
+    "slideId": "34362384",
+    "places": [
+      {
+        "name": "Semana Acadêmica Unemat",
+        "date": "20/05/2015",
+        "local": "Barra do Bugres - MT",
+        "videoUrl": ""
+      },
+      {
+        "name": "YoLab",
+        "date": "15/03/2014",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
+      }
+    ],
+    "summary": "Apresentação sobre diferentes modelos de dados de bancos NoSQL e como as grande empresas utilizam esses produtos para resolver seus problemas.",
+    "subtitle": "YoLab 2014 e Semana Academica Unemat 2015",
+    "tags": null
+  }
+]

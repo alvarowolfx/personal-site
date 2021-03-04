@@ -1,0 +1,7 @@
+{{- if (.Param "Audience") }}
+{{- partial "talk_meta.html" .  -}}
+{{- else if (.Param "Cover.Hidden" )}}
+{{- partial "video_meta.html" .  -}}
+{{- else }}
+{{- partial "article_meta.html" .  -}}
+{{- end}}

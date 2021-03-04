@@ -1,0 +1,128 @@
+baseURL: "https://sitepessoal-b165c--v2-preview-7q678oul.web.app"
+languageCode: "en-us"
+title: "Alvaro Viebrantz"
+theme: "PaperMod"
+
+blackfriday:
+    extensions: ["hardLineBreak"]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: "Alvaro Viebrantz"
+    description: "Google Developer Expert for IoT and Founding Engineer at golioth.io"
+    author: Me
+    # author: ["Me", "You"] # multiple authors
+    images: ["<link or path of image for opengraph, twitter-cards>"]
+
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowBreadCrumbs: false
+    disableSpecial1stPost: false
+    comments: false
+    hidemeta: false
+    showtoc: false
+    tocopen: false
+
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        favicon: "<link / abs url>"
+        favicon16x16: "<link / abs url>"
+        favicon32x32: "<link / abs url>"
+        apple_touch_icon: "<link / abs url>"
+        safari_pinned_tab: "<link / abs url>"
+
+    label:
+        text: "Alvaro Viebrantz"
+        #icon: /apple-touch-icon.png
+        #iconHeight: 35
+
+    # profile-mode
+    profileMode:
+        enabled: true # needs to be explicitly set
+        title: Hi, I'm Alvaro
+        subtitle: "Google Developer Expert for IoT and Founding Engineer at golioth.io"
+        imageUrl: "https://avatars2.githubusercontent.com/u/1615543?v=3&s=320"
+        imageWidth: 120
+        imageHeight: 120
+        imageTitle: my image
+        buttons:
+          - name: Talks
+            url: talks
+          - name: Articles
+            url: articles
+          - name: Videos
+            url: videos
+          #- name: Projects
+          #  url: projects
+          - name: Tags
+            url: tags
+
+    # home-info mode
+    homeInfoParams:
+        Title: "Hi there \U0001F44B"
+        Content: Welcome to my website
+
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/alvaroviebrantz"
+        #- name: stackoverflow
+        #  url: "https://stackoverflow.com"
+        - name: github
+          url: "https://github.com/alvarowolfx"
+
+    analytics:
+        google:
+            SiteVerificationTag: "XYZabc"
+
+    cover:
+        hidden: false # hide everywhere but not in structured data
+        hiddenInList: false # hide on list pages and home
+        hiddenInSingle: false # hide on single page
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+menu:
+    main:
+        - identifier: talks
+          name: Talks
+          url: /talks/
+          weight: 10
+        - identifier: articles
+          name: Articles
+          url: /articles/
+          weight: 15
+        - identifier: Videos
+          name: Videos
+          url: /videos/
+          weight: 20
+        #- identifier: projects
+        #  name: Projects
+        #  url: /projects/
+        #  weight: 30
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 40
