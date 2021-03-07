@@ -7,3 +7,7 @@
 {{- with ($scratch.Get "meta")}}
 {{- delimit . "&nbsp;·&nbsp;"}}
 {{- end }}
+
+{{- if (.Param "VideoURL") -}}
+&nbsp;·&nbsp;🎥
+{{- end -}}
