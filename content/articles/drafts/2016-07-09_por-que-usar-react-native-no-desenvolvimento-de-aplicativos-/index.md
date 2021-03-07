@@ -3,7 +3,7 @@ title: "Por que usar React Native no desenvolvimento de aplicativos ?"
 author: "Alvaro Viebrantz"
 date: 2016-07-09T02:34:59.626Z
 lastmod: 2021-02-26T10:50:38-04:00
-
+draft: true
 description: ""
 
 subtitle: "Dei um talk sobre React Native no FrontInCuiabá deste ano, porém por problemas técnicos não conseguimos gravar as palestras do evento. Eu…"

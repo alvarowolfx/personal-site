@@ -26,8 +26,8 @@ aliases:
 
 This is a 3 part tutorial on how to create a farm tank monitoring solution on Google Cloud.
 
-- Part 1 — [Build a Rest API using Cloud Run and Django Rest Framework](https://medium.com/@alvaroviebrantz/iot-tank-monitoring-solution-part-1-build-a-rest-api-using-cloud-run-and-django-rest-framework-a8b9770eaa87)
-- Part 2 — [MicroPython device to collect tanks data](https://medium.com/@alvaroviebrantz/iot-tank-monitoring-solution-part-2-micropython-device-with-esp8266-to-collect-tank-level-data-d74a1b947f60)
+- Part 1 — [Build a Rest API using Cloud Run and Django Rest Framework](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework)
+- Part 2 — [MicroPython device to collect tanks data](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-2micropython-device-with-esp8266-to-collect-tank-level-data)
 - Part 3 — Visualizing data using BigQuery Federated Queries and Data Studio
 
 In this latest part we are going to visualize our models data together with the telemetry data sent by the device. We are going to be using a feature on BigQuery called Federated Queries, which basically allows us to query external data inside of BigQuery, mixing different data sources and building our Data Lake more easily.
@@ -36,7 +36,7 @@ In this latest part we are going to visualize our models data together with the 
 
 > BigQuery Federated Queries is in beta right now and accepts connecting to Cloud SQL, CSV files in Google Cloud Storage and Google Cloud Big Table.
 
-#### Set up Federated access to our Cloud SQL Database
+### Set up Federated access to our Cloud SQL Database
 
 All the steps here are going to be made on the Google Cloud UI as seems to be easier to do that way. First we go to BigQuery UI and add an external sources:
 
@@ -48,18 +48,18 @@ Them we choose Cloud SQL datasource and add our database instance information, w
 
 And that’s basically it, now we can query Cloud SQL data from BigQuery using the `EXTERNAL_QUERY` command. Here is an example of getting the farm list from our Cloud SQL database using BigQuery ( you can test that in the [BigQuery UI](https://console.cloud.google.com/bigquery):
 
-```
+```sql
 select farms.*
 from EXTERNAL_QUERY(“[YOUR_PROJECT_NAME].us.tank-monitoring.farms”) farms
 ```
 
 Now let’s build our dashboard using both data sources.
 
-#### Building dashboard on Data Studio
+### Building dashboard on Data Studio
 
 We want to visualize telemetry data and be able to filter by Farm and by Tank. So we are going to create a query returning all the data for the report with a date range filter to avoid returning too much telemetry data. I wrote a query to do that and also calculate the level of each tank accordingly to the configured height. The `DS_START_DATE` and `DS_END_DATE` are the parameter that are going to be filled by Data Studio. You can comment the date filter and run this query on BigQuery to see some data.
 
-```
+```sql
 SELECT
 device.deviceId,
 tank.id as tankId,
@@ -80,14 +80,13 @@ on CAST(device.id as string) = telemetry.device_id
 where telemetry.time between PARSE_TIMESTAMP(‘%Y%m%d’,@DS_START_DATE)
 and PARSE_TIMESTAMP(‘%Y%m%d’,@DS_END_DATE)
 order by telemetry.time
-
 ```
 
 ![image](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/4.png)
 
 Go to Data Studio to get started creating the dashboard and click on create Blank Report.
 
-[Data Studio Product Overview](https://datastudio.google.com)
+> [Link to Data Studio](https://datastudio.google.com)
 
 Them, create a new Data Source, search for BigQuery connector and select it.
 
@@ -101,6 +100,6 @@ The rest is mostly dragging and dropping some components to build your dashboard
 
 ![image](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/7.png)
 
-#### Conclusion
+### Conclusion
 
 This last part is also a bit short, but is just to show how simple we merge data from Cloud SQL and BigQuery and show that on a dashboard that users can have access and see data flowing on the system. I hope with this tutorial you have a better sense on how to build an end to end solution using Google Cloud.
