@@ -8,9 +8,9 @@ description: ""
 
 subtitle: "A candy dispenser running Android Things that exchanges photos for candies. It uses computer vision to classify the image."
 
-image: "./images/1.jpeg"
+image: "/articles/2017/2017-06-13_android-things-a.i.-candy-dispenser/images/1.jpeg"
 images:
-  - "./images/1.jpeg"
+  - "/articles/2017/2017-06-13_android-things-a.i.-candy-dispenser/images/1.jpeg"
 
 associated:
   - "https://medium.com/@alvaroviebrantz/android-things-a-i-candy-dispenser-873c81f50fcd"

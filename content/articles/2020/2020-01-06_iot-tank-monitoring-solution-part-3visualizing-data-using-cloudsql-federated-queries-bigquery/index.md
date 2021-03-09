@@ -13,15 +13,15 @@ description: ""
 
 subtitle: "End to end solution to track tank level using cloud computing without having to worry too much with managing infrastructure."
 
-image: "./images/7.png"
+image: "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/7.png"
 images:
-  - "./images/1.png"
-  - "./images/2.jpeg"
-  - "./images/3.jpeg"
-  - "./images/4.png"
-  - "./images/5.png"
-  - "./images/6.png"
-  - "./images/7.png"
+  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/1.png"
+  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/2.jpeg"
+  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/3.jpeg"
+  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/4.png"
+  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/5.png"
+  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/6.png"
+  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/7.png"
 
 associated:
   - "https://medium.com/google-cloud/iot-tank-monitoring-solution-part-3-visualizing-data-using-cloudsql-federated-queries-bigquery-1a92d1a565a3"

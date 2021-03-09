@@ -8,13 +8,13 @@ description: ""
 
 subtitle: "Agora é a vez dos chatbots e nada mais simples do que comandar seus eletrônicos, de qualquer lugar do mundo, via chat no Telegram."
 
-image: "./images/1.png"
+image: "/articles/2017/2017-02-22_integrando-arduinoesp8266-com-bots-do-telegram/images/1.png"
 images:
-  - "./images/1.png"
-  - "./images/2.png"
-  - "./images/3.png"
-  - "./images/4.png"
-  - "./images/5.png"
+  - "/articles/2017/2017-02-22_integrando-arduinoesp8266-com-bots-do-telegram/images/1.png"
+  - "/articles/2017/2017-02-22_integrando-arduinoesp8266-com-bots-do-telegram/images/2.png"
+  - "/articles/2017/2017-02-22_integrando-arduinoesp8266-com-bots-do-telegram/images/3.png"
+  - "/articles/2017/2017-02-22_integrando-arduinoesp8266-com-bots-do-telegram/images/4.png"
+  - "/articles/2017/2017-02-22_integrando-arduinoesp8266-com-bots-do-telegram/images/5.png"
 
 associated:
   - "https://medium.com/@alvaroviebrantz/integrando-arduino-esp8266-com-bots-do-telegram-f5142279c840"

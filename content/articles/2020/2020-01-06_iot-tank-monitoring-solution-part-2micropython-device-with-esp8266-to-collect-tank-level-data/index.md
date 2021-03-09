@@ -12,11 +12,11 @@ description: ""
 
 subtitle: "End to end solution to track tank level using cloud computing without having to worry too much with managing infrastructure."
 
-image: "./images/1.png"
+image: "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-2micropython-device-with-esp8266-to-collect-tank-level-data/images/1.png"
 images:
-  - "./images/1.png"
-  - "./images/2.jpeg"
-  - "./images/3.png"
+  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-2micropython-device-with-esp8266-to-collect-tank-level-data/images/1.png"
+  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-2micropython-device-with-esp8266-to-collect-tank-level-data/images/2.jpeg"
+  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-2micropython-device-with-esp8266-to-collect-tank-level-data/images/3.png"
 
 associated:
   - "https://medium.com/google-cloud/iot-tank-monitoring-solution-part-2-micropython-device-with-esp8266-to-collect-tank-level-data-d74a1b947f60"

@@ -8,15 +8,15 @@ description: ""
 
 subtitle: "Uma forma fácil e rápida de jogar seus dados para a nuvem, sem se queimar configurando servidores."
 
-image: "./images/1.png"
+image: "/articles/2017/2017-02-18_sensoriamento-e-controle-realtime-com-firebase-e-esp8266/images/1.png"
 images:
-  - "./images/1.png"
-  - "./images/2.png"
-  - "./images/3.png"
-  - "./images/4.png"
-  - "./images/5.png"
-  - "./images/6.png"
-  - "./images/7.png"
+  - "/articles/2017/2017-02-18_sensoriamento-e-controle-realtime-com-firebase-e-esp8266/images/1.png"
+  - "/articles/2017/2017-02-18_sensoriamento-e-controle-realtime-com-firebase-e-esp8266/images/2.png"
+  - "/articles/2017/2017-02-18_sensoriamento-e-controle-realtime-com-firebase-e-esp8266/images/3.png"
+  - "/articles/2017/2017-02-18_sensoriamento-e-controle-realtime-com-firebase-e-esp8266/images/4.png"
+  - "/articles/2017/2017-02-18_sensoriamento-e-controle-realtime-com-firebase-e-esp8266/images/5.png"
+  - "/articles/2017/2017-02-18_sensoriamento-e-controle-realtime-com-firebase-e-esp8266/images/6.png"
+  - "/articles/2017/2017-02-18_sensoriamento-e-controle-realtime-com-firebase-e-esp8266/images/7.png"
 
 associated:
   - "https://medium.com/@alvaroviebrantz/sensoriamento-realtime-com-firebase-e-esp8266-6e54b9bff1c1"

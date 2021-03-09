@@ -13,13 +13,13 @@ description: ""
 
 subtitle: "How to build your firmware automatically and sent to your devices automatically."
 
-image: "./images/2.png"
+image: "/articles/2018/2018-12-14_serverless-continuous-integration-and-ota-update-flow-using-google-cloud-build-and-arduino/images/2.png"
 images:
-  - "./images/1.png"
-  - "./images/2.png"
-  - "./images/3.png"
-  - "./images/4.png"
-  - "./images/5.gif"
+  - "/articles/2018/2018-12-14_serverless-continuous-integration-and-ota-update-flow-using-google-cloud-build-and-arduino/images/1.png"
+  - "/articles/2018/2018-12-14_serverless-continuous-integration-and-ota-update-flow-using-google-cloud-build-and-arduino/images/2.png"
+  - "/articles/2018/2018-12-14_serverless-continuous-integration-and-ota-update-flow-using-google-cloud-build-and-arduino/images/3.png"
+  - "/articles/2018/2018-12-14_serverless-continuous-integration-and-ota-update-flow-using-google-cloud-build-and-arduino/images/4.png"
+  - "/articles/2018/2018-12-14_serverless-continuous-integration-and-ota-update-flow-using-google-cloud-build-and-arduino/images/5.gif"
 
 associated:
   - "https://medium.com/google-cloud/serverless-continuous-integration-and-ota-update-flow-using-google-cloud-build-and-arduino-d5e1cda504bf"

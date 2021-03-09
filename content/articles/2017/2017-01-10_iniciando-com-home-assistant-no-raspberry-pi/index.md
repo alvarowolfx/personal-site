@@ -8,10 +8,10 @@ description: ""
 
 subtitle: "Sua casa conectada e de fazer inveja nos amiguinhos"
 
-image: "./images/1.png"
+image: "/articles/2017/2017-01-10_iniciando-com-home-assistant-no-raspberry-pi/images/1.png"
 images:
-  - "./images/1.png"
-  - "./images/2.png"
+  - "/articles/2017/2017-01-10_iniciando-com-home-assistant-no-raspberry-pi/images/1.png"
+  - "/articles/2017/2017-01-10_iniciando-com-home-assistant-no-raspberry-pi/images/2.png"
 
 associated:
   - "https://medium.com/@alvaroviebrantz/iniciando-com-home-assistant-no-raspberry-pi-47d1782db664"

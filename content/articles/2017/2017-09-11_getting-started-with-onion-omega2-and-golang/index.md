@@ -8,13 +8,13 @@ description: ""
 
 subtitle: "Exploring Go cross compiling capabilities on a small but powerful device like the Onion Omega2."
 
-image: "./images/4.gif"
+image: "/articles/2017/2017-09-11_getting-started-with-onion-omega2-and-golang/images/4.gif"
 images:
-  - "./images/1.gif"
-  - "./images/2.png"
-  - "./images/3.png"
-  - "./images/4.gif"
-  - "./images/5.gif"
+  - "/articles/2017/2017-09-11_getting-started-with-onion-omega2-and-golang/images/1.gif"
+  - "/articles/2017/2017-09-11_getting-started-with-onion-omega2-and-golang/images/2.png"
+  - "/articles/2017/2017-09-11_getting-started-with-onion-omega2-and-golang/images/3.png"
+  - "/articles/2017/2017-09-11_getting-started-with-onion-omega2-and-golang/images/4.gif"
+  - "/articles/2017/2017-09-11_getting-started-with-onion-omega2-and-golang/images/5.gif"
 
 associated:
   - "https://medium.com/@alvaroviebrantz/getting-started-with-onion-omega2-and-golang-d625bb20554"

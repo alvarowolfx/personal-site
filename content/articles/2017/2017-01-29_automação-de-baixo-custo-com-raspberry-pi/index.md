@@ -8,14 +8,14 @@ description: ""
 
 subtitle: "Quer ter a casa automatizada mas não quer declarar falência no processo ?"
 
-image: "./images/1.jpeg"
+image: "/articles/2017/2017-01-29_automação-de-baixo-custo-com-raspberry-pi/images/1.jpeg"
 images:
-  - "./images/1.jpeg"
-  - "./images/2.jpeg"
-  - "./images/3.png"
-  - "./images/4.png"
-  - "./images/5.png"
-  - "./images/6.png"
+  - "/articles/2017/2017-01-29_automação-de-baixo-custo-com-raspberry-pi/images/1.jpeg"
+  - "/articles/2017/2017-01-29_automação-de-baixo-custo-com-raspberry-pi/images/2.jpeg"
+  - "/articles/2017/2017-01-29_automação-de-baixo-custo-com-raspberry-pi/images/3.png"
+  - "/articles/2017/2017-01-29_automação-de-baixo-custo-com-raspberry-pi/images/4.png"
+  - "/articles/2017/2017-01-29_automação-de-baixo-custo-com-raspberry-pi/images/5.png"
+  - "/articles/2017/2017-01-29_automação-de-baixo-custo-com-raspberry-pi/images/6.png"
 
 associated:
   - "https://medium.com/@alvaroviebrantz/automa%C3%A7%C3%A3o-de-baixo-custo-com-raspberry-pi-6a5b6fccadec"

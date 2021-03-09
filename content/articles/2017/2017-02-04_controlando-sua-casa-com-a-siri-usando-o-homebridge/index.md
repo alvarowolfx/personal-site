@@ -18,11 +18,11 @@ description: ""
 
 subtitle: "Controlando sua casa usando por comando de voz com a Siri, isso é uma coisa linda de Deus."
 
-image: "./images/1.jpeg"
+image: "/articles/2017/2017-02-04_controlando-sua-casa-com-a-siri-usando-o-homebridge/images/1.jpeg"
 images:
-  - "./images/1.jpeg"
-  - "./images/2.jpeg"
-  - "./images/3.png"
+  - "/articles/2017/2017-02-04_controlando-sua-casa-com-a-siri-usando-o-homebridge/images/1.jpeg"
+  - "/articles/2017/2017-02-04_controlando-sua-casa-com-a-siri-usando-o-homebridge/images/2.jpeg"
+  - "/articles/2017/2017-02-04_controlando-sua-casa-com-a-siri-usando-o-homebridge/images/3.png"
 
 associated:
   - "https://medium.com/@alvaroviebrantz/controlando-sua-casa-com-a-siri-usando-o-homebridge-be317a306bfb"
