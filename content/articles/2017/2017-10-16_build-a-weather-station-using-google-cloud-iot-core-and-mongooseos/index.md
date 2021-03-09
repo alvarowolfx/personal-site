@@ -32,8 +32,8 @@ images:
   - "./images/15.png"
   - "./images/16.png"
 
-aliases:
-  - "/build-a-weather-station-using-google-cloud-iot-core-and-mongooseos-7a78b69822c5"
+associated:
+  - "https://medium.com/google-cloud/build-a-weather-station-using-google-cloud-iot-core-and-mongooseos-7a78b69822c5"
 ---
 
 #### Collecting massive amount of data, with a managed and serverless architecture so you don’t get yourself burned in the process.
@@ -277,3 +277,5 @@ The code for this project can be found on my Github and some interesting are lin
 - [https://mongoose-os.com/docs/libraries/cloud_integrations/gcp.html](https://mongoose-os.com/docs/libraries/cloud_integrations/gcp.html)
 - [https://www.adafruit.com/product/3606](https://www.adafruit.com/product/3606)
 - [https://github.com/alvarowolfx/weather-station-gcp-mongoose-os](https://github.com/alvarowolfx/weather-station-gcp-mongoose-os)
+
+{{< crosspost >}}

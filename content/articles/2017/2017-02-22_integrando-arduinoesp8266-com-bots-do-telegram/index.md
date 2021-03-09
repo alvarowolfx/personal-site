@@ -16,8 +16,8 @@ images:
   - "./images/4.png"
   - "./images/5.png"
 
-aliases:
-  - "/integrando-arduino-esp8266-com-bots-do-telegram-f5142279c840"
+associated:
+  - "https://medium.com/@alvaroviebrantz/integrando-arduino-esp8266-com-bots-do-telegram-f5142279c840"
 ---
 
 ![image](./images/1.png)
@@ -115,3 +115,5 @@ Ao receber as mensagens, você pode colocar o tratamento para cada comando que v
 Você pode criar seus próprios comandos e controlar seu dispositivo via chat, as possibilidades são infinitas. Se conseguiu controlar alguma coisa com seu próprio bot, pode começar a compartilhar com os amiguinhos pois a agora a Skynet está mais próxima depois deste tutorial.O Telegram já é um aplicativo de chat muito bom e agora com essa facilidade de se criar bots, se torna um plataforma mais interessante ainda. Inclusive você sabia que diversas partes do Telegram são open source ? Você pode por exemplo ver o código fonte do aplicativo para Android e aprender como ele funciona.
 
 Também com isso você foi introduzido ao mundo dos chatbots, que está ganhando fama no mundo todo e cada vez mais serviços estão tentando ser oferecidos via chat, desde comprar coisas online até um pedido de pizza no restaurante na esquina de casa.
+
+{{< crosspost >}}

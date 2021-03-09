@@ -1,0 +1,8 @@
+{{- $associated := $.Page.Param "associated"}}
+{{- if ne $associated nil }}
+<h5>This post is also available at:</h5>
+{{- range $associated }}
+{{- $url := urls.Parse . }}
+{{ (print "* [" $url.Host "](" . ")") | markdownify }}
+{{- end }}
+{{- end }}

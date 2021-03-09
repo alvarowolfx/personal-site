@@ -21,8 +21,8 @@ images:
   - "./images/4.png"
   - "./images/5.gif"
 
-aliases:
-  - "/serverless-continuous-integration-and-ota-update-flow-using-google-cloud-build-and-arduino-d5e1cda504bf"
+associated:
+  - "https://medium.com/google-cloud/serverless-continuous-integration-and-ota-update-flow-using-google-cloud-build-and-arduino-d5e1cda504bf"
 ---
 
 #### How to build your firmware continuously in the cloud and sent to your devices automatically.
@@ -181,3 +181,5 @@ I hope that this tutorial gave you an overview of what can be done to automate t
 - [https://cloud.google.com/functions/docs/writing](https://cloud.google.com/functions/docs/writing)
 - [https://cloud.google.com/functions/docs/tutorials/storage](https://cloud.google.com/functions/docs/tutorials/storage)
 - [http://docs.platformio.org/en/latest](http://docs.platformio.org/en/latest/userguide/cmd_ci.html)
+
+{{< crosspost >}}

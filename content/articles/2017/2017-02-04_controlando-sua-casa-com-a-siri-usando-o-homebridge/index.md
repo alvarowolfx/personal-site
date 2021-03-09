@@ -24,8 +24,8 @@ images:
   - "./images/2.jpeg"
   - "./images/3.png"
 
-aliases:
-  - "/controlando-sua-casa-com-a-siri-usando-o-homebridge-be317a306bfb"
+associated:
+  - "https://medium.com/@alvaroviebrantz/controlando-sua-casa-com-a-siri-usando-o-homebridge-be317a306bfb"
 ---
 
 #### Controlando sua casa usando por comando de voz com a Siri, isso é uma coisa linda de Deus.
@@ -255,3 +255,5 @@ Bom agora vem a parte mais interessante que é configurar a ponte do Homebridge 
 Agora é só correr pro abraço e começar a utilizar os comandos de voz para controlar sua casa.O Homekit é uma API muito interessante e deixa a Apple um pouco a frente no mercado de automação e casa inteligente com relação aos seus concorrentes, pois isso tudo já está embutido no próprio iOS.
 
 Somando isso a nossa central, o Home Assistant, podemos criar dispositivos próprios, funcionando até mesmo com equipamentos legados, como dei o exemplos com um ventilador e luminárias, sem ter que recorrer aos equipamentos oficiais, que normalmente são bem caros.
+
+{{< crosspost >}}

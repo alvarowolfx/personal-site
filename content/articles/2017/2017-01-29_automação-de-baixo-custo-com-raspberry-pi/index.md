@@ -17,8 +17,8 @@ images:
   - "./images/5.png"
   - "./images/6.png"
 
-aliases:
-  - "/automa%C3%A7%C3%A3o-de-baixo-custo-com-raspberry-pi-6a5b6fccadec"
+associated:
+  - "https://medium.com/@alvaroviebrantz/automa%C3%A7%C3%A3o-de-baixo-custo-com-raspberry-pi-6a5b6fccadec"
 ---
 
 #### Quer ter a casa automatizada mas não quer declarar falência no processo ?
@@ -166,3 +166,5 @@ sudo systemctl restart home-assistant.service
 {{< figure src="./images/6.png" caption="AEHOOO" >}}
 
 E por hoje é só pessoal, as possibilidades são grandes com esses módulos de tomada RF e o bom é não precisamos ter conhecimento profundo de eletrônica para se aventurar em automatizar algumas coisas em casa.
+
+{{< crosspost >}}

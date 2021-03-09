@@ -13,8 +13,8 @@ images:
   - "./images/1.png"
   - "./images/2.png"
 
-aliases:
-  - "/iniciando-com-home-assistant-no-raspberry-pi-47d1782db664"
+associated:
+  - "https://medium.com/@alvaroviebrantz/iniciando-com-home-assistant-no-raspberry-pi-47d1782db664"
 ---
 
 #### Sua casa conectada e de fazer inveja nos amiguinhos
@@ -154,3 +154,5 @@ Podemos utilizar um serviço de IP dinâmico para acessar o Home Assistant quand
 10. Rode o comando **sudo service cron start** para iniciar o serviço.
 
 Com isso configurado o Raspberry Pi vai informar de tempos em tempos o IP Público da sua casa e você vai poder acessar ele via o domínio configurado no site do DuckDNS.Com tudo isso em mãos, você pode brincar com os mais diversos componentes fornecidos pela plataforma, você pode conferir eles [e](https://home-assistant.io/components/)m [**https://home-assistant.io/components**](https://home-assistant.io/components). Vou postar diversas integrações como ele, então fique ligado em novos posts.
+
+{{< crosspost >}}

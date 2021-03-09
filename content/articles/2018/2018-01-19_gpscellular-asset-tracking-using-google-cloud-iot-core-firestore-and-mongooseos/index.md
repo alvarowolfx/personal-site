@@ -28,8 +28,8 @@ images:
   - "./images/11.png"
   - "./images/12.png"
 
-aliases:
-  - "/gps-cellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos-4dd74921f582"
+associated:
+  - "https://medium.com/google-cloud/gps-cellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos-4dd74921f582"
 ---
 
 ![image](./images/1.png)
@@ -317,3 +317,5 @@ The code for this project can be found on my Github and some interesting are lin
 - [https://cloud.google.com/iot/docs/quickstart](https://cloud.google.com/iot/docs/quickstart)
 - [https://mongoose-os.com/docs/libraries/cloud_integrations/gcp.html](https://mongoose-os.com/docs/libraries/cloud_integrations/gcp.html)
 - [https://github.com/alvarowolfx/asset-tracker-gcp-mongoose-os](http://github.com/alvarowolfx/asset-tracker-gcp-mongoose-os)
+
+{{< crosspost >}}

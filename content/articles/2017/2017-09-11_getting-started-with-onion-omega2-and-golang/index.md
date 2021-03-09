@@ -16,8 +16,8 @@ images:
   - "./images/4.gif"
   - "./images/5.gif"
 
-aliases:
-  - "/getting-started-with-onion-omega2-and-golang-d625bb20554"
+associated:
+  - "https://medium.com/@alvaroviebrantz/getting-started-with-onion-omega2-and-golang-d625bb20554"
 ---
 
 #### Exploring Go cross compiling capabilities on a small but powerful device like the Onion Omega2.
@@ -135,3 +135,5 @@ I made a another project with Onion + Golang, but rather then controlling it usi
 - [https://www.goinggo.net/2016/05/installing-go-and-your-workspace.html](https://www.goinggo.net/2016/05/installing-go-and-your-workspace.html)
 - [https://golang.org/](https://golang.org/doc/code.html)
 - [https://docs.onion.io/omega2-docs/index.html](https://docs.onion.io/omega2-docs/index.html)
+
+{{< crosspost >}}

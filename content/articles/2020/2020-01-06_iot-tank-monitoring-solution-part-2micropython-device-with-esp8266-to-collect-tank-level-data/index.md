@@ -18,8 +18,8 @@ images:
   - "./images/2.jpeg"
   - "./images/3.png"
 
-aliases:
-  - "/iot-tank-monitoring-solution-part-2-micropython-device-with-esp8266-to-collect-tank-level-data-d74a1b947f60"
+associated:
+  - "https://medium.com/google-cloud/iot-tank-monitoring-solution-part-2-micropython-device-with-esp8266-to-collect-tank-level-data-d74a1b947f60"
 ---
 
 #### End to end solution to track tank level using cloud computing without having to worry too much with managing infrastructure.
@@ -113,3 +113,5 @@ We can add device authentication, there is a really good article showing how to 
 - [https://medium.com/google-cloud/connecting-micropython-devices-to-google-cloud-iot-core-3680e632681e](https://medium.com/google-cloud/connecting-micropython-devices-to-google-cloud-iot-core-3680e632681e)
 - [http://micropython.org/](http://micropython.org/)
 - [https://gist.github.com/miguelgrinberg/80973081596f1069057ec6668142be15](https://gist.github.com/miguelgrinberg/80973081596f1069057ec6668142be15)
+
+{{< crosspost >}}

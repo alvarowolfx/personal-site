@@ -23,8 +23,8 @@ images:
   - "./images/6.png"
   - "./images/7.png"
 
-aliases:
-  - "/iot-tank-monitoring-solution-part-3-visualizing-data-using-cloudsql-federated-queries-bigquery-1a92d1a565a3"
+associated:
+  - "https://medium.com/google-cloud/iot-tank-monitoring-solution-part-3-visualizing-data-using-cloudsql-federated-queries-bigquery-1a92d1a565a3"
 ---
 
 #### End to end solution to track tank level using cloud computing without having to worry too much with managing infrastructure.
@@ -108,3 +108,5 @@ The rest is mostly dragging and dropping some components to build your dashboard
 ### Conclusion
 
 This last part is also a bit short, but is just to show how simple we merge data from Cloud SQL and BigQuery and show that on a dashboard that users can have access and see data flowing on the system. I hope with this tutorial you have a better sense on how to build an end to end solution using Google Cloud.
+
+{{< crosspost >}}

@@ -12,8 +12,9 @@ image: "./images/1.jpeg"
 images:
   - "./images/1.jpeg"
 
-aliases:
-  - "/android-things-a-i-candy-dispenser-873c81f50fcd"
+associated:
+  - "https://medium.com/@alvaroviebrantz/android-things-a-i-candy-dispenser-873c81f50fcd"
+  - "https://www.instructables.com/id/Android-Things-AI-Candy-Dispenser/"
 ---
 
 #### A candy dispenser running Android Things that exchanges photos for candies. It uses computer vision to classify the image.
@@ -30,6 +31,8 @@ When the user takes a picture, it processes the image data using Google’s Clou
 
 > Demo video
 
-The code was made in Android Studio, using Kotlin Language and Google Vision API to classify the image. Please also note that this has only been tested on a Raspberry Pi 3, but should work on other compatible boards too. More details of this project can be seen on Instructables.
+The code was made in Android Studio, using Kotlin Language and Google Vision API to classify the image. Please also note that this has only been tested on a Raspberry Pi 3, but should work on other compatible boards too. More details of this project can be seen on Instructables:
 
-[Android Things A.I. Candy Dispenser](https://www.instructables.com/id/Android-Things-AI-Candy-Dispenser/)
+> [Android Things A.I. Candy Dispenser](https://www.instructables.com/id/Android-Things-AI-Candy-Dispenser/)
+
+{{< crosspost >}}

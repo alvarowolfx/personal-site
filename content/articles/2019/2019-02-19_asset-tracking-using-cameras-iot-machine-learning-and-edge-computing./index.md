@@ -33,8 +33,8 @@ images:
   - "./images/17.png"
   - "./images/18.png"
 
-aliases:
-  - "/image-tracking-using-iot-machine-learning-and-edge-computing-8ad7e298b041"
+associated:
+  - "https://medium.com/google-cloud/image-tracking-using-iot-machine-learning-and-edge-computing-8ad7e298b041"
 ---
 
 ![image](./images/1.png)
@@ -287,3 +287,5 @@ Hope that with this article you had a good overview in practice on what parts ar
 - [https://www.seeedstudio.com/ESP32-CAM-Development-Board-with-camer-p-3153.html](https://www.seeedstudio.com/ESP32-CAM-Development-Board-with-camer-p-3153.html)
 - [https://www.cnx-software.com/2018/09/30/esp32-cam-esp32-camera-board/](https://www.cnx-software.com/2018/09/30/esp32-cam-esp32-camera-board/)
 - [http://jamesthom.as/blog/2018/08/07/machine-learning-in-node-dot-js-with-tensorflow-dot-js/](http://jamesthom.as/blog/2018/08/07/machine-learning-in-node-dot-js-with-tensorflow-dot-js/)
+
+{{< crosspost >}}

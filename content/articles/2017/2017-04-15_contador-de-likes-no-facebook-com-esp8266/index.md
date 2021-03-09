@@ -22,8 +22,8 @@ images:
   - "./images/10.png"
   - "./images/11.png"
 
-aliases:
-  - "/contador-de-likes-no-facebook-com-esp8266-9cf930b1595"
+associated:
+  - "https://medium.com/@alvaroviebrantz/contador-de-likes-no-facebook-com-esp8266-9cf930b1595"
 ---
 
 {{< figure src="./images/1.jpeg" >}}
@@ -179,3 +179,5 @@ Passe o cabo usb pelo buraco feito na moldura (não esqueça de pedir isso, se n
 ### Aproveite
 
 Agora é só mostrar com orgulho o seu quadro para todo mundo. Não deixe de compartilhar aqui a criação de vocês, isso vai me motivar ainda mais a continuar postando projetos por aqui..
+
+{{< crosspost >}}

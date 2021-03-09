@@ -55,15 +55,13 @@
     {{- end }}
   </footer>
   <footer class="entry-footer">
-    {{- $scratch := newScratch}}
-
     <a aria-label="post link to {{ $title | plainify }}" target="_blank" href="{{ $githubUrl }}">Github</a>
+    <br/>
 
     {{- $ttalks := where $talks "projects" "intersect" (slice $repo) }}
     {{- if ne (len $ttalks) 0 }}
-    <ul>
     <br/>
-    Project presented at:
+    Project presented at:<br/>
     {{- range $ttalks }}
     {{- $titleSlug := replace (replace (replace (replace ( replace (anchorize (replace (index . "title") "/" "-")) "---" "-") "á" "a") "ç" "c") "é" "e") "ã" "a" }}
     {{- $places := (index . "places") }}
@@ -75,41 +73,37 @@
     {{- $dateSlug := (delimit (slice $year $month $day) "-" ) }}
     {{- $talkSlug := (print "/talks/" $year "/" $dateSlug "-" $titleSlug )}}
     {{ $p := $.Site.GetPage $talkSlug }}
-    <li>
-      <a aria-label="post link to {{ $p.Title | plainify }}"href="{{ $p.Permalink }}">
-        {{- partial "talk_meta.html" $p -}}
-      </a>
-    </li>
-    {{- end }}
-    {{- end }}
-    {{- end }}
-    {{- if ne $videos nil }}
-    <ul>
+    <a aria-label="post link to {{ $p.Title | plainify }}"href="{{ $p.Permalink }}">
+      &nbsp;·&nbsp;{{- partial "talk_meta.html" $p -}}
+    </a>
     <br/>
-    Video/Demos:
+    {{- end }}
+    {{- end }}
+    {{- end }}
+
+    {{- if ne $videos nil }}
+    <br/>
+    Video/Demos:<br/>
     {{- range $videos }}
     {{ $p := $.Site.GetPage ( print "videos/" . ) }}
-    <li>
-      <a aria-label="post link to {{ $p.Title | plainify }}"href="{{ $p.Permalink }}">
-        {{ $p.Title }}&nbsp;·&nbsp;{{- partial "video_meta.html" $p -}}
-      </a>
-    </li>
+    <a aria-label="post link to {{ $p.Title | plainify }}"href="{{ $p.Permalink }}">
+      &nbsp;·&nbsp;{{ $p.Title }}&nbsp;·&nbsp;{{- partial "video_meta.html" $p -}}
+    </a>
+    <br/>
     {{- end }}
-    </ul>
     {{- end }}
+
     {{- if ne $articles nil }}
-    <ul>
     <br/>
     Articles:
+    <br/>
     {{- range $articles }}
     {{ $p := $.Site.GetPage ( print "articles/" . ) }}
-    <li>
-      <a aria-label="post link to {{ $p.Title | plainify }}"href="{{ $p.Permalink }}">
-        {{ $p.Title }}&nbsp;·&nbsp;{{- partial "post_meta.html" $p -}}
-      </a>
-    </li>
+    <a aria-label="post link to {{ $p.Title | plainify }}"href="{{ $p.Permalink }}">
+      &nbsp;·&nbsp;{{ $p.Title }}&nbsp;·&nbsp;{{- partial "post_meta.html" $p -}}
+    </a>
+    <br/>
     {{- end }}
-    </ul>
     {{- end }}
   </footer>
 </article>

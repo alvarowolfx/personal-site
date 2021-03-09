@@ -15,8 +15,8 @@ images:
   - "/articles/2016/2016-07-09_por-que-usar-react-native-no-desenvolvimento-de-aplicativos-/images/3.png"
   - "/articles/2016/2016-07-09_por-que-usar-react-native-no-desenvolvimento-de-aplicativos-/images/4.png"
 
-aliases:
-  - "/por-que-usar-react-native-no-desenvolvimento-de-aplicativos-a8d3d9a57cc4"
+associated:
+  - "https://medium.com/@alvaroviebrantz/por-que-usar-react-native-no-desenvolvimento-de-aplicativos-a8d3d9a57cc4"
 ---
 
 Dei um talk sobre React Native no [FrontInCuiabá](http://frontincuiaba.com.br) deste ano, porém por problemas técnicos não conseguimos gravar as palestras do evento. Eu tive um feedback muito bom do pessoal, então meu intuito aqui é passar todo o conteúdo que passei no evento e iniciar uma série de posts sobre esta tecnologia, já que existe pouco conteúdo brasileiro sobre.

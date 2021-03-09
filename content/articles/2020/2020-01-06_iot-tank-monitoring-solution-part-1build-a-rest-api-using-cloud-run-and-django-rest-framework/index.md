@@ -26,8 +26,8 @@ images:
   - "./images/10.png"
   - "./images/11.png"
 
-aliases:
-  - "/iot-tank-monitoring-solution-part-1-build-a-rest-api-using-cloud-run-and-django-rest-framework-a8b9770eaa87"
+associated:
+  - "https://medium.com/google-cloud/iot-tank-monitoring-solution-part-1-build-a-rest-api-using-cloud-run-and-django-rest-framework-a8b9770eaa87"
 ---
 
 #### End to end solution to track tank level using cloud computing without having to worry too much with managing infrastructure.
@@ -218,3 +218,5 @@ Be sure to check the other parts of this tutorial to see the whole solution.
 - [https://cloud.google.com/python/django/kubernetes-engine](https://cloud.google.com/python/django/kubernetes-engine)
 - [https://medium.com/swlh/say-hello-to-serverless-containers-with-cloud-run-4c32d90330fc](https://medium.com/swlh/say-hello-to-serverless-containers-with-cloud-run-4c32d90330fc)
 - [https://cloud.google.com/run/](https://cloud.google.com/run/)
+
+{{< crosspost >}}

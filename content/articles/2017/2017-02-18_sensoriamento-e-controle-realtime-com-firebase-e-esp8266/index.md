@@ -18,8 +18,8 @@ images:
   - "./images/6.png"
   - "./images/7.png"
 
-aliases:
-  - "/sensoriamento-realtime-com-firebase-e-esp8266-6e54b9bff1c1"
+associated:
+  - "https://medium.com/@alvaroviebrantz/sensoriamento-realtime-com-firebase-e-esp8266-6e54b9bff1c1"
 ---
 
 #### Uma forma fácil e rápida de jogar seus dados para a nuvem, sem se queimar configurando servidores.
@@ -206,3 +206,5 @@ Agora é só dar deploy da aplicação no hosting do Firebase. É só rodar o co
 Se deu tudo certo até aqui então pode comemorar que você uma aplicação IoT completa com controle via Web e mantendo o estado em tempo real na nuvem.O Firebase é uma plataforma bem bacana para se utilizar hoje em dia, principalmente como foi comentado no começo do post, sobre manter estados em tempo real da sua aplicação, pois o Firebase te dá de graça todo esse sincronismo entre todos os clientes conectados.
 
 Isso sem contar todo o ecossistema de produtos envolta dele, como foi mostrado a parte de Hosting, podendo hospedar sua aplicação de graça e ainda com HTTPS, o que é bastante importante hoje na web.
+
+{{< crosspost >}}
