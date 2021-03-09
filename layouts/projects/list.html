@@ -63,9 +63,9 @@
     {{- if ne (len $ttalks) 0 }}
     <ul>
     <br/>
-    Project presented at
+    Project presented at:
     {{- range $ttalks }}
-    {{- $titleSlug := replace (replace (replace (replace ( replace (anchorize (index . "title")) "---" "-") "á" "a") "ç" "c") "é" "e") "ã" "a" }}
+    {{- $titleSlug := replace (replace (replace (replace ( replace (anchorize (replace (index . "title") "/" "-")) "---" "-") "á" "a") "ç" "c") "é" "e") "ã" "a" }}
     {{- $places := (index . "places") }}
     {{- range $places }}
     {{- $date := (index . "date")}}

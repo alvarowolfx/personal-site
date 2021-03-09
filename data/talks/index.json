@@ -75,6 +75,10 @@
     "imageUrl": "",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/ambiente-de-cicd-com-google-cloud",
     "slideId": "238269902",
+    "projects": [
+      "alvarowolfx/gcloud-ci-cd-demo",
+      "alvarowolfx/gcloud-ota-arduino-update"
+    ],
     "places": [
       {
         "name": "TDC SP 2020 - Trilha Zup",
@@ -87,10 +91,31 @@
     "tags": null
   },
   {
+    "title": "Making it Easier to Make Things: WebAssembly and the Internet of Things",
+    "imageUrl": "",
+    "slidesUrl": "https://docs.google.com/presentation/d/1nyqBLQ1rFK-rgwhi0nXSPKOEh2IULjXfjYujjZdAOuk/edit#slide=id.g9c071a364d_1_51",
+    "projects": [
+      "alvarowolfx/wasm-arduino-wifi"
+    ],
+    "places": [
+      {
+        "name": "Open Source Summit Europe 2020 - By Linux Foundation",
+        "date": "28/10/2020",
+        "local": "Online",
+        "videoUrl": "https://www.youtube.com/watch?v=o2435LnC_kg"
+      }
+    ],
+    "summary": "WebAssembly is moving beyond the browser - but is it ready for IoT apps and tiny embedded devices? Yes...ish. In this talk, learn about the state of running Wasm on embedded devices (as low as 512kb of RAM & 64 MHz) and what's left to solve. Also learn where Wasm can today help with IoT protocols and tools. Since February there has been a significant development in Wasm runtimes and the developer of WASI - the WebAssembly System Interface. This talk will focus on the latest developments in WebAssembly beyond the browser and IoT.",
+    "tags": null
+  },
+  {
     "title": "WebAssembly além de Web - Casos de uso em IoT",
     "imageUrl": "",
     "slidesUrl": "https://www.slideshare.net/GDGFoz/webassembly-alem-da-web-casos-de-uso-em-iot-237076903",
     "slideId": "237076903",
+    "projects": [
+      "alvarowolfx/wasm-arduino-wifi"
+    ],
     "places": [
       {
         "name": "Meetup GDG Foz do Iguaçu",
@@ -791,6 +816,9 @@
     "imageUrl": "https://image.slidesharecdn.com/backendappeinternetdascoisasconnodejsnogcp-170326155422/95/backend-app-e-internet-das-coisas-com-nodejs-no-google-cloud-platform-1-638.jpg?cb=1490543746",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/backend-app-e-internet-das-coisas-com-nodejs-no-google-cloud-platform",
     "slideId": "73657866",
+    "projects": [
+      "alvarowolfx/packtpub-notifier-gcp"
+    ],
     "places": [
       {
         "name": "Google Cloud Next '17 Extended Cuiabá",

@@ -6,6 +6,12 @@
     }
   },
   {
+    "title": "WebAssembly and IoT experiment using ESP32 and Wasm3",
+    "links": {
+      "github": "https://github.com/alvarowolfx/wasm-arduino-wifi"
+    }
+  },
+  {
     "title": "Asset Tracking using Edge Computing and Computer Vision",
     "description": "A bunch of ESP32 with camera, a local server (probablye a raspberry pi ) running image classification and object detection using Tensorflow and sending the data to processed data to Google Cloud.",
     "links": {
@@ -13,9 +19,30 @@
     }
   },
   {
+    "title": "CI/CD and Over the Air updates for IoT devices using Google Cloud",
+    "links": {
+      "github": "https://github.com/alvarowolfx/gcloud-ota-arduino-update",
+      "articles": [
+        "2018/2018-12-14_serverless-continuous-integration-and-ota-update-flow-using-google-cloud-build-and-arduino"
+      ]
+    }
+  },
+  {
+    "title": "CI/CD using Google Cloud Run - Demo",
+    "links": {
+      "github": "https://github.com/alvarowolfx/gcloud-ci-cd-demo"
+    }
+  },
+  {
     "title": "ESP32 Cam QR Code Reader",
     "links": {
       "github": "https://github.com/alvarowolfx/ESP32QRCodeReader"
+    }
+  },
+  {
+    "title": "IoT device built with ZephyrRTOS and controlled via BLE with a Flutter App",
+    "links": {
+      "github": "https://github.com/alvarowolfx/ble-rgb-light-flutter"
     }
   },
   {
@@ -26,10 +53,30 @@
     }
   },
   {
+    "title": "DIY Stream Deck BLE using ESP32",
+    "links": {
+      "github": "https://github.com/alvarowolfx/streamdeck-ble-diy",
+      "videos": [
+        "2020/2020-05-09-live-coding-streamdeck-diy-com-esp32-1"
+      ]
+    }
+  },
+  {
     "title": "Dota 2 App using React (Web), Flutter (Mobile), Go and Google Cloud",
     "links": {
       "github": "https://github.com/alvarowolfx/gcloud-dota-app",
-      "videos": null
+      "videos": [
+        "2020/2020-06-19-live-coding-pwa-de-recomendacao-de-herois-do-dota-com-firebase-react-hooks-e-recoil-9",
+        "2020/2020-06-05-live-coding-ui-de-recomendacao-de-herois-com-firebase-react-hooks-e-recoil-8-p1",
+        "2020/2020-06-04-live-coding-ui-de-recomendacao-de-herois-com-firebase-react-hooks-e-recoil-8-p2",
+        "2020/2020-05-29-live-coding-ui-de-recomendacao-de-herois-com-firebase-react-hooks-e-recoil-7",
+        "2020/2020-05-21-live-coding-adicionando-testes-para-a-nossa-api-em-go-6",
+        "2020/2020-05-19-live-coding-api-de-recomendacao-de-herois-em-golang-e-fiber-5",
+        "2020/2020-05-14-live-coding-api-de-herois-do-dota-com-gcloud-go-e-fiber-4",
+        "2020/2020-05-07-live-coding-criando-interface-de-voz-do-app-de-dota-com-google-assistant-3",
+        "2020/2020-04-30-live-coding-criando-app-de-dota-2-com-nodejs-firebase-e-flutter-2",
+        "2020/2020-04-23-live-coding-criando-app-de-dota-2-com-nodejs-firebase-e-flutter-1"
+      ]
     }
   },
   {
@@ -45,6 +92,15 @@
     "title": "LoRa The Things Network Integration with Google Cloud",
     "links": {
       "github": "https://github.com/alvarowolfx/gcloud-lora-ttn"
+    }
+  },
+  {
+    "title": "Youtube Channel Display using MicroPython and ESP32",
+    "links": {
+      "github": "https://github.com/alvarowolfx/esp32-youtube-display",
+      "videos": [
+        "2019/2019-04-21-display-de-dados-do-youtube-com-esp32-e-micropython-diario-maker-dev"
+      ]
     }
   },
   {
@@ -206,7 +262,9 @@
     ],
     "links": {
       "github": "https://github.com/alvarowolfx/onion-golang-blink",
-      "article": "https://medium.com/@alvaroviebrantz/getting-started-with-onion-omega2-and-golang-d625bb20554"
+      "articles": [
+        "2017/2017-09-11_getting-started-with-onion-omega2-and-golang"
+      ]
     }
   },
   {
@@ -219,7 +277,10 @@
       "hardware"
     ],
     "links": {
-      "github": "https://github.com/alvarowolfx/bh1750-androidthings"
+      "github": "https://github.com/alvarowolfx/bh1750-androidthings",
+      "videos": [
+        "2018/2018-09-02-demo-of-android-things-userdriver-for-bh1750-ambient-light-sensor"
+      ]
     }
   },
   {
@@ -247,8 +308,12 @@
     ],
     "links": {
       "github": "https://github.com/alvarowolfx/facebook-followers-counter-esp8266",
-      "medium": "https://medium.com/iot-bootcamp/contador-de-likes-no-facebook-com-esp8266-9cf930b1595",
-      "youtube demo": "https://www.youtube.com/watch?v=23k-Vl4lsTI"
+      "articles": [
+        "2017/2017-04-15_contador-de-likes-no-facebook-com-esp8266"
+      ],
+      "videos": [
+        "2017/2017-04-15-contador-de-likes-no-facebook-com-esp8266"
+      ]
     }
   }
 ]

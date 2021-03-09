@@ -18,11 +18,11 @@ I'm a passionate Software Developer, touching all parts in the stack wherever is
 
 I really enjoy being part of a dev community and have been organizing local meetups since 2015 on two young developers communities here in my city - [Google Developers Group Cuiabá](https://meetup.com/gdgcuiaba) and [DevMT](https://meetup.com/devmatogrosso), both which I saw starting from stratch and now having around a thousand members.
 
-{{< figure src="/about/devfest-2019.jpg" height="350" caption="Devfest Pantanal 2019" >}}
+{{< figure src="/about/devfest-2019.jpg" width="100%" caption="Devfest Pantanal 2019" >}}
 
 You can see me speaking at events as I love sharing knowledge with others, either by giving talks, writing an article or through some video content. I usually talk about Web, Mobile Development and mostly about the Internet of Things and Cloud.
 
-{{< figure src="/about/talking.jpg" height="300" caption="Talking about IoT, ML and Cats" >}}
+{{< figure src="/about/talking.jpg" width="100%" caption="Talking about IoT, ML and Cats" >}}
 
 In my spare time, I enjoy cooking something very yummy for my wife and my **five** lovely cats. Also, after 30 years, I finally found a sport that I enjoy playing, that is Tennis.
 
