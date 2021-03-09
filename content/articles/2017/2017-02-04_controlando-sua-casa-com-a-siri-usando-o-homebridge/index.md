@@ -94,7 +94,7 @@ Com os arquivos criados agora precisamos registrar o serviço. Para isso vamos c
 - Criar um diretório **/var/homebridge** que o usuário criado possa escrever e também o arquivo **config.json** dentro do diretório.` # Cria diretório sudo mkdir /var/homebridge``# Adiciona permissão ao usuário sudo chown -R homebridge:homebridge /var/homebridge/``# Abra o arquivo e copie o próximo conteúdo nano config.json /var/homebridge/config.json `
 
 Copie no **config.json** o conteúdo a seguir, podendo mudar o nome da ponte e a senha, que são os atributos **name** e **pin** respectivamente.
-`{ &#34;bridge&#34;: { &#34;name&#34;: &#34;Home Viebrantz&#34;, &#34;username&#34;: &#34;CC:22:3D:E3:CE:30&#34;, &#34;port&#34;: 51826, &#34;pin&#34;: &#34;031-45-154&#34; }, &#34;platforms&#34;: [] }`
+`{ "bridge": { "name": "Home Viebrantz", "username": "CC:22:3D:E3:CE:30", "port": 51826, "pin": "031-45-154" }, "platforms": [] }`
 
 Agora recarregue os arquivos do **systemd** e habilite o serviço do Homebridge com os comandos:
 `sudo systemctl daemon-reload sudo systemctl enable homebridge sudo systemctl start homebridge`
@@ -114,7 +114,7 @@ Alias uma forma de encontrar novos plugins, buscando por módulo que iniciem o n
 `sudo npm install -g homebridge-homeassistant`
 
 Após instalado um plugin você deve registra-lo no arquivo **config.json** no atributos **platform**. Cada plugin tem os atributos específicos, segue o exemplo para adicionar o Home Assistant.
-`... &#34;platforms&#34;: [ { &#34;platform&#34;: &#34;HomeAssistant&#34;, &#34;name&#34;: &#34;HomeAssistant&#34;, &#34;host&#34;: &#34;http://127.0.0.1:8123&#34;, &#34;password&#34;: &#34;&#34;, &#34;supported_types&#34;: [&#34;binary_sensor&#34;, &#34;cover&#34;, &#34;fan&#34;, &#34;input_boolean&#34;, &#34;light&#34;, &#34;lock&#34;, &#34;media_player&#34;,&#34;scene&#34;, &#34;sensor&#34;, &#34;switch&#34;] } ]`
+`... "platforms": [ { "platform": "HomeAssistant", "name": "HomeAssistant", "host": "http://127.0.0.1:8123", "password": "", "supported_types": ["binary_sensor", "cover", "fan", "input_boolean", "light", "lock", "media_player","scene", "sensor", "switch"] } ]`
 
 Para que essa integração funcione você deve ativar o componente [http](https://home-assistant.io/components/http/) no Home Assistant no **configuration.yml**.
 `http:`
@@ -131,7 +131,7 @@ Passo a Passo dentro do Aplicativo Casa no iOS
 - Toque em + no canto superior direto e escolha **Adicionar Acessório.**
 - Espere aparecer a sua ponte do Homebridge, no meu caso **Home Viebrantz.**
 - Ao seleciona a ponte, vai aparecer um aviso que o acessório não é certificado (que blasfêmia), toque em **Adicionar Mesmo Assim** e digite o código de 8 dígitos o **pin** que foi configurado no **config.json** do Homebridge.
-- Após isso todos os acessórios disponíveis no Home Assistant vão aparecer um a um para serem configurados. Neste momento você pode alocar cada um em um comodo da casa e dar um nome fácil a ser chamado via comando de voz.> **ATENÇÃO**, se o nome que você quer usar tem acentuação, coloque corretamente, a Siri não entende “luminaria” sem acento, coloque “luminária” para não ter problemas.
+- Após isso todos os acessórios disponíveis no Home Assistant vão aparecer um a um para serem configurados. Neste momento você pode alocar cada um em um comodo da casa e dar um nome fácil a ser chamado via comando de voz.> **ATENÇÃO**, se o nome que você quer usar tem acentuação, coloque corretamente, a Siri não entende "luminaria" sem acento, coloque "luminária" para não ter problemas.
 
 Agora é só correr pro abraço e começar a utilizar os comandos de voz para controlar sua casa.O Homekit é uma API muito interessante e deixa a Apple um pouco a frente no mercado de automação e casa inteligente com relação aos seus concorrentes, pois isso tudo já está embutido no próprio iOS.
 

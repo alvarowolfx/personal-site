@@ -30,5 +30,4 @@ video: "yD-DnC5KasI"
 - [Link to slides](https://www.slideshare.net/alvarowolfx/building-rest-apis-using-grpc-and-go)
 ### Recording
 {{< youtube id=yD-DnC5KasI >}}
-
 - [Link to video](https://www.youtube.com/watch?v=yD-DnC5KasI)

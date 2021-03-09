@@ -26,5 +26,4 @@ video: "HLEPZkm5OTo"
 - [Link to slides](https://www.slideshare.net/alvarowolfx/edge-computing-na-prtica-com-iot-machine-learning-e-google-cloud)
 ### Recording
 {{< youtube id=HLEPZkm5OTo >}}
-
 - [Link to video](https://www.youtube.com/watch?v=HLEPZkm5OTo)

@@ -26,5 +26,4 @@ video: "90w2Jv9YPmE"
 - [Link to slides](https://www.slideshare.net/alvarowolfx/arquitetura-de-internet-das-coisas-usando-google-cloud)
 ### Recording
 {{< youtube id=90w2Jv9YPmE >}}
-
 - [Link to video](https://www.youtube.com/watch?v=90w2Jv9YPmE)

@@ -4,6 +4,9 @@
     "imageUrl": "",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/building-rest-apis-using-grpc-and-go",
     "slideId": "242586678",
+    "projects": [
+      "alvarowolfx/go-grpc-rest-api-demo"
+    ],
     "places": [
       {
         "name": "Meetup GDG Cloud London",
@@ -21,10 +24,14 @@
     ]
   },
   {
-    "title": "TinyML -  IoT e Machine Learning na prática",
+    "title": "TinyML - IoT e Machine Learning na prática",
     "imageUrl": "",
     "slidesUrl": "https://www2.slideshare.net/alvarowolfx/tinyml-iot-e-machine-learning",
     "slideId": "240010414",
+    "projects": [
+      "alvarowolfx/tinyml-smart-tennis-sensor",
+      "alvarowolfx/gcloud-iot-edge-tensorflow"
+    ],
     "places": [
       {
         "name": "Meetup Tensorflow SP",
@@ -188,6 +195,10 @@
     "imageUrl": "https://image.slidesharecdn.com/buildactions-190601201929/95/construindo-projetos-para-o-google-assistant-io-2019-recap-so-paulo-1-638.jpg?cb=1559421050",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/construindo-projetos-para-o-google-assistant-io-2019-recap-so-paulo",
     "slideId": "148596300",
+    "projects": [
+      "alvarowolfx/golang-voice-iot",
+      "alvarowolfx/talking-plant-aog"
+    ],
     "places": [
       {
         "name": "I/O 2019 Recap - Google Brasil",
@@ -286,6 +297,10 @@
     "imageUrl": "https://image.slidesharecdn.com/googleassistanteiot-181025184346/85/construindo-projetos-com-google-assistant-e-iot-1-320.jpg?cb=1540493068",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/construindo-projetos-com-google-assistant-e-iot",
     "slideId": "120725936",
+    "projects": [
+      "alvarowolfx/golang-voice-iot",
+      "alvarowolfx/talking-plant-aog"
+    ],
     "places": [
       {
         "name": "Jungle's DevFest 2018",
@@ -336,6 +351,9 @@
     "imageUrl": "https://image.slidesharecdn.com/arduinogooglecloud-180920003918/95/solues-de-iot-usando-arduino-e-google-cloud-1-638.jpg?cb=1537404137",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/solues-de-iot-usando-arduino-e-google-cloud",
     "slideId": "115517179",
+    "projects": [
+      "alvarowolfx/bad-smell-detector-gcloud-iot-flutter"
+    ],
     "places": [
       {
         "name": "Hangout GDG Aracaju",
@@ -352,12 +370,16 @@
     "imageUrl": "https://image.slidesharecdn.com/serverlessiotsolutions-180830222815/95/arquitetura-de-internet-das-coisas-google-cloud-1-638.jpg?cb=1535668182",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/explorando-go-em-ambiente-embarcado",
     "slideId": "117322855",
+    "projects": [
+      "alvarowolfx/golang-iot-weather-station",
+      "alvarowolfx/golang-voice-iot"
+    ],
     "places": [
       {
         "name": "Gophercon 2018",
         "date": "28/09/2018",
         "local": "Florianópolis - SC",
-        "videoUrl": ""
+        "videoUrl": "https://www.infoq.com/br/presentations/explorando-o-cross-compiling-do-golang-para-ambiente-embarcado/"
       }
     ],
     "summary": "Golang é uma linguagem fantástica para se desenvolver aplicações e um fator a ser explorado é o seu uso em dispositivos IoT. A linguagem já conta com diversas ferramentas de cross-compile, alguns pacotes experimentais de comunicação baixo nível e diversos projetos relacionados a hardware.",
@@ -582,6 +604,10 @@
     "imageUrl": "https://image.slidesharecdn.com/webusbewebbluetooth-180331194216/95/webusb-e-webluetooth-conectando-seu-hardware-a-web-1-638.jpg?cb=1522525387",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/webusb-e-webluetooth-conectando-seu-hardware-a-web",
     "slideId": "92516656",
+    "projects": [
+      "alvarowolfx/physical-led-ring-webusb-arduino",
+      "alvarowolfx/mearm-web-bluetooth"
+    ],
     "places": [
       {
         "name": "Arduino Day Cuiabá 2018",
@@ -630,6 +656,9 @@
     "imageUrl": "https://image.slidesharecdn.com/androidthingsinteligenciaartificialemaquinasdedoces-androiddevconf-170826211031/95/android-things-inteligncia-artificial-e-mquinas-de-doces-android-dev-conference-2017-1-638.jpg?cb=1503781834",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/android-things-inteligncia-artificial-e-mquinas-de-doces-android-dev-conference-2017",
     "slideId": "79180791",
+    "projects": [
+      "alvarowolfx/ai-candy-dispenser"
+    ],
     "places": [
       {
         "name": "DevFest Paraná 2017",
@@ -834,6 +863,9 @@
     "imageUrl": "//cdn.slidesharecdn.com/ss_thumbnails/poketrainers-161110173918-thumbnail.jpg?cb=1478799630",
     "slidesUrl": "http://www.slideshare.net/alvarowolfx/poke-trainers-porque-pokmon-no-apenas-um-jogo",
     "slideId": "68599860",
+    "projects": [
+      "alvarowolfx/poketrainers"
+    ],
     "places": [
       {
         "name": "2º Forum Meninas Digitais - Regional Mato Grosso - UFMT",

@@ -33,5 +33,4 @@ video: "-sWpKFYOlqs"
 - [Link to slides](https://www.slideshare.net/alvarowolfx/o-que-projetos-de-iot-precisam)
 ### Recording
 {{< youtube id=-sWpKFYOlqs >}}
-
 - [Link to video](https://www.youtube.com/watch?v=-sWpKFYOlqs)

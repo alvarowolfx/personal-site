@@ -76,8 +76,8 @@ Se você quiser conectar seu Raspberry na WiFi da casa, siga esse passo a passo.
 
 1.  Digite o comando **sudo iwlist wlan0 scan**
 2.  Procure pelo nome da sua rede e ESSID
-3.  Digite **sudo nano /etc/wpa_supplicant/wpa_supplicant.conf** para abrir o arquivo de configuração deWiFi.
-4.  Vá até o final do arquivo e digite:`network={ ssid=&#34;O ESSID encontrado no passo anterior&#34; psk=&#34;Senha da Rede&#34; }`
+3.  Digite **sudo nano /etc/wpa_supplicant/wpa_supplicant.conf** para abrir o arquivo de configuração de WiFi.
+4.  Vá até o final do arquivo e digite:`network={ ssid="O ESSID encontrado no passo anterior" psk="Senha da Rede" }`
 
 5.  Aperte **control-x**, e então presione **Y** para salvar.
 
@@ -126,7 +126,7 @@ Podemos utilizar um serviço de IP dinâmico para acessar o Home Assistant quand
 4.  Mude para a pasta criada com o comando **cd duckdns**.
 5.  Criei um arquivo e copiei o conteúdo que o DuckDNS na pagina de instalação. O comando **nano duck.sh** cria e abre o arquivo, depois é só dar **control+c/v** para copiar o texto com o **token** do site. Aperte **control-x**, e então pressione **Y** para salvar.
 6.  Rode o comando **chmod 700 duck.sh** para dar permissão de execução ao arquivo.
-7.  Rode o comando **crontab -e**, escolha o **nano** como seu editor e copie a linha a seguir. Isso vai configurar um serviço para executar de tempos em tempos o comando do arquivo **duck.sh**:`***/5 * * * * ~/duckdns/duck.sh &gt;/dev/null 2&gt;&amp;1**`
+7.  Rode o comando **crontab -e**, escolha o **nano** como seu editor e copie a linha a seguir. Isso vai configurar um serviço para executar de tempos em tempos o comando do arquivo **duck.sh**:`***/5 * * * * ~/duckdns/duck.sh >/dev/null 2>&amp;1**`
 
 8.  Rode o arquivo com o comando **./duck.sh**
 

@@ -3,31 +3,36 @@ title: "GPS/Cellular Asset Tracking using Google Cloud IoT Core, Firestore and M
 author: "Alvaro Viebrantz"
 date: 2018-01-19T02:59:21.998Z
 lastmod: 2021-02-26T10:51:16-04:00
-
+tags:
+  - google cloud platform
+  - iot
+  - google
+  - internet of things
+  - firebase
 description: ""
 
 subtitle: "Track your goods anywhere and anytime with a GPS tracker sending location data over mobile network to an awesome cloud and serverless…"
 
-image: "/articles/2018/2018-01-19_gpscellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos/images/1.png"
+image: "./images/1.png"
 images:
   - "./images/1.png"
-  - "/articles/2018/2018-01-19_gpscellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos/images/2.png"
-  - "/articles/2018/2018-01-19_gpscellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos/images/3.png"
-  - "/articles/2018/2018-01-19_gpscellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos/images/4.png"
-  - "/articles/2018/2018-01-19_gpscellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos/images/5.jpeg"
-  - "/articles/2018/2018-01-19_gpscellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos/images/6.png"
-  - "/articles/2018/2018-01-19_gpscellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos/images/7.jpeg"
-  - "/articles/2018/2018-01-19_gpscellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos/images/8.jpeg"
-  - "/articles/2018/2018-01-19_gpscellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos/images/9.png"
-  - "/articles/2018/2018-01-19_gpscellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos/images/10.png"
-  - "/articles/2018/2018-01-19_gpscellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos/images/11.png"
-  - "/articles/2018/2018-01-19_gpscellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos/images/12.png"
+  - "./images/2.png"
+  - "./images/3.png"
+  - "./images/4.png"
+  - "./images/5.jpeg"
+  - "./images/6.png"
+  - "./images/7.jpeg"
+  - "./images/8.jpeg"
+  - "./images/9.png"
+  - "./images/10.png"
+  - "./images/11.png"
+  - "./images/12.png"
 
 aliases:
   - "/gps-cellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos-4dd74921f582"
 ---
 
-![image](/articles/2018/2018-01-19_gpscellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos/images/1.png)
+![image](./images/1.png)
 
 #### Track your goods anywhere and anytime with a GPS tracker sending location data over mobile network to an awesome cloud and serverless architecture.
 
@@ -35,7 +40,7 @@ One of the biggest problems logistics industry faces today is the tracking of as
 
 ![image](./images/2.png)
 
-> Our awesome webapp to track our assets. 
+> Our awesome webapp to track our assets.
 
 > You can access the WebApp at [https://asset-tracker-iot.firebaseapp.com/](https://asset-tracker-iot.firebaseapp.com/)
 
@@ -71,28 +76,28 @@ To use the `gcloud` command line tools, [follow the instructions here to downloa
 
 After installing the SDK, you should install the beta tools to have access to the Cloud IoT Core commands. Also after this you should authenticate and create a project to use in this tutorial, exchange YOUR_PROJECT_NAME with a name that you want for this project:
 
-`````bash
-# Install beta components: 
+```bash
+# Install beta components:
 gcloud components install beta
-# Authenticate with Google Cloud: 
+# Authenticate with Google Cloud:
 gcloud auth login
-# Create cloud project — choose your unique project name: 
+# Create cloud project — choose your unique project name:
 gcloud projects create YOUR_PROJECT_NAME
 # Set current project
 gcloud config set project YOUR_PROJECT_NAME
 
-`````
+```
 
 Create a Cloud IoT Registry where the devices will be registered to send data.
 
 ```bash
 # Add permissions for IoT Core
 gcloud projects add-iam-policy-binding YOUR_PROJECT_NAME --member=serviceAccount:cloud-iot@system.gserviceaccount.com --role=roles/pubsub.publisher
-# Create PubSub topic for device data: 
+# Create PubSub topic for device data:
 gcloud beta pubsub topics create telemetry-topic
-# Create PubSub subscription for device data: 
+# Create PubSub subscription for device data:
 gcloud beta pubsub subscriptions create --topic telemetry-topic telemetry-subscription
-# Create device registry: 
+# Create device registry:
 gcloud beta iot registries create asset-tracker-registry --region us-central1 --event-pubsub-topic=telemetry-topic
 ```
 
@@ -112,7 +117,7 @@ The heart of our project will be an ESP32 WiFi microcontroller, it has many flav
 
 ![image](./images/5.jpeg)
 
-> Mongoose OS &amp; Google IoT Core Pack w/ Adafruit Feather HUZZAH32 — [https://www.adafruit.com/product/3606](https://www.adafruit.com/product/3606)
+> Mongoose OS & Google IoT Core Pack w/ Adafruit Feather HUZZAH32 — [https://www.adafruit.com/product/3606](https://www.adafruit.com/product/3606)
 
 Here is the project component list:
 
@@ -131,7 +136,7 @@ Our schematic is the following:
 
 ![image](./images/6.png)
 
-> Project schematic 
+> Project schematic
 
 The schematic, in general, is pretty simple. Maybe the only weird part is the GSM module connections. I put a MOSFET to switch on and off the module because it consumes a lot of energy. Making this I can use less energy and put the device to sleep when I’m not sending data. Another detail is the usage of a diode to drop the voltage to power the GSM module with 4.2v, because powering it with 3.3v or 5v is considered under-voltage and over-voltage respectively by the module.
 
@@ -184,30 +189,30 @@ To program the hardware, enter the **firmware** folder and run the following ins
 That’s it, your device will begin to collect location data, connect to the cellular network and send data to Cloud IoT Core. You can see whats happening on the device using the `mos console` tool. You will see it trying to connect to the cellular network and to _mqtt.googleapis.com_. Here is some output from `mos console`, I omitted some junk messages:
 
 ```
-$ mos console 
-Using port /dev/cu.SLAB_USBtoUART 
-[Jan 17 11:18:00.762] mgos_net_on_change_c PPP: connecting 
-[Jan 17 11:18:00.772] == Net event: 1 CONNECTING 
-[Jan 17 11:18:00.811] mgos_pppos_uart_disp Starting PPP, user &#39;tim&#39; 
-[Jan 17 11:18:00.818] mgos_net_on_change_c PPP: connected 
-[Jan 17 11:18:00.827] == Net event: 2 CONNECTED 
-[Jan 17 11:18:00.833] mongoose_poll New heap free LWM: 218968 
-[Jan 17 11:18:01.559] mgos_net_on_change_c PPP: ready, IP 179.11.108.69, GW 192.168.254.254, DNS 189.40.198.80 
-[Jan 17 11:18:01.572] == Net event: 3 GOT_IP 
-[Jan 17 11:18:01.579] mgos_mqtt_global_con MQTT connecting to mqtt.googleapis.com:8883 
-[Jan 17 11:18:01.827] $GGA: fix quality: 0 
-[Jan 17 11:18:01.832] $GSV: sattelites in view: 3 
-[Jan 17 11:18:02.498] mgos_sntp_query SNTP query to pool.ntp.org 
-[Jan 17 11:18:09.730] mongoose_poll New heap free LWM: 206328 
-[Jan 17 11:18:09.810] mgos_mqtt_ev MQTT TCP connect ok (0) 
-[Jan 17 11:18:10.834] mgos_sntp_ev SNTP reply from 200.160.7.186: time 1516198687.979016, local 27.250466, delta 1516198660.728550 
-[Jan 17 11:18:24.767] mgos_mqtt_ev MQTT CONNACK 0 
-[Jan 17 11:18:24.774] MQTT CONNECTED 
-[Jan 17 11:18:24.782] do_subscribe Subscribing to &#39;/devices/esp32_3884A4/config&#39; [Jan 17 11:18:26.182] Got config update: {&#34;update_interval&#34;:120} 
-[Jan 17 11:18:26.291] save_cfg Saved to conf9.json 
-[Jan 17 11:18:26.312] Setting timer with 120 seconds interval 
-[Jan 17 11:18:29.304] Published 
-[Jan 17 11:18:29.307] Sleeping 
+$ mos console
+Using port /dev/cu.SLAB_USBtoUART
+[Jan 17 11:18:00.762] mgos_net_on_change_c PPP: connecting
+[Jan 17 11:18:00.772] == Net event: 1 CONNECTING
+[Jan 17 11:18:00.811] mgos_pppos_uart_disp Starting PPP, user "tim"
+[Jan 17 11:18:00.818] mgos_net_on_change_c PPP: connected
+[Jan 17 11:18:00.827] == Net event: 2 CONNECTED
+[Jan 17 11:18:00.833] mongoose_poll New heap free LWM: 218968
+[Jan 17 11:18:01.559] mgos_net_on_change_c PPP: ready, IP 179.11.108.69, GW 192.168.254.254, DNS 189.40.198.80
+[Jan 17 11:18:01.572] == Net event: 3 GOT_IP
+[Jan 17 11:18:01.579] mgos_mqtt_global_con MQTT connecting to mqtt.googleapis.com:8883
+[Jan 17 11:18:01.827] $GGA: fix quality: 0
+[Jan 17 11:18:01.832] $GSV: sattelites in view: 3
+[Jan 17 11:18:02.498] mgos_sntp_query SNTP query to pool.ntp.org
+[Jan 17 11:18:09.730] mongoose_poll New heap free LWM: 206328
+[Jan 17 11:18:09.810] mgos_mqtt_ev MQTT TCP connect ok (0)
+[Jan 17 11:18:10.834] mgos_sntp_ev SNTP reply from 200.160.7.186: time 1516198687.979016, local 27.250466, delta 1516198660.728550
+[Jan 17 11:18:24.767] mgos_mqtt_ev MQTT CONNACK 0
+[Jan 17 11:18:24.774] MQTT CONNECTED
+[Jan 17 11:18:24.782] do_subscribe Subscribing to "/devices/esp32_3884A4/config" [Jan 17 11:18:26.182] Got config update: {"update_interval":120}
+[Jan 17 11:18:26.291] save_cfg Saved to conf9.json
+[Jan 17 11:18:26.312] Setting timer with 120 seconds interval
+[Jan 17 11:18:29.304] Published
+[Jan 17 11:18:29.307] Sleeping
 [Jan 17 11:18:37.316] Turning off all devices
 ```
 
@@ -259,7 +264,7 @@ Now to configure firebase with our project and deploy the functions, in the proj
 
 - Run `firebase login` to authenticate with Google and setup the command line tools
 - Run `firebase init` to associate the local project with your Firebase Project.
-- Install cloud functions dependencies with the command `cd function &amp;&amp; npm install.`
+- Install cloud functions dependencies with the command `cd function & npm install.`
 - And finally run `firebase deploy --only functions` to deploy only our functions, as our webapp first need to be build before it can be deployed.
 
 With the deployed functions you have all setup to store our received location data sent by the device and execute our custom rules on how to store it. You can see and monitor all deployed resource on the Firebase Console.
@@ -280,7 +285,7 @@ Here are some of the most important functions for the WebApp, where it access da
 
 ![image](./images/11.png)
 
-> Updating the device configuration. 
+> Updating the device configuration.
 
 For this app, I used an awesome tool called create-react-app that configures a really good project structure and tools to work with modern Javascript, in this case using React. For those who don’t know it, I recommend to check it out on their [official blog](https://reactjs.org/blog/2016/07/22/create-apps-with-no-configuration.html).
 
@@ -294,9 +299,7 @@ In the last section we already installed NPM, so now we only have to install all
 
 After building our project we can now run `firebase deploy` and have all of our project deployed on Firebase infrastructure.
 
-![image](./images/12.png)
-
-> All deployed and running.
+{{< figure src="./images/12.png" caption="All deployed and running." >}}
 
 If all it’s correctly setup, then we have another end to end solution created using many awesome tools and better yet: Without touching an advanced and boring server setup.
 
@@ -306,11 +309,11 @@ That’s it for this project, we have a really cool asset tracker prototype that
 
 The code for this project can be found on my Github and some interesting are linked in the section bellow to read later:
 
-[alvarowolfx/asset-tracker-gcp-mongoose-os](https://github.com/alvarowolfx/asset-tracker-gcp-mongoose-os)
+> [Check out this project code on Github](https://github.com/alvarowolfx/asset-tracker-gcp-mongoose-os)
 
 - [https://github.com/mongoose-os-libs/pppos](https://github.com/mongoose-os-libs/pppos)
 - [https://cloudplatform.googleblog.com/2017/09/announcing-Cloud-IoT-Core-public-beta.html](https://cloudplatform.googleblog.com/2017/09/announcing-Cloud-IoT-Core-public-beta.html)
 - [http://mongoose-os.com/gcp](http://mongoose-os.com/gcp)
 - [https://cloud.google.com/iot/docs/quickstart](https://cloud.google.com/iot/docs/quickstart)
 - [https://mongoose-os.com/docs/libraries/cloud_integrations/gcp.html](https://mongoose-os.com/docs/libraries/cloud_integrations/gcp.html)
-- [https://github.com/alvarowolfx/asset-tracker-gcp-mongoose-os](http://github.com/alvarowolfx/asset-tracker-gcp-mongoose-os)> Do you like this post ? So don’t forget to leave your clap on 👏 below, recommend and share it with your friends.> Did you do something nice with this tutorial? Show in the comments section below.> If you have any questions, post in the comments that I will try to help you.
+- [https://github.com/alvarowolfx/asset-tracker-gcp-mongoose-os](http://github.com/alvarowolfx/asset-tracker-gcp-mongoose-os)

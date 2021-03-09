@@ -26,5 +26,4 @@ video: "ZOTuIA1iEPc"
 - [Link to slides](https://www.slideshare.net/alvarowolfx/edge-computing-in-practice-using-iot-tensorflow-and-google-cloud)
 ### Recording
 {{< youtube id=ZOTuIA1iEPc >}}
-
 - [Link to video](https://www.youtube.com/watch?v=ZOTuIA1iEPc)

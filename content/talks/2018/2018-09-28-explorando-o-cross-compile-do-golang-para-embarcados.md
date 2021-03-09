@@ -13,7 +13,7 @@ slideId: "117322855"
 event: "Gophercon 2018"
 audience: "Florianópolis - SC"
 date: 2018-09-28T00:00:00Z
-videoUrl: ""
+videoUrl: "https://www.infoq.com/br/presentations/explorando-o-cross-compiling-do-golang-para-ambiente-embarcado/"
 video: ""
 ---
 
@@ -24,3 +24,5 @@ video: ""
 {{< slideshare id=117322855 >}}
 
 - [Link to slides](https://www.slideshare.net/alvarowolfx/explorando-go-em-ambiente-embarcado)
+### Recording
+- [Link to video](https://www.infoq.com/br/presentations/explorando-o-cross-compiling-do-golang-para-ambiente-embarcado/)

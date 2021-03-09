@@ -90,12 +90,12 @@ A partir do Home Assistant conseguimos integrar com o Homebridge para integrar c
 
 ### Programando o ESP8266
 
-Para programar o ESP8266 com a IDE do Arduino você deve primeiro instalar o suporte a esse módulo. Isso pode ser feito facilmente hoje com o _Board Manager_ que pode ser acessado em _Ferramentas &gt; Placa &gt; Board Manager_. Procure por ESP8266 e instale o suporte a esse módulo.
+Para programar o ESP8266 com a IDE do Arduino você deve primeiro instalar o suporte a esse módulo. Isso pode ser feito facilmente hoje com o _Board Manager_ que pode ser acessado em _Ferramentas > Placa > Board Manager_. Procure por ESP8266 e instale o suporte a esse módulo.
 
 ![image](/articles/draft__como-fazer-uma-tomada-iot-com-esp8266-e-controlada-por-voz/images/6.png)
 Board Manager da IDE do Arduino
 
-Também temos agora na IDE do Arduino o _Library Manager_, que pode ser acessado pelo menu _Sketch &gt; Include Library &gt; Manage Libraries_. Nesse menu você buscar e instalar novas bibliotecas. Ele tem a mesma cara do _Board Manager_.
+Também temos agora na IDE do Arduino o _Library Manager_, que pode ser acessado pelo menu _Sketch > Include Library > Manage Libraries_. Nesse menu você buscar e instalar novas bibliotecas. Ele tem a mesma cara do _Board Manager_.
 
 Vamos usar algumas bibliotecas para desenvolver, segue a lista de cada uma delas e para que elas servem. Elas devem ser instaladas via _Library Manager_:
 
@@ -123,11 +123,11 @@ Vamos usar o componente [MQTT Switch](https://home-assistant.io/components/switc
 switch:
 
 - platform: mqtt
-  name: &#34;Ventilador&#34;
-  command_topic: &#34;living/fan1/switch&#34;
-  state_topic: &#34;living/fan1/status&#34;``
+  name: "Ventilador"
+  command_topic: "living/fan1/switch"
+  state_topic: "living/fan1/status"``
 
-Agora é só reiniciar o Home Assistant para ele recarregar as configurações e logo no painel principal vai aparecer o componente “Ventilador” como nós configuramos. Se estiver tudo certo, vamos poder controlar o LED conectado em nosso ESP8266 com através desse interruptor no Home Assistant. Pode comemorar, já estamos bem encaminhados.
+Agora é só reiniciar o Home Assistant para ele recarregar as configurações e logo no painel principal vai aparecer o componente "Ventilador" como nós configuramos. Se estiver tudo certo, vamos poder controlar o LED conectado em nosso ESP8266 com através desse interruptor no Home Assistant. Pode comemorar, já estamos bem encaminhados.
 
 ### Projeto Final
 

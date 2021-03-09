@@ -24,5 +24,4 @@ video: "bl1bHudVsAM"
 - [Link to slides](https://www.slideshare.net/GDGFoz/webassembly-alem-da-web-casos-de-uso-em-iot-237076903)
 ### Recording
 {{< youtube id=bl1bHudVsAM >}}
-
 - [Link to video](https://www.youtube.com/watch?v=bl1bHudVsAM)

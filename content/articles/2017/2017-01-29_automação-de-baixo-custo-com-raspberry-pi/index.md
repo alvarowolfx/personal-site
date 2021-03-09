@@ -124,17 +124,17 @@ Nós vamos utilizar um componente bastante versátil do Home Assistant, o [Comma
 - platform: command_line
   switches:
   rf_switch1:
-  friendly_name: &#34;Tomada 1&#34;
-  command_on: &#39;/home/pi/433Utils/RPi_utils/codesend 333107 0 200&#39;
-  command_off: &#39;/home/pi/433Utils/RPi_utils/codesend 333116 0 200&#39;
+  friendly_name: "Tomada 1"
+  command_on: "/home/pi/433Utils/RPi_utils/codesend 333107 0 200"
+  command_off: "/home/pi/433Utils/RPi_utils/codesend 333116 0 200"
   rf_switch2:
-  friendly_name: &#34;Tomada 2&#34;
-  command_on: &#39;/home/pi/433Utils/RPi_utils/codesend 333251 0 200&#39;
-  command_off: &#39;/home/pi/433Utils/RPi_utils/codesend 333260 0 200&#39;
+  friendly_name: "Tomada 2"
+  command_on: "/home/pi/433Utils/RPi_utils/codesend 333251 0 200"
+  command_off: "/home/pi/433Utils/RPi_utils/codesend 333260 0 200"
   rf_switch3:
-  friendly_name: &#34;Tomada 3&#34;
-  command_on: &#39;/home/pi/433Utils/RPi_utils/codesend 333571 0 200&#39;
-  command_off: &#39;/home/pi/433Utils/RPi_utils/codesend 333580 0 200&#39;`
+  friendly_name: "Tomada 3"
+  command_on: "/home/pi/433Utils/RPi_utils/codesend 333571 0 200"
+  command_off: "/home/pi/433Utils/RPi_utils/codesend 333580 0 200"`
 
 Também aproveitei e agrupei as tomadas, utilizando o componente [Group](https://home-assistant.io/components/group/) do Home Assistant, a minha configuração foi a seguinte:
 `group: tomadas: name: Tomadas entities: - switch.rf_switch1 - switch.rf_switch2 - switch.rf_switch3`

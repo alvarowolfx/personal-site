@@ -3,20 +3,25 @@ title: "IoT Tank Monitoring Solution Part 3 — Visualizing data using Cloud
 author: "Alvaro Viebrantz"
 date: 2020-01-06T16:01:01.345Z
 lastmod: 2021-02-26T10:52:01-04:00
-
+tags:
+  - google cloud platform
+  - big data
+  - cloud computing
+  - sql
+  - internet of things
 description: ""
 
 subtitle: "End to end solution to track tank level using cloud computing without having to worry too much with managing infrastructure."
 
-image: "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/7.png"
+image: "./images/7.png"
 images:
-  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/1.png"
-  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/2.jpeg"
-  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/3.jpeg"
-  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/4.png"
-  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/5.png"
-  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/6.png"
-  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/7.png"
+  - "./images/1.png"
+  - "./images/2.jpeg"
+  - "./images/3.jpeg"
+  - "./images/4.png"
+  - "./images/5.png"
+  - "./images/6.png"
+  - "./images/7.png"
 
 aliases:
   - "/iot-tank-monitoring-solution-part-3-visualizing-data-using-cloudsql-federated-queries-bigquery-1a92d1a565a3"
@@ -32,7 +37,7 @@ This is a 3 part tutorial on how to create a farm tank monitoring solution on Go
 
 In this latest part we are going to visualize our models data together with the telemetry data sent by the device. We are going to be using a feature on BigQuery called Federated Queries, which basically allows us to query external data inside of BigQuery, mixing different data sources and building our Data Lake more easily.
 
-![image](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/1.png)
+![image](./images/1.png)
 
 > BigQuery Federated Queries is in beta right now and accepts connecting to Cloud SQL, CSV files in Google Cloud Storage and Google Cloud Big Table.
 
@@ -40,17 +45,17 @@ In this latest part we are going to visualize our models data together with the 
 
 All the steps here are going to be made on the Google Cloud UI as seems to be easier to do that way. First we go to BigQuery UI and add an external sources:
 
-![image](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/2.jpeg)
+![image](./images/2.jpeg)
 
 Them we choose Cloud SQL datasource and add our database instance information, we used that same configuration ( instance connection, username, password and database name ) to deploy our Django Rest backend on Cloud Run. One additional configuration here is the connection name, to be used on BigQuery to query our external data. I called mine `tank-monitoring`.
 
-![image](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/3.jpeg)
+![image](./images/3.jpeg)
 
 And that’s basically it, now we can query Cloud SQL data from BigQuery using the `EXTERNAL_QUERY` command. Here is an example of getting the farm list from our Cloud SQL database using BigQuery ( you can test that in the [BigQuery UI](https://console.cloud.google.com/bigquery):
 
 ```sql
 select farms.*
-from EXTERNAL_QUERY(“[YOUR_PROJECT_NAME].us.tank-monitoring.farms”) farms
+from EXTERNAL_QUERY("[YOUR_PROJECT_NAME].us.tank-monitoring.farms") farms
 ```
 
 Now let’s build our dashboard using both data sources.
@@ -70,10 +75,10 @@ farm.name as farmName,
 JSON*EXTRACT(telemetry.data, ‘$.distance’) as distance,
   if(tank.height < 0, 100*(tank.height — CAST(JSON_EXTRACT(telemetry.data, ‘$.distance’) as float64))/tank.height, 0) as level,
 telemetry.time
-FROM EXTERNAL_QUERY(“[YOUR_PROJECT_NAME].us.tank-monitoring”,“SELECT * FROM tank*monitoring_farm;”) farm
-left outer join EXTERNAL_QUERY(“[YOUR_PROJECT_NAME].us.tank-monitoring”, “SELECT * FROM tank_monitoring_tank;”) tank
+FROM EXTERNAL_QUERY("[YOUR_PROJECT_NAME].us.tank-monitoring","SELECT * FROM tank*monitoring_farm;") farm
+left outer join EXTERNAL_QUERY("[YOUR_PROJECT_NAME].us.tank-monitoring", "SELECT * FROM tank_monitoring_tank;") tank
 on tank.farm_id = farm.id
-left outer join EXTERNAL_QUERY(“[YOUR_PROJECT_NAME].us.tank-monitoring”, “SELECT \* FROM tank_monitoring_device;”) device
+left outer join EXTERNAL_QUERY("[YOUR_PROJECT_NAME].us.tank-monitoring", "SELECT \* FROM tank_monitoring_device;") device
 on device.tank_id = tank.id
 left outer join `[YOUR_PROJECT_NAME].tank_monitoring_dataset.device_telemetry` telemetry
 on CAST(device.id as string) = telemetry.device_id
@@ -82,7 +87,7 @@ and PARSE_TIMESTAMP(‘%Y%m%d’,@DS_END_DATE)
 order by telemetry.time
 ```
 
-![image](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/4.png)
+![image](./images/4.png)
 
 Go to Data Studio to get started creating the dashboard and click on create Blank Report.
 
@@ -90,15 +95,15 @@ Go to Data Studio to get started creating the dashboard and click on create Blan
 
 Them, create a new Data Source, search for BigQuery connector and select it.
 
-![image](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/5.png)
+![image](./images/5.png)
 
-On the next screen, choose Custom Query &gt; [YOUR_PROJECT_NAME] &gt; Enter Custom Query. Here copy our SQL query joining Cloud SQL DB and BigQuery. Enable date parameters to fill the `DS_START_DATE` and `DS_END_DATE` parameters. Them click connect.
+On the next screen, choose Custom Query > [YOUR_PROJECT_NAME] > Enter Custom Query. Here copy our SQL query joining Cloud SQL DB and BigQuery. Enable date parameters to fill the `DS_START_DATE` and `DS_END_DATE` parameters. Them click connect.
 
-![image](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/6.png)
+![image](./images/6.png)
 
 The rest is mostly dragging and dropping some components to build your dashboard. I’ll not go thought each step, but after getting you data on Data Studio, it should be pretty straightforward to build the same thing.
 
-![image](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery/images/7.png)
+![image](./images/7.png)
 
 ### Conclusion
 

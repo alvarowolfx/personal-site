@@ -1,5 +1,5 @@
 ---
-title: "TinyML -  IoT e Machine Learning na prática"
+title: "TinyML - IoT e Machine Learning na prática"
 subtitle: " "
 summary:
 |
@@ -30,5 +30,4 @@ video: "FGU_P0C-9lo"
 - [Link to slides](https://www2.slideshare.net/alvarowolfx/tinyml-iot-e-machine-learning)
 ### Recording
 {{< youtube id=FGU_P0C-9lo >}}
-
 - [Link to video](https://www.youtube.com/watch?v=FGU_P0C-9lo)

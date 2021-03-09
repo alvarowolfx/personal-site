@@ -36,7 +36,7 @@ params:
     hidemeta: false
     showtoc: false
     tocopen: false
-
+    mainSections : ['articles', 'videos', 'talks']
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
@@ -67,8 +67,8 @@ params:
             url: articles
           - name: Videos
             url: videos
-          #- name: Projects
-          #  url: projects
+          - name: Projects
+            url: projects
           - name: Tags
             url: tags
 
@@ -124,10 +124,10 @@ menu:
           name: Videos
           url: /videos/
           weight: 20
-        #- identifier: projects
-        #  name: Projects
-        #  url: /projects/
-        #  weight: 30
+        - identifier: projects
+          name: Projects
+          url: /projects/
+          weight: 30
         - identifier: about
           name: About
           url: /about

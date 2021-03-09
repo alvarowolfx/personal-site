@@ -14,6 +14,6 @@ func main() {
 	}
 
 	fetch.SyncTalks()
-	//fetch.SyncVideos()
+	fetch.SyncVideos()
 	//fetch.GetSlideshareData()
 }

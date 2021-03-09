@@ -12,19 +12,19 @@ tags:
 description: ""
 subtitle: "End to end solution to track tank level using cloud computing without having to worry too much with managing infrastructure."
 
-image: "/articles/2020/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/1.png"
+image: "./images/1.png"
 images:
-  - "/articles/2020/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/1.png"
-  - "/articles/2020/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/2.png"
-  - "/articles/2020/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/3.png"
-  - "/articles/2020/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/4.png"
-  - "/articles/2020/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/5.png"
-  - "/articles/2020/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/6.png"
-  - "/articles/2020/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/7.png"
-  - "/articles/2020/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/8.png"
-  - "/articles/2020/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/9.png"
-  - "/articles/2020/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/10.png"
-  - "/articles/2020/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/11.png"
+  - "./images/1.png"
+  - "./images/2.png"
+  - "./images/3.png"
+  - "./images/4.png"
+  - "./images/5.png"
+  - "./images/6.png"
+  - "./images/7.png"
+  - "./images/8.png"
+  - "./images/9.png"
+  - "./images/10.png"
+  - "./images/11.png"
 
 aliases:
   - "/iot-tank-monitoring-solution-part-1-build-a-rest-api-using-cloud-run-and-django-rest-framework-a8b9770eaa87"
@@ -36,17 +36,17 @@ This is a 3 part tutorial on how to create a farm tank monitoring solution on Go
 
 - Part 1 — Build a Rest API using Cloud Run and Django Rest Framework
 - Part 2 — [MicroPython device to collect tanks data](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-2micropython-device-with-esp8266-to-collect-tank-level-data)
-- Part 3 — [Visualizing data using BigQuery Federated Queries and Data Studio](/articles/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery)
+- Part 3 — [Visualizing data using BigQuery Federated Queries and Data Studio](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery)
 
 For this tutorial we’re going to be using Django Rest Framework as our base for the project. Django is really easy to get started, plays well with SQL Databases to save our models data and also provide a nice admin interface to manage those models without having to spend too much time building that. Django Rest Framework is a layer on top of Django to make it easy to build a REST API from our models.
 
 In this particular scenario we are going to be saving our farms info, tanks inside each farm and devices associated to a tank. That data is going to be stored on Google Cloud SQL, while the device telemetry is going to be save BigQuery, to handle a much bigger amount of data being sent from time to time by the IoT devices.
 
-{{< figure src="/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/1.png" caption="Project Architecture" >}}
+{{< figure src="./images/1.png" caption="Project Architecture" >}}
 
 To monitor our data, we are going to build a dashboard on Data Studio, mixing data from Cloud SQL and BigQuery using the Federated Queries feature.
 
-{{< figure src="/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/2.png" caption="Data Studio Dashboard" >}}
+{{< figure src="./images/2.png" caption="Data Studio Dashboard" >}}
 
 ### Create and Setup Django Rest Framework project
 
@@ -92,7 +92,7 @@ Another important endpoint is for the device to send data. It’s an endpoint th
 
 To get started with Google Cloud you can do you can do all on the Cloud Console web interface, but the command line tools is a more powerful tool and we’ll need later to deploy our application. To use the gcloud command line tools, [follow the instructions here to download and install it](https://cloud.google.com/sdk/downloads).
 
-{{< figure src="/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/3.png" caption="" >}}
+{{< figure src="./images/3.png" caption="" >}}
 [Google Cloud Platform](https://console.cloud.google.com/projectcreate)
 
 Also after this you should authenticate and create a project to use in this tutorial, exchange `[YOUR_PROJECT_NAME]` with a name that you want for this project:
@@ -121,12 +121,12 @@ Cloud SQL unfortunately doesn’t have a free tier, but new account have a $300 
 
 > [Quickstart for using the proxy for local testing | Cloud SQL for PostgreSQL | Google Cloud](https://cloud.google.com/sql/docs/postgres/quickstart-proxy-test)
 
-{{< figure src="/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/4.png" caption="" >}}
+{{< figure src="./images/4.png" caption="" >}}
 
 After the Cloud SQL instance is created, create a [new database by using the GCP Console](https://cloud.google.com/sql/docs/mysql/create-manage-databases#create) for your Cloud SQL instance. For example, you can use the name `tank_monitoring`. Also create a [new user by using the GCP Console](https://cloud.google.com/sql/docs/mysql/create-manage-users#creating) for your Cloud SQL instance.
 
-{{< figure src="/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/5.png" caption="" >}}
-{{< figure src="/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/6.png" caption="" >}}
+{{< figure src="./images/5.png" caption="" >}}
+{{< figure src="./images/6.png" caption="" >}}
 
 Them we need to download and set up the Cloud SQL Proxy tool to connect to the remote database, so we can run the Django migrations, create the database and the user for the admin interface.
 
@@ -139,7 +139,7 @@ chmod +x cloud_sql_proxy
 gcloud sql instances describe [YOUR_INSTANCE_NAME]
 
 # Run in another tab the proxy
-./cloud_sql_proxy -instances=&lt;INSTANCE_CONNECTION_NAME&gt;=tcp:5432
+./cloud_sql_proxy -instances=<INSTANCE_CONNECTION_NAME>=tcp:5432
 ```
 
 Running that will make the remote database available as it is running locally, which is pretty awesome. Now let’s run the migrations and create the user. You need to fill the environment variables with your settings when you created the Cloud SQL database:
@@ -164,7 +164,7 @@ gcloud builds submit — -tag gcr.io/[YOUR_PROJECT_NAME]/tank-monitoring .
 
 You can check that you docker image was successfully created on Google Cloud Container Registry :
 
-{{< figure src="/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/7.png" caption="" >}}
+{{< figure src="./images/7.png" caption="" >}}
 
 With the container image deployed, run the following command to deploy that image to Cloud Run. Choose option 1 to deploy as a fully managed service, I recommend selecting `us-central1` region because is one of the cheapest ones and on the last question you can choose yes to allow unauthenticated calls.
 
@@ -185,18 +185,18 @@ gcloud beta run deploy --image gcr.io/[YOUR_PROJECT_NAME]/tank-monitoring \
 
 Also notice that those environment variables just need to be passed once, later you can update the version without providing all of them, but if you need to add/remove a new environment variable, you need to deploy specifying all of them. You can check for the deployed service on Cloud Run page.
 
-{{< figure src="/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/8.png" caption="" >}}
+{{< figure src="./images/8.png" caption="" >}}
 To update the service, just run the gcloud build command again to build a new docker image and them run `gcloud beta run tank-monitoring deploy — image gcr.io/[YOUR_PROJECT_NAME]/tank-monitoring` to create a new revision and maintain the same environment variables.
 
 And that’s basically it !!! You can access Django Admin interface to manage the our project models.
 
-{{< figure src="/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/9.png" caption="" >}}
+{{< figure src="./images/9.png" caption="" >}}
 Also, a REST API is available to we can build an app for example accessing our data our farms, tanks and devices data.
 
-{{< figure src="/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/10.png" caption="" >}}
+{{< figure src="./images/10.png" caption="" >}}
 There are two separated endpoints related to BigQuery, one is going to be used by the device to send data and another one is to query for historical data that can be used on a charts or historical table.
 
-{{< figure src="/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework/images/11.png" caption="" >}}
+{{< figure src="./images/11.png" caption="" >}}
 
 ### Conclusion
 

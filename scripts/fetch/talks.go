@@ -56,21 +56,23 @@ video: "[[ .P.VideoID ]]"
 [[- end]]
 [[- if .P.HaveVideo ]]
 ### Recording
+[[- if .P.HaveYoutubeVideo ]]
 {{< youtube id=[[ .P.VideoID ]] >}}
-
+[[- end ]]
 - [Link to video]([[ .P.VideoURL ]])
 [[- end]]
 `
 )
 
 type TalkPlace struct {
-	Name       string `json:"name"`
-	Date       string `json:"date"`
-	Local      string `json:"local"`
-	VideoURL   string `json:"videoUrl"`
-	VideoID    string `json:"videoId"`
-	HaveSlides bool
-	HaveVideo  bool
+	Name             string `json:"name"`
+	Date             string `json:"date"`
+	Local            string `json:"local"`
+	VideoURL         string `json:"videoUrl"`
+	VideoID          string `json:"videoId"`
+	HaveSlides       bool
+	HaveVideo        bool
+	HaveYoutubeVideo bool
 }
 
 type Talk struct {
@@ -133,7 +135,8 @@ func SyncTalks() {
 			t.Summary = strings.ReplaceAll(t.Summary, "\n", "\n  ")
 			p.VideoID = u.Query().Get("v")
 			p.HaveSlides = len(t.SlidesURL) > 1
-			p.HaveVideo = len(p.VideoID) > 1
+			p.HaveVideo = len(p.VideoURL) > 1
+			p.HaveYoutubeVideo = len(p.VideoID) > 1
 			err = tmpl.Execute(f, struct {
 				T Talk
 				P TalkPlace

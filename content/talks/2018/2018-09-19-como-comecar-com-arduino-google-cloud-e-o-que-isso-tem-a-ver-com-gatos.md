@@ -26,5 +26,4 @@ video: "dZ5-vPskyQo"
 - [Link to slides](https://www.slideshare.net/alvarowolfx/solues-de-iot-usando-arduino-e-google-cloud)
 ### Recording
 {{< youtube id=dZ5-vPskyQo >}}
-
 - [Link to video](https://www.youtube.com/watch?v=dZ5-vPskyQo)

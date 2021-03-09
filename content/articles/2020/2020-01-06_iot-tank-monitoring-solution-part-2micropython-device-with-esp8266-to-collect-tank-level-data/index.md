@@ -12,11 +12,11 @@ description: ""
 
 subtitle: "End to end solution to track tank level using cloud computing without having to worry too much with managing infrastructure."
 
-image: "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-2micropython-device-with-esp8266-to-collect-tank-level-data/images/1.png"
+image: "./images/1.png"
 images:
-  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-2micropython-device-with-esp8266-to-collect-tank-level-data/images/1.png"
-  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-2micropython-device-with-esp8266-to-collect-tank-level-data/images/2.jpeg"
-  - "/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-2micropython-device-with-esp8266-to-collect-tank-level-data/images/3.png"
+  - "./images/1.png"
+  - "./images/2.jpeg"
+  - "./images/3.png"
 
 aliases:
   - "/iot-tank-monitoring-solution-part-2-micropython-device-with-esp8266-to-collect-tank-level-data-d74a1b947f60"
@@ -32,17 +32,17 @@ This is a 3 part tutorial on how to create a farm tank monitoring solution on Go
 
 In this part of this series of tutorials, I’ll go through the steps to build an IoT device to collect level data using fairly cheap WiFi devices and a ultrasonic sensor using MicroPython.
 
-![image](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-2micropython-device-with-esp8266-to-collect-tank-level-data/images/1.png)
+![image](./images/1.png)
 
 ### Schematic and Parts
 
-![image](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-2micropython-device-with-esp8266-to-collect-tank-level-data/images/2.jpeg)
+![image](./images/2.jpeg)
 
 - ESP8266 WiFi Microcontroller
 - HC-SR04 Ultrasonic Sensor
 - Jumpers
 
-![image](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-2micropython-device-with-esp8266-to-collect-tank-level-data/images/3.png)
+![image](./images/3.png)
 
 ### Installing MicroPython on the device
 

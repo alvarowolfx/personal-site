@@ -1,7 +1,55 @@
 [
   {
+    "title": "REST API using gRPC and Go - Demo",
+    "links": {
+      "github": "https://github.com/alvarowolfx/go-grpc-rest-api-demo"
+    }
+  },
+  {
+    "title": "Asset Tracking using Edge Computing and Computer Vision",
+    "description": "A bunch of ESP32 with camera, a local server (probablye a raspberry pi ) running image classification and object detection using Tensorflow and sending the data to processed data to Google Cloud.",
+    "links": {
+      "github": "https://github.com/alvarowolfx/gcloud-iot-edge-tensorflow"
+    }
+  },
+  {
+    "title": "ESP32 Cam QR Code Reader",
+    "links": {
+      "github": "https://github.com/alvarowolfx/ESP32QRCodeReader"
+    }
+  },
+  {
+    "title": "TinyML Smart Tennis Racket",
+    "description": "Run Machine learning on a micro controller with an accelerometer sensor to classify different moves with the racket - Forehand, Backhand, Serve and Idle.",
+    "links": {
+      "github": "https://github.com/alvarowolfx/tinyml-smart-tennis-sensor"
+    }
+  },
+  {
+    "title": "Dota 2 App using React (Web), Flutter (Mobile), Go and Google Cloud",
+    "links": {
+      "github": "https://github.com/alvarowolfx/gcloud-dota-app",
+      "videos": null
+    }
+  },
+  {
+    "title": "Twitch Bot + Home Assistant",
+    "links": {
+      "github": "https://github.com/alvarowolfx/twitch-bot-home-assistant",
+      "videos": [
+        "2020/2020-05-27-live-coding-criar-um-bot-da-twitch-pra-interagir-com-a-minha-casa"
+      ]
+    }
+  },
+  {
+    "title": "LoRa The Things Network Integration with Google Cloud",
+    "links": {
+      "github": "https://github.com/alvarowolfx/gcloud-lora-ttn"
+    }
+  },
+  {
     "title": "Controlling a MeArm robot arm using Golang and Google Assistant",
-    "description": "Demo project on how to run a Golang program on an embbeded hardware like Raspberry/Orange Pi. In this case this project works as a controller for a MeArm robot arm that can be controlled by voice using Google Assistant.",    
+    "description": "Demo project on how to run a Golang program on an embbeded hardware like Raspberry/Orange Pi. In this case this project works as a controller for a MeArm robot arm that can be controlled by voice using Google Assistant.",
     "thumbnail": "",
     "tags": [
       "iot",
@@ -14,7 +62,7 @@
   },
   {
     "title": "Weather station using - Golang + IoT + OpenCensus Tracing and Reporting",
-    "description": "Demo project on how to run a Golang program on an embbeded hardware like Onion Omega 2 or Raspberry Pi. In this case this project works as a basic Weather Station with some sensors and sends the data using OpenCensus library to provide metrics and tracking of the device.",    
+    "description": "Demo project on how to run a Golang program on an embbeded hardware like Onion Omega 2 or Raspberry Pi. In this case this project works as a basic Weather Station with some sensors and sends the data using OpenCensus library to provide metrics and tracking of the device.",
     "thumbnail": "",
     "tags": [
       "iot",
@@ -27,7 +75,7 @@
   },
   {
     "title": "How to talk with plants using IoT and Actions on Google. ",
-    "description": "This project will teach you how to talk with plants using IoT and Actions on Google.",    
+    "description": "This project will teach you how to talk with plants using IoT and Actions on Google.",
     "thumbnail": "",
     "tags": [
       "iot",
@@ -41,17 +89,22 @@
   },
   {
     "title": "Bad Smell Detector Gcloud Flutter",
-    "description":
-      "Bad Smell detector using Arduino, Google Cloud IoT Core, Python Cloud Functions and Flutter App",
+    "description": "Bad Smell detector using Arduino, Google Cloud IoT Core, Python Cloud Functions and Flutter App",
     "thumbnail": "",
-    "tags": ["iot", "hardware", "gcloud", "arduino"],
-    "links": { "github": "https://github.com/alvarowolfx/bad-smell-detector-gcloud-iot-flutter" }
+    "tags": [
+      "iot",
+      "hardware",
+      "gcloud",
+      "arduino"
+    ],
+    "links": {
+      "github": "https://github.com/alvarowolfx/bad-smell-detector-gcloud-iot-flutter"
+    }
   },
   {
     "title": "AI Candy Dispenser",
     "description": "A Candy Dispenser using Android Things + TensorFlow",
-    "thumbnail":
-      "https://hackster.imgix.net/uploads/attachments/363401/img_1401_Q9mD9SWA6y.JPG?auto=compress%2Cformat&w=900&h=675&fit=min",
+    "thumbnail": "https://hackster.imgix.net/uploads/attachments/363401/img_1401_Q9mD9SWA6y.JPG?auto=compress%2Cformat&w=900&h=675&fit=min",
     "tags": [
       "android things",
       "iot",
@@ -67,32 +120,46 @@
   },
   {
     "title": "Asset Tracker using Cloud IoT Core + GPS + GSM",
-    "description":
-      "An Asset Tracker made with an ESP32 running MongooseOS + GPS and GPRS Module, sending data through Google Cloud IoT Core",
+    "description": "An Asset Tracker made with an ESP32 running MongooseOS + GPS and GPRS Module, sending data through Google Cloud IoT Core",
     "thumbnail": "",
-    "tags": ["iot", "firestore", "google cloud", "esp32", "mongooseos"],
+    "tags": [
+      "iot",
+      "firestore",
+      "google cloud",
+      "esp32",
+      "mongooseos"
+    ],
     "links": {
       "github": "https://github.com/alvarowolfx/asset-tracker-gcp-mongoose-os",
-      "medium post":
-        "https://medium.com/google-cloud/gps-cellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos-4dd74921f582"
+      "articles": [
+        "2018/2018-01-19_gpscellular-asset-tracking-using-google-cloud-iot-core-firestore-and-mongooseos"
+      ]
     }
   },
   {
     "title": "Weather Station using MongooseOS and Google Cloud",
-    "description":
-      "A Weather station made with an ESP32, sending data through Google Cloud IoT Core and storing in BigQuery",
+    "description": "A Weather station made with an ESP32, sending data through Google Cloud IoT Core and storing in BigQuery",
     "thumbnail": "",
-    "tags": ["iot", "bigquery", "google cloud", "esp32", "mongooseos"],
+    "tags": [
+      "iot",
+      "bigquery",
+      "google cloud",
+      "esp32",
+      "mongooseos"
+    ],
     "links": {
       "github": "https://github.com/alvarowolfx/weather-station-gcp-mongoose-os"
     }
   },
   {
     "title": "PokeTrainers",
-    "description":
-      "A Progressive Web App that helps players on Pokemon GO mobile game (Not updated anymore).",
+    "description": "A Progressive Web App that helps players on Pokemon GO mobile game (Not updated anymore).",
     "thumbnail": "",
-    "tags": ["react", "pwa", "mobile"],
+    "tags": [
+      "react",
+      "pwa",
+      "mobile"
+    ],
     "links": {
       "github": "https://github.com/alvarowolfx/poketrainers",
       "website": "https://poketrainers.co"
@@ -100,67 +167,87 @@
   },
   {
     "title": "Packtpub Notifier",
-    "description":
-      "Application that notifies when a new book is free on PacktPub. Backend in NodeJS, Apps in React Native and Alexa integration. All running on google cloud platform. Native app made with React Native.",
+    "description": "Application that notifies when a new book is free on PacktPub. Backend in NodeJS, Apps in React Native and Alexa integration. All running on google cloud platform. Native app made with React Native.",
     "thumbnail": "",
-    "tags": ["google cloud", "firebase", "react", "react native", "mobile"],
+    "tags": [
+      "google cloud",
+      "firebase",
+      "react",
+      "react native",
+      "mobile"
+    ],
     "links": {
       "github": "https://github.com/alvarowolfx/packtpub-notifier-gcp",
-      "playstore":
-        "https://play.google.com/store/apps/details?id=br.com.aviebrantz.packtpubnotifier&hl=pt_BR"
+      "playstore": "https://play.google.com/store/apps/details?id=br.com.aviebrantz.packtpubnotifier&hl=pt_BR"
     }
   },
   {
     "title": "WebUSB + Arduino",
-    "description":
-      "Physical Led Ring controlled via a Browser - A WebUSB and Arduino experiment.",
+    "description": "Physical Led Ring controlled via a Browser - A WebUSB and Arduino experiment.",
     "thumbnail": "",
-    "tags": ["iot", "web", "arduino", "hardware"],
+    "tags": [
+      "iot",
+      "web",
+      "arduino",
+      "hardware"
+    ],
     "links": {
-      "github":
-        "https://github.com/alvarowolfx/physical-led-ring-webusb-arduino"
+      "github": "https://github.com/alvarowolfx/physical-led-ring-webusb-arduino"
     }
   },
   {
     "title": "Onion Omega 2 + Golang",
-    "description":
-      "Code for the tutorial on how to get started with Golang and Onion Omega",
-    "thumbnail":
-      "https://camo.githubusercontent.com/515db298c7ddd02822a88b1c47e3d8b61ff9666a/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a3972475069436c6a58484c6c4d5536664f536d786c772e676966",
-    "tags": ["golang", "hardware", "iot"],
+    "description": "Code for the tutorial on how to get started with Golang and Onion Omega",
+    "thumbnail": "https://camo.githubusercontent.com/515db298c7ddd02822a88b1c47e3d8b61ff9666a/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a3972475069436c6a58484c6c4d5536664f536d786c772e676966",
+    "tags": [
+      "golang",
+      "hardware",
+      "iot"
+    ],
     "links": {
       "github": "https://github.com/alvarowolfx/onion-golang-blink",
-      "medium":
-        "https://medium.com/@alvaroviebrantz/getting-started-with-onion-omega2-and-golang-d625bb20554"
+      "article": "https://medium.com/@alvaroviebrantz/getting-started-with-onion-omega2-and-golang-d625bb20554"
     }
   },
   {
     "title": "BH1750 Android Things Driver",
     "description": "Android Things driver for BH1750 ambient light sensor",
     "thumbnail": "",
-    "tags": ["iot", "android things", "hardware"],
-    "links": { "github": "https://github.com/alvarowolfx/bh1750-androidthings" }
+    "tags": [
+      "iot",
+      "android things",
+      "hardware"
+    ],
+    "links": {
+      "github": "https://github.com/alvarowolfx/bh1750-androidthings"
+    }
   },
   {
     "title": "WebBluetooth + Arduino + React",
-    "description":
-      "Experiment using a MeArm robot arm, an Arduino and a bluetooth LE module, connecting it to the browser using WebBluetooth.",
+    "description": "Experiment using a MeArm robot arm, an Arduino and a bluetooth LE module, connecting it to the browser using WebBluetooth.",
     "thumbnail": "",
-    "tags": ["iot", "hardware", "react", "arduino"],
-    "links": { "github": "https://github.com/alvarowolfx/mearm-web-bluetooth" }
+    "tags": [
+      "iot",
+      "hardware",
+      "react",
+      "arduino"
+    ],
+    "links": {
+      "github": "https://github.com/alvarowolfx/mearm-web-bluetooth"
+    }
   },
   {
     "title": "Facebook Followers Counter with ESP8266",
-    "description":
-      "Projeto bem interessante para iniciantes e que pode ser alterado para sua página.",
-    "thumbnail":
-      "https://cdn-images-1.medium.com/max/800/1*Zm5vQeVt6Uy5IKWjj0cT4Q.jpeg",
-    "tags": ["iot", "esp8266", "facebook"],
+    "description": "Projeto bem interessante para iniciantes e que pode ser alterado para sua página.",
+    "thumbnail": "https://cdn-images-1.medium.com/max/800/1*Zm5vQeVt6Uy5IKWjj0cT4Q.jpeg",
+    "tags": [
+      "iot",
+      "esp8266",
+      "facebook"
+    ],
     "links": {
-      "github":
-        "https://github.com/alvarowolfx/facebook-followers-counter-esp8266",
-      "medium":
-        "https://medium.com/iot-bootcamp/contador-de-likes-no-facebook-com-esp8266-9cf930b1595",
+      "github": "https://github.com/alvarowolfx/facebook-followers-counter-esp8266",
+      "medium": "https://medium.com/iot-bootcamp/contador-de-likes-no-facebook-com-esp8266-9cf930b1595",
       "youtube demo": "https://www.youtube.com/watch?v=23k-Vl4lsTI"
     }
   }

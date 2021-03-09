@@ -1,0 +1,118 @@
+{{- define "main" }}
+
+{{- $pages := $.Site.Data.projects.index }}
+{{- $talks := $.Site.Data.talks.index }}
+
+<header class="page-header">
+  <h1>
+    {{ .Title }}
+    <sup class="archive-count">&nbsp;&nbsp;{{ len $pages }}</sup>
+  </h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+
+{{- range $pages  }}
+
+{{ $links := (index . "links") }}
+{{ $githubUrl := (index $links "github")}}
+{{ $repo := index (split $githubUrl "github.com/") 1 }}
+{{ $slug := index (split $repo "/") 1 }}
+{{ $resp := getJSON "https://api.github.com/repos/" $repo  }}
+
+{{ $title := index . "title" }}
+{{ $videos := index $links "videos" }}
+{{ $articles := index $links "articles" }}
+{{ $desc := (index . "description") | default $resp.description }}
+<article class="post-entry">
+  {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList)}}
+  {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+  <header class="entry-header">
+    <sup class="archive-count" style="float: right">
+      &nbsp;&nbsp;{{ print $resp.stargazers_count " ⭐️" }}
+    </sup>
+    <h2>
+      {{ $title }}
+    </h2>
+  </header>
+  {{- if (ne .Site.Params.hideSummary true)}}
+  <section class="entry-content">
+    <p>{{ $desc | plainify | htmlUnescape }}...</p>
+  </section>
+  {{- end }}
+  <footer class="entry-footer">
+    {{- $scratch := newScratch}}
+
+    {{- $scratch.Add "meta" (slice (print "Created at " (dateFormat (default "January 2, 2006" .Site.Params.DateFormat) $resp.created_at ))) }}
+    {{- $scratch.Add "meta" (slice (print $resp.stargazers_count " stars" )) }}
+    {{- $scratch.Add "meta" (slice (print $resp.language )) }}
+
+    {{- with ($scratch.Get "meta")}}
+    {{- delimit . "&nbsp;·&nbsp;"}}
+    {{- end }}
+  </footer>
+  <footer class="entry-footer">
+    {{- $scratch := newScratch}}
+
+    <a aria-label="post link to {{ $title | plainify }}" target="_blank" href="{{ $githubUrl }}">Github</a>
+
+    {{- $ttalks := where $talks "projects" "intersect" (slice $repo) }}
+    {{- if ne (len $ttalks) 0 }}
+    <ul>
+    <br/>
+    Project presented at
+    {{- range $ttalks }}
+    {{- $titleSlug := replace (replace (replace (replace ( replace (anchorize (index . "title")) "---" "-") "á" "a") "ç" "c") "é" "e") "ã" "a" }}
+    {{- $places := (index . "places") }}
+    {{- range $places }}
+    {{- $date := (index . "date")}}
+    {{- $day := substr $date 0 2 }}
+    {{- $month := substr $date 3 2 }}
+    {{- $year := substr $date 6 4 }}
+    {{- $dateSlug := (delimit (slice $year $month $day) "-" ) }}
+    {{- $talkSlug := (print "/talks/" $year "/" $dateSlug "-" $titleSlug )}}
+    {{ $p := $.Site.GetPage $talkSlug }}
+    <li>
+      <a aria-label="post link to {{ $p.Title | plainify }}"href="{{ $p.Permalink }}">
+        {{- partial "talk_meta.html" $p -}}
+      </a>
+    </li>
+    {{- end }}
+    {{- end }}
+    {{- end }}
+    {{- if ne $videos nil }}
+    <ul>
+    <br/>
+    Video/Demos:
+    {{- range $videos }}
+    {{ $p := $.Site.GetPage ( print "videos/" . ) }}
+    <li>
+      <a aria-label="post link to {{ $p.Title | plainify }}"href="{{ $p.Permalink }}">
+        {{ $p.Title }}&nbsp;·&nbsp;{{- partial "video_meta.html" $p -}}
+      </a>
+    </li>
+    {{- end }}
+    </ul>
+    {{- end }}
+    {{- if ne $articles nil }}
+    <ul>
+    <br/>
+    Articles:
+    {{- range $articles }}
+    {{ $p := $.Site.GetPage ( print "articles/" . ) }}
+    <li>
+      <a aria-label="post link to {{ $p.Title | plainify }}"href="{{ $p.Permalink }}">
+        {{ $p.Title }}&nbsp;·&nbsp;{{- partial "post_meta.html" $p -}}
+      </a>
+    </li>
+    {{- end }}
+    </ul>
+    {{- end }}
+  </footer>
+</article>
+{{- end }}
+
+{{- end  }}{{/* end main */}}

@@ -26,5 +26,4 @@ video: "QNUAhthjP8g"
 - [Link to slides](https://www.slideshare.net/alvarowolfx/android-things-inteligncia-artificial-e-mquinas-de-doces-android-dev-conference-2017)
 ### Recording
 {{< youtube id=QNUAhthjP8g >}}
-
 - [Link to video](https://www.youtube.com/watch?v=QNUAhthjP8g)
