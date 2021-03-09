@@ -21,8 +21,7 @@ aliases:
 
 Uso como central de automação na minha casa o projeto Open Source chamado [Home Assistant](http://home-assistant.io). Ele é um software muito interessante por ser de fácil configuração, visual muito bonito e com quase 500 componentes diferentes que podem ser integrados para fazer sua casa ser a mais inteligente possível. Meu intuito aqui é apresentar esse projeto e como instalar em um Raspberry Pi.
 
-![image](./images/1.png)
-Visual bacanudo do Home Assistant
+{{< figure src="./images/1.png" caption="Visual bacanudo do Home Assistant" >}}
 
 Os componentes são divididos em diversas áreas, sendo que esses podem ser acionados e/ou consultados. Os componentes podem ser vistos em [**https://home-assistant.io/components**](https://home-assistant.io/components)**.** Segue alguns dos tipos:
 
@@ -33,8 +32,8 @@ Os componentes são divididos em diversas áreas, sendo que esses podem ser acio
 - Localização de pessoas e dispositivos
 - Travas e portões de garagem
 - Controles de media players
-  ![image](./images/2.png)
-  Componentes em destaque no site do Home Assistant
+
+{{< figure src="./images/2.png" caption="Componentes em destaque no site do Home Assistant" >}}
 
 Também tem um poderoso motor de automações, com captura de eventos e respostas dependendo da situação, como por exemplo, enviar uma notificação quando algum movimento for detectado em casa, ligar o ventilador se a temperatura estiver acima de um certo limiar, ativar um modo cinema se algum media player da casa estiver em estado de play e muitos outras idéias que sua imaginação pode criar.
 
