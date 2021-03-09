@@ -28,7 +28,7 @@ This is a 3 part tutorial on how to create a farm tank monitoring solution on Go
 
 - Part 1 — [Build a Rest API using Cloud Run and Django Rest Framework](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-1build-a-rest-api-using-cloud-run-and-django-rest-framework)
 - Part 2 — MicroPython device to collect tanks data
-- Part 3 — [Visualizing data using BigQuery Federated Queries and Data Studio](/articles/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery)
+- Part 3 — [Visualizing data using BigQuery Federated Queries and Data Studio](/articles/2020/2020-01-06_iot-tank-monitoring-solution-part-3visualizing-data-using-cloudsql-federated-queries-bigquery)
 
 In this part of this series of tutorials, I’ll go through the steps to build an IoT device to collect level data using fairly cheap WiFi devices and a ultrasonic sensor using MicroPython.
 
