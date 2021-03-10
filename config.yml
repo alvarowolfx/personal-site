@@ -1,4 +1,4 @@
-baseURL: "https://sitepessoal-b165c--v2-preview-7q678oul.web.app"
+baseURL: "https://aviebrantz.com"
 languageCode: "en-us"
 title: "Alvaro Viebrantz"
 theme: "PaperMod"
@@ -11,7 +11,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-#googleAnalytics: UA-123-45
+googleAnalytics: 153286352
 
 minify:
     disableXML: true
