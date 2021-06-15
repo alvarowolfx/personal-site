@@ -85,6 +85,12 @@
         "date": "26/08/2020",
         "local": "Online",
         "videoUrl": ""
+      },
+      {
+        "name": "Cloud Summit Cerrado",
+        "date": "26/08/2021",
+        "local": "Online",
+        "videoUrl": ""
       }
     ],
     "summary": "Vamos ver o passo a passo de como configurar um ambiente de integração continua e deploy continuo usando ferramentas gerenciadas no Google Cloud, sem se queimar tendo que gerenciar servidores. \n\nDemos\nDemo em Flask \nhttps://github.com/alvarowolfx/flask-demo\nDemo de Múltiplos Ambientes\nhttps://github.com/alvarowolfx/gcloud-ci-cd-demo\nUse Case em IoT \nhttps://medium.com/google-cloud/serverless-continuous-integration-and-ota-update-flow-using-google-cloud-build-and-arduino-d5e1cda504bf\nhttps://github.com/alvarowolfx/gcloud-ota-arduino-update\n\nReferencias\n\nDeploy de aplicativos móveis\nAndroid APK\nhttps://cloud.google.com/community/tutorials/building-android-apk-with-cloud-build-gradle-docker-image\nFlutter e Cloud Build\nhttps://medium.com/@lidemin/flutter-ci-cd-with-cloud-build-android-9cd12ade8306\nOutros ambientes de execução\nGoogle App Engine\nhttps://medium.com/google-cloud/continuous-delivery-in-google-cloud-platform-cloud-build-with-app-engine-8355d3a11ff5\nCloud Functions\nhttps://cloud.google.com/cloud-build/docs/deploying-builds/deploy-functions\nhttps://medium.com/swlh/how-to-ci-cd-on-google-cloud-platform-1e631cded335\nhttps://cloud.google.com/devops\nhttps://github.com/GoogleCloudPlatform/github-actions/blob/master/get-secretmanager-secrets/README.md\nhttps://docs.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions#github-context\nhttps://cloud.google.com/cloud-build/docs/configuring-builds/substitute-variable-values#yaml_2\nhttps://cloud.google.com/cloud-build/docs/building/build-go#building_using_go_modules\nCloud Run Quickstart - https://www.youtube.com/watch?v=3OP-q55hOUI\nhttps://fireship.io/lessons/ci-cd-with-google-cloud-build/",
