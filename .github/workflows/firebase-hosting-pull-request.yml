@@ -18,6 +18,10 @@ jobs:
           hugo-version: '0.80.0'
       - name: Sync articles
         run: make sync
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Hugo build
         run: make build
       - uses: FirebaseExtended/action-hosting-deploy@v0
