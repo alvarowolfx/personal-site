@@ -1,6 +1,7 @@
 
+ORIGIN = $(shell pwd)
 sync:
-	pushd $(shell pwd)/scripts && go run main.go && popd
+	cd $(ORIGIN)/scripts && go run main.go && cd $(ORIGIN)
 
 build:
 	hugo
