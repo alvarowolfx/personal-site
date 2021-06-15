@@ -8,7 +8,7 @@ blackfriday:
 
 enableRobotsTXT: true
 buildDrafts: false
-buildFuture: false
+buildFuture: true
 buildExpired: false
 
 googleAnalytics: UA-37452057-12
