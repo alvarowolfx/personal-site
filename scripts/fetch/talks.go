@@ -69,6 +69,7 @@ type TalkPlace struct {
 	Date             string `json:"date"`
 	Local            string `json:"local"`
 	VideoURL         string `json:"videoUrl"`
+	EventURL         string `json:"eventUrl"`
 	VideoID          string `json:"videoId"`
 	HaveSlides       bool
 	HaveVideo        bool

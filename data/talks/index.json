@@ -1,5 +1,32 @@
 [
   {
+    "title": "Carreira Dev",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/carreira-de-desenvolvimento",
+    "slideId": "255111325",
+    "projects": [],
+    "places": [
+      {
+        "name": "1º Meetup TechMT",
+        "date": "13/05/2021",
+        "local": "Online",
+        "videoUrl": "",
+        "eventUrl": "https://www.facebook.com/nuvemtecnologia/photos/pb.100063715773433.-2207520000./3988695624531503/?type=3"
+      },
+      {
+        "name": "IV Seminário de Engenharia da Computação",
+        "date": "19/08/2022",
+        "local": "IFMT",
+        "videoUrl": "",
+        "eventUrl": ""
+      }
+    ],
+    "summary": "",
+    "tags": [
+      "career"
+    ]
+  },
+  {
     "title": "Construindo aplicações Cloud Native em Go",
     "imageUrl": "",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/construindo-aplicaes-cloud-native-em-go",
@@ -21,7 +48,7 @@
       "cloud",
       "go"
     ]
-  },
+  },  
   {
     "title": "Building REST APIs using gRPC and Go",
     "imageUrl": "",
