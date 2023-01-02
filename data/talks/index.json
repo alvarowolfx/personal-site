@@ -36,6 +36,13 @@
         "date": "11/02/2021",
         "local": "Online",
         "videoUrl": "https://www.youtube.com/watch?v=yD-DnC5KasI"
+      },
+      {
+        "name": "Turing Upskilling #29 - REST APIs com gRPC e Go",
+        "date": "25/03/2022",
+        "local": "Online",
+        "videoUrl": "",
+        "eventUrl": "https://community.turing.com/events/details/turing-latin-america-community-presents-portuguese-turing-upskilling-29-rest-apis-com-grpc-e-go/"
       }
     ],
     "summary": "Developing APIs over a RESTful interface with JSON payloads is kind of the de-facto standard nowadays, but it still lacks an easy way to build it with a well-defined interface and document it to be used by others. What if we can leverage gRPC's fast, type-safe, and modern way of building APIs and still be able to provide an interface over REST/JSON ? Check this talk to find out how.",
