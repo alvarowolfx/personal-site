@@ -10,13 +10,14 @@ url: /about
 
 - Brazilian 🇧🇷
 - Bachelor Degree in Computer Science
-- Founding Engineer at [golioth.io](https://golioth.io)
-- [Google Developer Expert for IoT](https://developers.google.com/community/experts/directory/profile/profile-alvaro_viebrantz)
+- Developer Program Enginer at Google Cloud
+- Former Founding Engineer at [golioth.io](https://golioth.io)
+- [Former Google Developer Expert for IoT](https://developers.google.com/community/experts/directory/profile/profile-alvaro_viebrantz)
 - Community manager at [Google Developers Group Cuiabá](https://meetup.com/gdgcuiaba) and [DevMT](https://meetup.com/devmatogrosso).
 
-I'm a passionate Software Developer, touching all parts in the stack wherever is needed. Had experience with multiples stacks in my career, but lately I have been coding a lot in Go and currenly building an IoT Platform for Developers at [golioth.io](golioth.io) ❤️.
+I'm a passionate Software Developer, touching all parts in the stack wherever is needed. Had experience with multiples stacks in my career, but lately I have been coding a lot in Go and currenly improving the developer experience for BigQuery SDKs at Google Cloud ❤️.
 
-I really enjoy being part of a dev community and have been organizing local meetups since 2015 on two young developers communities here in my city - [Google Developers Group Cuiabá](https://meetup.com/gdgcuiaba) and [DevMT](https://meetup.com/devmatogrosso), both which I saw starting from stratch and now having around a thousand members.
+I really enjoy being part of a dev community and have been organizing local meetups since 2015 on a young developers communities here in my city - [DevMT](https://meetup.com/devmatogrosso), which I saw starting from stratch and now having around a thousand members.
 
 {{< figure src="/about/devfest-2019.jpg" width="100%" caption="Devfest Pantanal 2019" >}}
 

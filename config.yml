@@ -20,7 +20,7 @@ minify:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: "Alvaro Viebrantz"
-    description: "Google Developer Expert for IoT and Founding Engineer at golioth.io"
+    description: "Developer Program Engineer, Data Analytics SDK at Google Cloud & Former Google Developer Expert for IoT"
     author: Me
     # author: ["Me", "You"] # multiple authors
     images: ["https://avatars2.githubusercontent.com/u/1615543?v=3&s=320"]
@@ -55,7 +55,7 @@ params:
     profileMode:
         enabled: false # needs to be explicitly set
         title: Hi, I'm Alvaro
-        subtitle: "Google Developer Expert for IoT and Founding Engineer at golioth.io"
+        subtitle: "Developer Program Engineer, Data Analytics SDK at Google Cloud & Former Google Developer Expert for IoT"
         imageUrl: "https://avatars2.githubusercontent.com/u/1615543?v=3&s=320"
         imageWidth: 120
         imageHeight: 120
@@ -75,7 +75,7 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Hi, I'm Alvaro \U0001F44B"
-        Content: Google Developer Expert for IoT and Founding Engineer at golioth.io. [More about me.](/about/)
+        Content: Developer Program Engineer, Data Analytics SDK at Google Cloud & Former Google Developer Expert for IoT. [More about me.](/about/)
 
     socialIcons:
         - name: twitter
