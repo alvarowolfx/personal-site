@@ -1,5 +1,5 @@
 ---
-title: "Carreira Dev"
+title: "Palestra sobre Carreira Dev"
 subtitle: " "
 summary: " "
 tags:
@@ -9,9 +9,9 @@ cover:
   image: ""
 slidesUrl: "https://www.slideshare.net/alvarowolfx/carreira-de-desenvolvimento"
 slideId: "255111325"
-event: "1º Meetup TechMT"
-audience: "Online"
-date: 2021-05-13T00:00:00Z
+event: "IV Seminário de Engenharia da Computação"
+audience: "IFMT"
+date: 2022-08-19T00:00:00Z
 videoUrl: ""
 video: ""
 ---

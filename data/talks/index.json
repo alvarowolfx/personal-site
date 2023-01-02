@@ -1,6 +1,27 @@
 [
   {
-    "title": "Carreira Dev",
+    "title": "End-to-end IoT Development with Zephyr",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/end-to-end-iot-projects-with-zephyrpdf",
+    "slideId": "255111345",
+    "projects": [],
+    "places": [
+      {
+        "name": "Zephyr Developer Summit 2022",
+        "date": "08/06/2022",
+        "local": "Computer History Museam - Mountain View, CA",
+        "videoUrl": "https://www.youtube.com/watch?v=MSuiwgFUW34",
+        "eventUrl": "https://zephyrproject.org/zephyr-developer-summit-connecting-devices-to-the-cloud-videos/"
+      }
+    ],
+    "summary": "Developing IoT with Zephyr is a journey from hardware all the way to application. It involves multiple teams and expertise, from hardware to cloud and application development. This talk will cover the options for getting a Zephyr app connected (WiFi, Ethernet, Cellular), selecting the right data encoding (JSON/CBOR), securing the data transfer (DTLS/TLS), and choosing a protocol (HTTP/MQTT/COAP). But that’s not the end of the story, the cloud needs to manage devices allowed to connect, consume the data being received, open up options for using that data, and be aware of the continued state of the hardware. And once you have the data you need to build a user-facing application on top of it. Understanding this lifecycle will help us as developers to make good choices on what Zephyr provides, helping ensure successful IoT projects.",
+    "tags": [
+      "iot",
+      "cloud"
+    ]
+  },
+  {
+    "title": "Palestra sobre Carreira Dev",
     "imageUrl": "",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/carreira-de-desenvolvimento",
     "slideId": "255111325",
