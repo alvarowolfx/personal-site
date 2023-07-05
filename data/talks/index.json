@@ -1,5 +1,25 @@
 [
   {
+    "title": "Como melhorei a performance de consulta no Bigquery em 50x: uma história sobre protocolos e formatos de dados",
+    "imageUrl": "",
+    "slidesUrl": "https://www.slideshare.net/alvarowolfx/bigquery-performance-improvements-storage-apipdf",
+    "slideId": "key/IIKPfnOowEn9zv",
+    "projects": [],
+    "places": [
+      {
+        "name": "Meetup DevMT",
+        "date": "01/04/2023",
+        "local": "Cuiabá, MT",
+        "videoUrl": "",
+        "eventUrl": "https://www.meetup.com/pt-BR/devmatogrosso/events/292517150/"
+      }
+    ],
+    "summary": "",
+    "tags": [
+      "cloud"
+    ]
+  },
+  {
     "title": "End-to-end IoT Development with Zephyr",
     "imageUrl": "",
     "slidesUrl": "https://www.slideshare.net/alvarowolfx/end-to-end-iot-projects-with-zephyrpdf",
@@ -40,6 +60,12 @@
         "local": "IFMT",
         "videoUrl": "",
         "eventUrl": ""
+      },
+      {
+        "name": "I Congresso de Análise e Desenvolvimento de Sistemas - FASIPE CPA",
+        "date": "15/06/2023",
+        "local": "Cuiabá - MT",
+        "videoUrl": ""
       }
     ],
     "summary": "",
