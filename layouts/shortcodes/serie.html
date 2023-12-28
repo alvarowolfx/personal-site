@@ -1,0 +1,22 @@
+{{ $currentPage := .Page }}
+{{ $serieTitle := .Get "title" }}
+{{ $posts := $.Page.Params.serie }}
+<h5> {{ $serieTitle }} serie ({{ $posts | len }} parts) </h5>
+<ol>
+    {{ range $p := $posts}}
+        {{ $postRel := relref $currentPage $p }} 
+        {{ $post := $currentPage.Site.GetPage (trim $postRel "/") }}        
+        {{ $cleanTitle := strings.TrimPrefix ":" (strings.TrimPrefix $serieTitle $post.Title) }}
+        <li>            
+            {{ if ($currentPage.Eq $post) }}
+            <p>
+                {{ $cleanTitle }}
+            </p>
+            {{ else }}
+            <a href="{{ $postRel }}">            
+                {{ $cleanTitle }}
+            </a>
+            {{ end }}
+        </li>        
+    {{ end }}
+</ol>
