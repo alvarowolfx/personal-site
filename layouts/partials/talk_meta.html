@@ -13,14 +13,14 @@
 {{- end -}}
 
 {{- with ($scratch.Get "meta")}}
-{{- delimit . "&nbsp;·&nbsp;"}}
+{{- delimit . " · "}}
 {{- end }}
 
-&nbsp;·&nbsp;🗣
+ · 🗣
 {{- if (.Param "SlideId") -}}
-&nbsp;·&nbsp;🎙
+ · 🎙
 {{- end -}}
 {{- if (.Param "VideoURL") -}}
-&nbsp;·&nbsp;🎥
+ · 🎥
 {{- end -}}
 
