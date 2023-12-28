@@ -6,7 +6,7 @@
 <header class="page-header">
   <h1>
     {{ .Title }}
-    <sup class="archive-count">&nbsp;&nbsp;{{ len $pages }}</sup>
+    <sup class="archive-count">  {{ len $pages }}</sup>
   </h1>
   {{- if .Description }}
   <div class="post-description">
@@ -32,7 +32,7 @@
   {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
   <header class="entry-header">
     <sup class="archive-count" style="float: right">
-      &nbsp;&nbsp;{{ print $resp.stargazers_count " ⭐️" }}
+        {{ print $resp.stargazers_count " ⭐️" }}
     </sup>
     <h2>
       {{ $title }}
@@ -51,7 +51,7 @@
     {{- $scratch.Add "meta" (slice (print $resp.language )) }}
 
     {{- with ($scratch.Get "meta")}}
-    {{- delimit . "&nbsp;·&nbsp;"}}
+    {{- delimit . " · "}}
     {{- end }}
   </footer>
   <footer class="entry-footer">
@@ -74,7 +74,7 @@
     {{- $talkSlug := (print "/talks/" $year "/" $dateSlug "-" $titleSlug )}}
     {{ $p := $.Site.GetPage $talkSlug }}
     <a aria-label="post link to {{ $p.Title | plainify }}"href="{{ $p.Permalink }}">
-      &nbsp;·&nbsp;{{- partial "talk_meta.html" $p -}}
+        {{- partial "talk_meta.html" $p -}}
     </a>
     <br/>
     {{- end }}
@@ -87,7 +87,7 @@
     {{- range $videos }}
     {{ $p := $.Site.GetPage ( print "videos/" . ) }}
     <a aria-label="post link to {{ $p.Title | plainify }}"href="{{ $p.Permalink }}">
-      &nbsp;·&nbsp;{{ $p.Title }}&nbsp;·&nbsp;{{- partial "video_meta.html" $p -}}
+       · {{ $p.Title }} · {{- partial "video_meta.html" $p -}}
     </a>
     <br/>
     {{- end }}
@@ -100,7 +100,7 @@
     {{- range $articles }}
     {{ $p := $.Site.GetPage ( print "articles/" . ) }}
     <a aria-label="post link to {{ $p.Title | plainify }}"href="{{ $p.Permalink }}">
-      &nbsp;·&nbsp;{{ $p.Title }}&nbsp;·&nbsp;{{- partial "post_meta.html" $p -}}
+       · {{ $p.Title }} · {{- partial "post_meta.html" $p -}}
     </a>
     <br/>
     {{- end }}
