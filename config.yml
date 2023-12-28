@@ -1,11 +1,14 @@
 baseURL: "https://aviebrantz.com"
 languageCode: "en-us"
 title: "Alvaro Viebrantz"
-theme: "PaperMod"
+theme: 
+  - PaperMod
+  - hugo-shortcode-gallery
 
 blackfriday:
     extensions: ["hardLineBreak"]
 
+enableEmoji: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: true
