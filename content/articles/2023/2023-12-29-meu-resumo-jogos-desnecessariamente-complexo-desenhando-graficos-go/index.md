@@ -1,9 +1,9 @@
 ---
 title: "Meu recap de jogos desnecessariamente complexo: Desenhando gráficos em Go"
 summary: "Recriando o Spotify Wrapped usando primitivas de desenho em Go"
-date: 2023-12-29T11:59:58-04:00
+date: 2023-12-29T11:59:59-04:00
 author: "Alvaro Viebrantz"
-tags: []
+tags: ["go"]
 draft: false
 serie:
     - ../2023-12-29-meu-resumo-jogos-desnecessariamente-complexo-intro
