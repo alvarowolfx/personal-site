@@ -5,7 +5,8 @@ date: 2023-12-29T11:59:54-04:00
 author: "Alvaro Viebrantz"
 tags: ["go"]
 draft: false
-image: /articles/2023/2023-12-29-overengineering-my-gaming-journey-intro/images/cover.png
+cover:
+  image: /articles/2023/2023-12-29-overengineering-my-gaming-journey-intro/images/cover.png
 serie:
     - ../2023-12-29-overengineering-my-gaming-journey-intro
     - ../2023-12-29-overengineering-my-gaming-journey-airtable-mysql-bridge
