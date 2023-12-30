@@ -1,7 +1,7 @@
 ---
 title: "Overengineering my gaming journey: Airtable to MySQL bridge"
 summary: "Creating an MySQL compatible server to query Airtable data"
-date: 2023-12-26T11:59:54-04:00
+date: 2023-12-29T11:59:56-04:00
 author: "Alvaro Viebrantz"
 tags: []
 draft: false

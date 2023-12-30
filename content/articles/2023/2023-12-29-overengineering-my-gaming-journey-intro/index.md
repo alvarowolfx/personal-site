@@ -1,7 +1,7 @@
 ---
 title: "Overengineering my gaming journey: Introduction and results"
 summary: "Using Airtable and Go to create my own gaming recap/wrapped"
-date: 2023-12-25T11:59:54-04:00
+date: 2023-12-29T11:59:54-04:00
 author: "Alvaro Viebrantz"
 tags: []
 draft: false
@@ -94,7 +94,7 @@ All the code is available on Github: [alvarowolfx/gamer-journal-wrapped](https:/
 
 ## Comparing with the previous year
 
-The nice thing about creating all this is that I can generate recaps for previous years and analyze them in comparison with this year. Here is my recap from 2022, even though haven't had all the tools that I developed this year:
+The nice thing about creating all this is that I can generate recaps for previous years and analyze them in comparison with this year. Here is my recap from 2022, even though back in the day I haven't had all the tools that I developed this year:
 
 {{< gallery match="images/*_2022.png" sortOrder="desc" rowHeight="400" margins="4" thumbnailResizeOptions="600x600 q90 Lanczos" previewType="blur" embedPreview=true >}}
 
