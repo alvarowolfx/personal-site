@@ -1,9 +1,9 @@
 ---
 title: "Overengineering my gaming journey: Drawing charts with Go"
 summary: "Recreating Spotify wrapped using drawing primitives in Go"
-date: 2023-12-29T11:59:55-04:00
+date: 2023-12-29T11:59:57-04:00
 author: "Alvaro Viebrantz"
-tags: []
+tags: ["go"]
 draft: false
 serie:
     - ../2023-12-29-overengineering-my-gaming-journey-intro

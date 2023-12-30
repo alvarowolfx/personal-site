@@ -3,8 +3,9 @@ title: "Overengineering my gaming journey: Introduction and results"
 summary: "Using Airtable and Go to create my own gaming recap/wrapped"
 date: 2023-12-29T11:59:54-04:00
 author: "Alvaro Viebrantz"
-tags: []
+tags: ["go"]
 draft: false
+image: /articles/2023/2023-12-29-overengineering-my-gaming-journey-intro/images/cover.png
 serie:
     - ../2023-12-29-overengineering-my-gaming-journey-intro
     - ../2023-12-29-overengineering-my-gaming-journey-airtable-mysql-bridge
