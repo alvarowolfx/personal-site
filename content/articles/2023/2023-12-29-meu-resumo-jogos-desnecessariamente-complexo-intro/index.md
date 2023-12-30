@@ -5,7 +5,8 @@ date: 2023-12-29T11:59:57-04:00
 author: "Alvaro Viebrantz"
 tags: ["go"]
 draft: false
-image: /articles/2023/2023-12-29-overengineering-my-gaming-journey-intro/images/cover.png
+cover:
+  image: /articles/2023/2023-12-29-meu-resumo-jogos-desnecessariamente-complexo-intro/images/cover.png
 serie:
     - ../2023-12-29-meu-resumo-jogos-desnecessariamente-complexo-intro
     - ../2023-12-29-meu-resumo-jogos-desnecessariamente-complexo-airtable-mysql-ponte
