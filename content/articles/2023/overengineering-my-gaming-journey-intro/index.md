@@ -34,11 +34,11 @@ This article is about my personal exploration of my year in gaming, inspired by 
 
 As I already mentioned, I'm not a hardcore gamer, but I like to keep track of games that I'm playing, especially to make sure that I'm finishing some of them instead of just jumping from game to game. I've tried different apps for that, but it never felt right with the way that I want to keep track of that. 
 
-As I was watching some of my favorite Youtubers about retrogaming in Brazil - [Cogumelando](https://www.youtube.com/@Cogumelando), I found out that he keeps track of the games that he is playing by simply using a Google spreadsheet. There is beauty in simplicity for sure, I just loved the idea and decided to do something similar. [Here is his Google Sheets for reference](https://docs.google.com/spreadsheets/d/1IiJLYBNuEt2q_Vg3h8uon0cvgEqABh9G1Y31n6an4TY/edit#gid=0).
+As I was watching some of my favorite Youtubers about retrogaming in Brazil - [Cogumelando](https://www.youtube.com/@Cogumelando), I found out that he keeps track of the games that he is playing by simply using a Google spreadsheet. There is beauty in simplicity for sure, I just loved the idea and decided to do something similar. [Here you can check his Google Sheets for reference](https://docs.google.com/spreadsheets/d/1IiJLYBNuEt2q_Vg3h8uon0cvgEqABh9G1Y31n6an4TY/edit#gid=0).
 
 As a developer myself, I tried to keep the balance of being able to build something a little bit fancier, but also I didn't want to spend a whole lot of time coding that (which you all gonna see that I ended up coding a lot for this gaming recap).
 
-Instead. I decided to use [Airtable](https://airtable.com) which is a NoCode tool where you can model your tables/models and manage the data like a spreadsheet. You can also build some UIs with it, but I just use the spreadsheet interface. The big advantage compared with a simple Google Spreadsheet is that you can have data relationships and reference them on different tables in a much nicer and easier compared to a simple spreadsheet. I can also add/remove fields really easy, like recently I added the concept of "Game Serie" that you can see later.
+Instead. I decided to use [Airtable](https://airtable.com) which is a NoCode tool where you can model your tables/models and manage the data like a spreadsheet. You can also build some UIs with it, but I just use the spreadsheet interface. The big advantage compared with a simple Google Spreadsheet is that you can have data relationships and reference them on different tables in a much nicer and easier compared to a simple spreadsheet. I can also add/remove fields easily, like recently I added the concept of "Game Serie" which you can see later.
 
 {{< gallery match="images/airtable-gaming-journal.png" rowHeight="400" thumbnailResizeOptions="600x600 q90 Lanczos" previewType="blur" embedPreview=true >}}
 
@@ -58,7 +58,7 @@ I've basically 5 tables in my Airtable database.
 * **Console**: A device that can play **Games**, in some cases from a single **Platform** or multiple ones. A Nintendo Switch can mostly play Switch games, but a Retroid Pocket 2S for example can play NES, SNES, PS1, N64, Dreamcast, etc. 
 * **Playthroughs**: the core of the database, this is where I keep track of the **Games** that I'm playing, how much time I've spent and on which **Console** I played it.
 
-You can check all the fields in the link above. Feel free to copy it and/or create yor own based on that. 
+You can check all the fields in the link above. Feel free to copy it and/or create your own based on that. 
 
 ### Limitations of using Airtable
 
@@ -69,9 +69,28 @@ Airtable is an amazing tool, especially for generating different views on top of
 
 But doing some complex queries is not that nice, especially as I have a background as a data engineer, I've always missed querying data using SQL. For example, Airtable allows you to do some basic aggregations, as I do by aggregating my playthroughs by Console, Platform and Year, but I want something more condensed, without showing all the other fields. And doing aggregation by multiple fields is also cumbersome and the UI becomes confusing by doing so. So to answer a simple question like - "What are my most played **Console** in **2023** ?", Airtable UI goes too much in the way to show that.
 
-{{< figure src="images/airtable-agg.png" title="Here is an example to answer the 'Most played console in 2023' - Airtable shows too much data in aggregations." alt="Here is an example to answer the 'Most played console in 2023' - Airtable shows too much data in aggregations." >}}
+{{< figure src="images/airtable-agg.png" title="Here is an example to answer the 'Most played console in 2023' - Airtable shows too much data in aggregations."  alt="Here is an example to answer the 'Most played console in 2023' - Airtable shows too much data in aggregations." >}}
 
-That's something that I've decided to solve by [building a MySQL server interface to Airtable, which you can check here]({{< relref "../overengineering-my-gaming-journey-airtable-mysql-bridge" >}}). This is a more technical article, so a developer background is needed.
+To create my own gaming version of Spotify Wrapped, I want to be able to aggregate data in many different ways and create visualizations on top of it. To overcome this limitation, I had to do some over-engineering and write some code. More high-level details are in the next section, but this is a more technical section, so a developer background is needed, but feel free to skip it.
+
+## My crazy solution to build my own gaming recap
+
+Here is a diagram of the different pieces to generate this gaming recap:
+
+{{< figure src="images/architecture.png" title="Project architecture" alt="Project architecture" >}}
+---
+
+The first part here is to be able to query Airtable data using SQL. To solve that, I decided to build a MySQL compatible server that will show the Airtable as an SQL database, where we can query data in the same way that we are used to such a system, allowing us to do JOINs, filter data, aggregate it, etc. Basically do anything we can describe with SQL. At this point of this article, you might be wondering - "this guy might be a genius to decide to code a whole MySQL server for that like is nothing". 
+
+Well my beloved reader, the good news is, I'm not that smart. I have been reading a lot of databases this year and one project that I was always trying to play with is the [dolthub/go-mysql-server](https://github.com/dolthub/go-mysql-server) library. This project provides a MySQL compatible server and you only need to implement the storage layer for it. And that's exactly what I did. By using Airtable API, I created a storage layer that shows Airtable tables as SQL Tables, use the API to fetch data and allow users to write SQL queries on top of them. 
+
+You can read more about [how I build a MySQL server interface to Airtable here]({{< relref "../overengineering-my-gaming-journey-airtable-mysql-bridge" >}}).
+
+To generate the images, I had some experience in the past making custom charts and data visualization using [D3](https://d3js.org/), which is an amazing library for Dataviz. But as I've been coding in Go lately, I decided to build that in Go by using some basic drawing primitives with [fogleman/gg](github.com/fogleman/gg). Is not as powerful as D3, but the charts that I want to generate are not that fancy. To fetch video game box art automatically, I've used [Serper API](https://serper.dev/) as a wrapper for Google Image API.
+
+You can read more about [how I generated charts in Go here]({{< relref "../overengineering-my-gaming-journey-drawing-charts-go" >}}).
+
+All the code is available on Github: [alvarowolfx/gamer-journal-wrapped](https://github.com/alvarowolfx/gamer-journal-wrapped)
 
 ## Comparing with the previous year
 
