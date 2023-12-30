@@ -6,9 +6,9 @@ author: "Alvaro Viebrantz"
 tags: []
 draft: false
 serie:
-    - ../overengineering-my-gaming-journey-intro
-    - ../overengineering-my-gaming-journey-airtable-mysql-bridge
-    - ../overengineering-my-gaming-journey-drawing-charts-go
+    - ../2023-12-29-overengineering-my-gaming-journey-intro
+    - ../2023-12-29-overengineering-my-gaming-journey-airtable-mysql-bridge
+    - ../2023-12-29-overengineering-my-gaming-journey-drawing-charts-go
 ---
 
 {{< serie title="Overengineering my gaming journey" >}}
@@ -26,7 +26,7 @@ This article is about my personal exploration of my year in gaming, inspired by 
 
 > :warning: Spoiler Alert :warning:
 >
-> My plan is to turn all of this into a website/app that everyone can use, share what they are playing, which console they have and generate a year recap like this one. Stay tuned.
+> My plan is to turn all of this into a website/app/social network that everyone can use, share what they are playing, which console they have and generate a year recap like this one. Stay tuned.
 
 ---
 
@@ -84,11 +84,11 @@ The first part here is to be able to query Airtable data using SQL. To solve tha
 
 Well my beloved reader, the good news is, I'm not that smart. I have been reading a lot of databases this year and one project that I was always trying to play with is the [dolthub/go-mysql-server](https://github.com/dolthub/go-mysql-server) library. This project provides a MySQL compatible server and you only need to implement the storage layer for it. And that's exactly what I did. By using Airtable API, I created a storage layer that shows Airtable tables as SQL Tables, use the API to fetch data and allow users to write SQL queries on top of them. 
 
-You can read more about [how I build a MySQL server interface to Airtable here]({{< relref "../overengineering-my-gaming-journey-airtable-mysql-bridge" >}}).
+You can read more about [how I build a MySQL server interface to Airtable here]({{< relref "../2023-12-29-overengineering-my-gaming-journey-airtable-mysql-bridge" >}}).
 
 To generate the images, I had some experience in the past making custom charts and data visualization using [D3](https://d3js.org/), which is an amazing library for Dataviz. But as I've been coding in Go lately, I decided to build that in Go by using some basic drawing primitives with [fogleman/gg](github.com/fogleman/gg). Is not as powerful as D3, but the charts that I want to generate are not that fancy. To fetch video game box art automatically, I've used [Serper API](https://serper.dev/) as a wrapper for Google Image API.
 
-You can read more about [how I generated charts in Go here]({{< relref "../overengineering-my-gaming-journey-drawing-charts-go" >}}).
+You can read more about [how I generated charts in Go here]({{< relref "../2023-12-29-overengineering-my-gaming-journey-drawing-charts-go" >}}).
 
 All the code is available on Github: [alvarowolfx/gamer-journal-wrapped](https://github.com/alvarowolfx/gamer-journal-wrapped)
 
@@ -109,7 +109,7 @@ Some of the interesting insights that I discovered from my data analysis:
 * Some games are always on my list: Legend of Zelda, Castlevania, Megaman, Pokemon, Metal Gear Solid, Metroid and others
 * I have a lot of good memories of the Nintendo DS and PSP, although PS1 and SNES are still the top retro platforms in my playthroughs. For the next year, I want to spend more time on PSP and play classics like Patapon, Metal Gear and the GTA series.
 * I still need to give more chances to PS2 and Gamecube. I had a PS2 as a teenager and have fond memories of it, but back in the day I never played Gamecube, so I need to explore more the library for it.
-> About PS2 and PSP, I want to replay all GTA games again and try to play GTA V (which I never gave a chance to it)
+> About PS2 and PSP, I want to replay all GTA games again and try to play GTA V (which after all this time I never gave a chance to it)
 
 ---
 
