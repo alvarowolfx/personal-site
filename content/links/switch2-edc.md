@@ -1,6 +1,7 @@
 ---
 title: "Switch 2 Setup and EDC"
-description: "My talk about Switch 2 setup and EDC"
+description: "Video of my Switch 2 Setup and EDC"
 aliases: ["/links/switch2-edc"]
-target_url: "https://www.instagram.com/reel/DLeCEpnNfJC/?igsh=ZG1iODRka3hicnc0"
+videoUrl: https://www.instagram.com/reel/DLeCEpnNfJC/?igsh=ZG1iODRka3hicnc0
+targetUrl: "https://www.instagram.com/reel/DLeCEpnNfJC/?igsh=ZG1iODRka3hicnc0"
 --- 

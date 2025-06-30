@@ -1,82 +1,123 @@
 {{ define "main" }}
-{{ $target := .Params.target_url }}
+{{ $target := .Params.targetUrl }}
 {{ $title := .Title }}
 {{ $description := .Description }}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $title }} - Redirecting...</title>
-    <meta http-equiv="refresh" content="0;url={{ $target }}">
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-        }
-        .redirect-container {
-            text-align: center;
-            padding: 2rem;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 12px;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-        }
-        .spinner {
-            width: 40px;
-            height: 40px;
-            border: 4px solid rgba(255, 255, 255, 0.3);
-            border-top: 4px solid white;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 1rem;
-        }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        .title {
-            font-size: 1.5rem;
-            margin-bottom: 0.5rem;
-            font-weight: 600;
-        }
-        .description {
-            font-size: 1rem;
-            margin-bottom: 1rem;
-            opacity: 0.9;
-        }
-        .link {
-            color: #ffd700;
-            text-decoration: none;
-            font-weight: 500;
-        }
-        .link:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
+<meta http-equiv="refresh" content="0;url={{ $target }}">
+
+<style>
+.redirect-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--theme-bg);
+    color: var(--theme-text);
+    font-family: var(--font-family);
+}
+
+.redirect-container {
+    text-align: center;
+    padding: 2rem;
+    max-width: 90vw;
+    width: 100%;
+}
+
+.redirect-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--theme-border);
+    border-top: 3px solid var(--theme-primary);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 1.5rem;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.redirect-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--theme-text);
+}
+
+.redirect-description {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: var(--theme-secondary);
+    line-height: 1.5;
+}
+
+.redirect-link {
+    color: var(--theme-primary);
+    text-decoration: none;
+    font-weight: 500;
+    word-break: break-all;
+}
+
+.redirect-link:hover {
+    text-decoration: underline;
+}
+
+.redirect-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--theme-primary);
+    color: var(--theme-bg);
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: opacity 0.2s ease;
+}
+
+.redirect-button:hover {
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .redirect-container {
+        padding: 1.5rem;
+    }
+    
+    .redirect-title {
+        font-size: 1.25rem;
+    }
+    
+    .redirect-description {
+        font-size: 0.9rem;
+    }
+    
+    .redirect-spinner {
+        width: 32px;
+        height: 32px;
+        border-width: 2px;
+    }
+}
+</style>
+
+<div class="redirect-page">
     <div class="redirect-container">
-        <div class="spinner"></div>
-        <div class="title">{{ $title }}</div>
-        <div class="description">{{ $description }}</div>
+        <div class="redirect-spinner"></div>
+        <div class="redirect-title">{{ $title }}</div>
+        <div class="redirect-description">{{ $description }}</div>
         <div>
-            Redirecting to <a href="{{ $target }}" class="link">{{ $target }}</a>
+            Redirecting to <a href="{{ $target }}" class="redirect-link">{{ $target }}</a>
         </div>
+        <a href="{{ $target }}" class="redirect-button">Click here if not redirected</a>
     </div>
-    <script>
-        // Fallback redirect in case meta refresh doesn't work
-        setTimeout(function() {
-            window.location.href = "{{ $target }}";
-        }, 1000);
-    </script>
-</body>
-</html>
+</div>
+
+<script>
+    // Redirect after a short delay
+    setTimeout(function() {
+        window.location.href = "{{ $target }}";
+    }, 1000);
+</script>
+
 {{ end }} 
