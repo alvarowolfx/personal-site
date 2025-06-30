@@ -1,0 +1,91 @@
+{
+  "groups": [
+    {
+        "title": "Recent Content",
+        "links": [
+            {
+                "title": "GenAI Talk",
+                "description": "My talk about building projects with GenAI",
+                "url": "/links/genai-talk",
+                "icon": "🎤",
+                "external": false
+            },
+            {
+                "title": "Switch 2 EDC ",
+                "description": "Video of my Switch 2 Setup and EDC",
+                "url": "/links/switch2-edc",
+                "icon": "🎮",
+                "external": true
+            }
+        ]
+    },
+    {
+      "title": "Switch 2 Accessories",
+      "links": [
+        {
+          "title": "Tomtoc 2 Sling Bag",
+          "description": "Protective sling bag with compartments for cartridges",
+          "url": "https://www.amazon.com.br/tomtoc-transversal-protetora-compartimentos-cartuchos/dp/B0DXZL4D7K",
+          "icon": "🎒",
+          "external": true
+        },
+        {
+          "title": "JBL Quantum TWS",
+          "description": "Bluetooth headphones compatible with Switch 2",
+          "url": "https://www.amazon.com.br/Fones-ouvido-GAMER-JBL-QUANTUM/dp/B0B2MQTHL7",
+          "icon": "🎧",
+          "external": true
+        },
+        {
+          "title": "Soundcore VR P10",
+          "description": "Alternative headphones (not working on Switch 2 currently)",
+          "url": "https://www.soundcore.com/products/vr-p10-a3850z21?variant=42212914495678",
+          "icon": "🎧",
+          "external": true
+        },
+        {
+          "title": "Ayaneo Retro Power Bank",
+          "description": "High-capacity power bank for extended gaming sessions",
+          "url": "https://www.ayaneo.com/goods/8742707233013",
+          "icon": "🔋",
+          "external": true
+        },
+        {
+          "title": "Savage Raven Protective Case",
+          "description": "Protective case with StandGrip for Nintendo Switch",
+          "url": "https://www.amazon.com.br/Savage-Raven-StandGrip-Nintendo-Switch/dp/B0F47VVH4L?th=1",
+          "icon": "🛡️",
+          "external": true
+        },
+        {
+          "title": "Anti-glare Screen Protector",
+          "description": "Savage Raven anti-glare screen protector",
+          "url": "https://pt.aliexpress.com/item/1005008982256544.html",
+          "icon": "📱",
+          "external": true
+        },
+        {
+          "title": "Baseus 45W GAN Charger",
+          "description": "USB-C 45W GAN charger for fast charging",
+          "url": "https://www.aliexpress.com/item/1005007900495096.html",
+          "icon": "⚡",
+          "external": true
+        },
+        {
+          "title": "Baseus 100W USB-C Cable",
+          "description": "2m USB-C cable supporting 100W charging",
+          "url": "https://www.aliexpress.com/item/1005006201992602.html",
+          "icon": "🔌",
+          "external": true
+        },
+        {
+          "title": "Hagibis 240W USB-C Cable",
+          "description": "25cm USB-C cable supporting 240W charging",
+          "url": "https://www.aliexpress.com/item/1005007095913544.html",
+          "icon": "🔌",
+          "external": true
+        }
+      ]
+    }
+  ]
+}
