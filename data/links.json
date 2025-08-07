@@ -4,6 +4,13 @@
         "title": "Recent Content",
         "links": [
             {
+                "title": "Career Talk",
+                "description": "Talk about my career",
+                "url": "/links/career-talk",
+                "icon": "🎤",
+                "external": false
+            },
+            {
                 "title": "GenAI Talk",
                 "description": "My talk about building projects with GenAI",
                 "url": "/links/genai-talk",
